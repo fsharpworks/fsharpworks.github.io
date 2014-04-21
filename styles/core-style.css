@@ -1,0 +1,21 @@
+body {
+    width: 800px;
+	margin: 0 auto;
+    font-family: 'Libre Baskerville', serif; 
+}
+h1 {
+	font-size:48pt;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+.pic-container {
+    width: 150px;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
+.pic-container img {
+    width: 100%;
+    height: auto;
+}
