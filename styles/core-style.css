@@ -34,7 +34,14 @@
 body
 {
     font-family: "Sintony","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Verdana,Arial,sans-serif;
-    font-size: 14pt;
+    font-size: 16px;
+}
+
+blockquote
+{
+    color: #555;
+    font-size: 16px;
+    /*font-style: italic;*/
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
@@ -65,7 +72,6 @@ code
     /*font-style: italic;*/
     margin-top: 0px;
     padding-top: 20px;
-
 }
 
 
