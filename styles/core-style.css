@@ -1,14 +1,81 @@
-body {
-    font-family: 'Libre Baskerville', serif; 
-}
-h1,h2,h3,h4,h5,h6 {
-	font-weight: normal;
+@font-face
+{
+    font-family: "Baskerville";
+    src: url("../../fonts/LibreBaskerville-Regular.otf");
 }
 
-.header-title {
-	font-size: 48pt;
+@font-face
+{
+    font-family: "Baskerville";
+    font-weight: bold;
+    src: url("../../fonts/LibreBaskerville-Bold.otf");
 }
-.header-tagline {
-	font-size: 18pt;
-	font-style: italic;
+
+@font-face
+{
+    font-family: "Baskerville";
+    font-style: italic;
+    src: url("../../fonts/LibreBaskerville-Italic.otf");
+}
+
+@font-face
+{
+    font-family: "Sintony";
+    src: url("../../fonts/Sintony-Regular.otf");
+}
+
+@font-face
+{
+    font-family: Sintony;
+    src: url("../../fonts/Sintony-Bold.otf");
+    font-weight: bold;
+}
+
+body
+{
+    font-family: "Sintony","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Verdana,Arial,sans-serif;
+    font-size: 14pt;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+{
+    font-family: "Libre Baskeville", Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #00002a;
+}
+
+code
+{
+    font-family: Consolas, monaco, monospace;
+}
+
+.header
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.header-title
+{
+    font-size: 60pt;
+}
+
+.header-tagline
+{
+    font-size: 20pt;
+    /*font-style: italic;*/
+    margin-top: 0px;
+    padding-top: 20px;
+
+}
+
+
+.logo
+{
+    background-image: url("../../images\fsworks.png");
+}
+
+
+.footer
+{
+    font-size: 10pt;
 }
