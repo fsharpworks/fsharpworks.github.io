@@ -75,6 +75,14 @@ code
     /*vertical-align: bottom;*/
 }
 
+.header-tagline2
+{
+    font-size: 14pt;
+    /*font-style: italic;*/
+    margin-top: 0;
+    padding-top: 9px;
+    /*vertical-align: bottom;*/
+}
 
 .logo
 {
@@ -85,4 +93,9 @@ code
 .footer
 {
     font-size: 10pt;
+}
+
+
+.twitter-follow-button {
+    vertical-align: bottom;
 }

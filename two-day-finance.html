@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Two day Functional Programming in Finance | fsharpWorks training and consulting</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='styles/core-style.css' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="row header">
+                <div class="col-lg-3 col-md-4">
+                    <img src="images/fsharp_works_logo_50.png" class="img-responsive" />
+                </div>
+                <div class="col-lg-5 col-md-6 header-tagline2">
+                    <h2 class="header-tagline2">The safe choice for functional-first development</h2>
+                </div>
+            </div>
+            <div class="row">
+
+                <ul class="nav nav-tabs clearfix ">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="workshops.html">Our Workshops</a></li>
+                    <li><a href="fsharp.html">Our Technology</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="mailto:fsharpworks@googlegroups.com"><i class="fa fa-envelope"></i>&nbsp; Contact Us</a></li>
+                </ul>
+                <div class="pull-right">
+                    <a href="https://twitter.com/fsharpWorks" class="twitter-follow-button pull-right" data-size="small" data-show-count="false" data-lang="en">@fsharpWorks</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <p style="margin-top: 20px"></p>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>F# and Functional Programming in Finance - Two day course</h1>
+
+                <p>
+                    Functional-first programming in F# is an effective tool for solving complex problems that often arise in financial computing. The strong typing of F# provides important correctness guarantees and means that numeric code written in F# runs efficiently. Furthermore, a number of case-studies show that F# significantly reduces time-to-market, especially in the financial domain.
+                </p>
+                <p>
+                    This course is a practical introduction to the F# language, functional programming and their use in the financial domain. You'll learn about F#, fundamental functional concepts as well as libraries for numeric computing, data analysis. You'll also become familiar with best practices for using F# tools and integrating F# with larger systems.
+                </p>
+                <p>
+                    The course is practically focused. Throughout the course, we look at examples of time-series analysis, modelling and pricing of stock options and more. Each lecture provides a number of fun exercises that guide you through the problem. Furthermore, F# and functional programming makes you a better programmer even if you do not end up using the language immediately after the course.
+                </p>
+                <h3>Takeaways</h3>
+                <p>
+                    The course requires no prior functional programming knowledge and is designed for both software developers and quants or actuaries. You will learn:
+                </p>
+                <ul>
+                    <li>How to approach problems from the functional perspective and capture your ideas using idiomatic F#.
+                    </li>
+                    <li>Model a problem domain, such as stock options, using functional types and develop domain specific languages (DSLs) for processing such domains.
+                    </li>
+                    <li>Use type providers to access data, perform interactive data and time-series analysis on financial data using the Deedle library and create charts to visualize the results.
+                    </li>
+                    <li>How to use F# within a larger context, including interoperability with R and best practices for the encapsulation of F# components for .NET.
+                    </li>
+                </ul>
+                <h3>Course prerequisites</h3>
+                <p>The course doesn't require prior experience with F# or functional programming. </p>
+
+                <h1>Course outline</h1>
+
+                <h3>Day 1 (Introduction and calculations)</h3>
+                <ul>
+                    <li><strong>Introducing F# and functional programming<br />
+                    </strong>We quickly look at the main reasons for adopting F#. Why is it becoming popular in the finance industry and what are some successful case studies? Then we introduce the fundamental F# language features such as immutability, tuples and pattern matching. 
+                    </li>
+                    <li><strong>Working with collections and data structures<br />
+                    </strong>We introduce the most important functional pattern -- processing of immutable data structures using higher-order functions. We finish the processing of historical stock prices from Yahoo! Finance, calculating statistics and visualizes the result with simple charts. </li>
+                    <li><strong>Implementing mathematical calculations<br />
+                    </strong>F# makes it easy to turn mathematical equations to code. In this lecture we look at examples such as Monte-Carlo simulations, Black-Scholes equation and calculating historical volatility. You'll learn how to avoid mistakes with units of measure, how to write efficient numerical code and how to use the rich Math.NET library. </li>
+                </ul>
+                <h3>Day 2 (Using F# in practice)</h3>
+                <ul>
+                    <li><strong>Domain specific languages for finance<br />
+                    </strong>Domain specific languages (DSLs) are an effective way of solving recurring problems. In this lecture, we build a DSL for pricing financial options and for detecting patterns in changing prices. You'll learn how to model problem domain using functional data structures and how to build an easy to use library on top of the model.
+                    </li>
+                    <li><strong>Explorative data and time-series analysis<br />
+                    </strong>We look at F# type providers and Deedle. Type providers make it easy to access data from sources including CSV and XML files, Excel, SQL databases and Web and REST services. Using Deedle we can then align multiple time-series and perform interactive analysis -- such as comparing different industry sectors or calculating daily returns.
+                    </li>
+                    <li><strong>F# in the larger context<br />
+                    </strong>We wrap up by looking at the ways for integrating F# in the broader context. This lecture explores how to call advanced statistical libraries using the R provider, how to use object-oriented programming to integrate with .NET and how to use F# tools and libraries for unit testing, building and documenting code.</li>
+                </ul>
+                <h3>Course labs & exercises</h3>
+                <p>
+                    A brief theoretical introduction to every concept will be followed by numerous practical demos and exercises. At the end of the first day, you'll leave with a complete real-world F# application. In the second day, we'll solve a number of complex problems in concurrent and data-oriented programming.
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- /container -->
+
+
+    <footer>
+        <div class="container">
+            <div class="row footer">
+                <div class="col-lg-12 text-center">
+                    <p>
+                        &copy; fsharpWorks 2014div>
+                </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "http://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+</body>
+</html>
