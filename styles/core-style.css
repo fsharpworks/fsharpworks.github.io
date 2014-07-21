@@ -92,10 +92,32 @@ code
 
 .footer
 {
+    margin:60px 0px 20px 0px;
     font-size: 10pt;
 }
 
 
 .twitter-follow-button {
     vertical-align: bottom;
+}
+
+.fw-events {
+  margin-top:30px;
+}
+
+.fw-events .fw-future .col-sm-4 {
+  text-align:right;
+}
+
+.fw-events .btn {
+    width:100px;
+    margin-top:0px;
+    margin-right:20px;
+    border-style:none;
+}
+.fw-past {
+  background:#f0f0f0;
+  padding:20px;
+  padding-top:10px;
+  margin-top:10px;
 }
