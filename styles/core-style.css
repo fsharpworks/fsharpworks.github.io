@@ -50,6 +50,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
     color: #00002a;
 }
 
+.fw-statement
+{
+  background: #f0f0f0; 
+  padding: 30px 60px 20px 60px;
+  margin:0px;
+  color: #000000;
+  font-size:130%;
+}
+
 code
 {
     font-family: Consolas, monaco, monospace;
@@ -96,17 +105,12 @@ code
     font-size: 10pt;
 }
 
-
-.twitter-follow-button {
-    vertical-align: bottom;
-}
-
 .fw-events {
-  margin-top:30px;
+    margin-top:30px;
 }
 
 .fw-events .fw-future .col-sm-4 {
-  text-align:right;
+    text-align:right;
 }
 
 .fw-events .btn {
@@ -115,9 +119,46 @@ code
     margin-right:20px;
     border-style:none;
 }
+
 .fw-past {
   background:#f0f0f0;
   padding:20px;
   padding-top:10px;
   margin-top:10px;
+}
+
+.fw-header {
+  margin:20px 0px 20px 0px;
+  font-size:110%;
+  font-weight:bold;
+}
+
+.fw-sm-header {
+  margin:20px 0px 20px 0px;
+  font-weight:bold;
+}
+
+.fw-team h2 {
+  margin:40px 0px 20px 0px;
+  font-size:200%;
+}
+
+.fw-workshops .buttons {
+  text-align:right;
+}
+
+.fw-workshops .btn {
+    min-width:100px;
+    margin:10px 0px 10px 10px;
+    border-style:none;
+}
+
+.fw-workshops h2 {
+  margin-top:40px;
+}
+
+.fw-content h3 {
+  font-weight:bold;
+  font-size:135%;
+  margin-top:30px;
 }
