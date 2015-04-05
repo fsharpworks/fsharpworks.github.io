@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 
 .fw-statement
 {
-  background: #f0f0f0; 
+  background: #f0f0f0;
   padding: 30px 60px 20px 60px;
   margin:0px;
   color: #000000;
@@ -78,24 +78,20 @@ code
 .header-tagline
 {
     font-size: 20pt;
-    /*font-style: italic;*/
     margin-top: 0;
-    padding-top: 23px;
-    /*vertical-align: bottom;*/
 }
-
+@media (min-width: 1200px) {
+  .header-tagline { padding-top: 23px; }
+}
 .header-tagline2
 {
     font-size: 14pt;
-    /*font-style: italic;*/
-    margin-top: 0;
+    margin-top: 0px;
     padding-top: 9px;
-    /*vertical-align: bottom;*/
 }
-
 .logo
 {
-    background-image: url("../../images\fsworks.png");
+    background-image: url("../../images/fsworks.png");
 }
 
 
@@ -162,3 +158,77 @@ code
   font-size:135%;
   margin-top:30px;
 }
+
+/*************** Sliding photos at the top of the fancy index ***************/
+.fw-photos {
+  background:#600a15;
+}
+.fw-photos .overlay2 {
+  background:rgba(255,255,255,0.9);
+  text-align:center;
+  width:100%;
+}
+.fw-photos .overlay {
+  font-size:16pt;
+  background:rgba(255,255,255,0.8);
+  padding:20px 40px 20px 40px;
+}
+.fw-photos .overlay h2 {
+  font-family: "Sintony","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Verdana,Arial,sans-serif;
+}
+.fw-photos .overlay .btns .btn {
+  color:#428bca;
+  background:rgba(255,255,255,0.65);
+  border-color:white;
+  font-size:14pt;
+  margin:10px 10px 0px 0px;
+}
+.fw-photos .carousel-inner .item {
+  height:200px;
+  opacity:0.9;
+  background-position:center center;
+  background-size:100% auto;
+}
+@media (min-width: 400px) {
+  .fw-photos .carousel-inner .item { height:300px; }
+}
+@media (min-width: 768px) {
+  .fw-photos .carousel-inner .item { height:500px; }
+  .fw-photos .overlay {
+    background:rgba(255,255,255,0.65);
+    position:absolute;
+    top:10%;
+    right:5%;
+    width:60%;
+    font-size:16pt;
+  }
+  .fw-photos .overlay2 {
+    background:rgba(255,255,255,0.75);
+    position:absolute;
+    bottom:0px;
+  }
+}
+@media (min-width: 992px) {
+  .fw-photos .carousel-inner .item { height:600px; }
+  .fw-photos .overlay {
+    position:absolute;
+    top:10%;
+    right:5%;
+    width:60%;
+    font-size:18pt;
+  }
+}
+@media (min-width: 1200px) {
+  .fw-photos .overlay {
+    position:absolute;
+    top:10%;
+    right:5%;
+    width:40%;
+    font-size:20pt;
+  }
+}
+.fw-photos .img1 { background-image:url('../images/hp/1.jpg') !important; }
+.fw-photos .img2 { background-image:url('../images/hp/2.jpg') !important; }
+.fw-photos .img3 { background-image:url('../images/hp/3.jpg') !important; }
+.fw-photos .img4 { background-image:url('../images/hp/4.jpg') !important; }
+.fw-photos .img5 { background-image:url('../images/hp/5.jpg') !important; }
