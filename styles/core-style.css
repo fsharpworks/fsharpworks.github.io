@@ -128,7 +128,10 @@ code
   font-size:110%;
   font-weight:bold;
 }
-
+.fw-header li {
+  min-width:150px;
+  margin-right:10px;
+}
 .fw-sm-header {
   margin:20px 0px 20px 0px;
   font-weight:bold;
@@ -162,6 +165,7 @@ code
 /*************** Sliding photos at the top of the fancy index ***************/
 .fw-photos {
   background:#600a15;
+  margin-bottom:30px;
 }
 .fw-photos .overlay2 {
   background:rgba(255,255,255,0.9);
