@@ -236,3 +236,47 @@ code
 .fw-photos .img3 { background-image:url('../images/hp/3.jpg') !important; }
 .fw-photos .img4 { background-image:url('../images/hp/4.jpg') !important; }
 .fw-photos .img5 { background-image:url('../images/hp/5.jpg') !important; }
+
+.fw-logos {
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.fw-logos img {
+  width:150px;
+  margin:10px;
+}
+.fw-logos-detail img {
+  width:225px;
+  margin:20px;
+}
+.fw-logos a {
+  display:inline-block;
+}
+
+.fw-testimonials {
+  background: #f0f0f0;
+  padding:1px 10px 10px 10px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.fw-quote {
+  font-style:italic;
+  margin:0px 20px 0px 20px;
+}
+
+.fw-quote-author{
+  text-align: right;
+}
+@media (min-width: 768px) {
+  .fw-logos-hp { width:110%; }
+  .fw-testimonials { width:110%; }
+}
+
+.fw-quotebody {
+  padding-top:20px;
+}
+
+.fw-topmargin {
+  margin-top:10px;
+}
