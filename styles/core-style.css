@@ -1,33 +1,33 @@
 @font-face
 {
     font-family: "Baskerville";
-    src: url("../../fonts/LibreBaskerville-Regular.otf");
+    src: url("../fonts/LibreBaskerville-Regular.otf");
 }
 
 @font-face
 {
     font-family: "Baskerville";
     font-weight: bold;
-    src: url("../../fonts/LibreBaskerville-Bold.otf");
+    src: url("../fonts/LibreBaskerville-Bold.otf");
 }
 
 @font-face
 {
     font-family: "Baskerville";
     font-style: italic;
-    src: url("../../fonts/LibreBaskerville-Italic.otf");
+    src: url("../fonts/LibreBaskerville-Italic.otf");
 }
 
 @font-face
 {
     font-family: "Sintony";
-    src: url("../../fonts/Sintony-Regular.otf");
+    src: url("../fonts/Sintony-Regular.otf");
 }
 
 @font-face
 {
     font-family: Sintony;
-    src: url("../../fonts/Sintony-Bold.otf");
+    src: url("../fonts/Sintony-Bold.otf");
     font-weight: bold;
 }
 
