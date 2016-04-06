@@ -1,35 +1,4 @@
-@font-face
-{
-    font-family: "Baskerville";
-    src: url("../fonts/LibreBaskerville-Regular.otf");
-}
-
-@font-face
-{
-    font-family: "Baskerville";
-    font-weight: bold;
-    src: url("../fonts/LibreBaskerville-Bold.otf");
-}
-
-@font-face
-{
-    font-family: "Baskerville";
-    font-style: italic;
-    src: url("../fonts/LibreBaskerville-Italic.otf");
-}
-
-@font-face
-{
-    font-family: "Sintony";
-    src: url("../fonts/Sintony-Regular.otf");
-}
-
-@font-face
-{
-    font-family: Sintony;
-    src: url("../fonts/Sintony-Bold.otf");
-    font-weight: bold;
-}
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic|Sintony:400,700);
 
 body
 {
@@ -46,7 +15,7 @@ blockquote
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 {
-    font-family: "Libre Baskeville", Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: "Libre Baskerville", Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     color: #00002a;
 }
 
@@ -77,7 +46,7 @@ code
 
 .header-tagline
 {
-    font-size: 20pt;
+    font-size: 16pt;
     margin-top: 0;
 }
 @media (min-width: 1200px) {
