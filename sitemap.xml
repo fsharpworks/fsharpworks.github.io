@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.fsharpworks.com/</loc>
+  <lastmod>2016-04-17T18:37:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.fsharpworks.com/index.html</loc>
+  <lastmod>2016-04-17T18:37:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.fsharpworks.com/workshops.html</loc>
+  <lastmod>2016-04-17T10:18:51+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.fsharpworks.com/team.html</loc>
+  <lastmod>2016-04-17T17:38:59+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.fsharpworks.com/testimonials.html</loc>
+  <lastmod>2016-04-17T12:05:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.fsharpworks.com/survey.html</loc>
+  <lastmod>2016-04-12T20:31:52+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.fsharpworks.com/paris/2014.html</loc>
+  <lastmod>2016-04-17T17:31:55+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.fsharpworks.com/workshops/fast-track.html</loc>
+  <lastmod>2016-04-17T10:21:55+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.fsharpworks.com/workshops/finance.html</loc>
+  <lastmod>2016-04-17T10:24:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.fsharpworks.com/workshops/type-providers.html</loc>
+  <lastmod>2016-04-17T10:26:07+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
