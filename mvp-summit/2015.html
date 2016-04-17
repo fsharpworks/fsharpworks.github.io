@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="F# + ML is a one-day event that gives you a fast-track to Machine Learning and F#.">
-    <meta name="author" content="">
+    <meta name="author" content="fsharpWorks">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
     <title>F# + Machine Learning @ MVP Summit, 2015</title>
@@ -24,25 +24,29 @@
     <![endif]-->
 
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/Event">
     <div class="navbar-inner">
         <div class="container">
             <div class="row header">
                 <div class="col-lg-12 col-md-12">
-                  <img src="images/fsharpml.png" class="img-responsive pull-left" style="max-height: 91px;" />
-                  <img src="images/mvpsummit.png" class="img-responsive pull-left" style="max-height: 91px" />
+                  <meta itemprop="name" content="fsharp + ML |> MVP Summit 2015"/>
+                  <img src="images/fsharpml.png" class="img-responsive pull-left" style="max-height: 91px;" alt="fsharp + ML"/>
+                  <img src="images/mvpsummit.png" class="img-responsive pull-left" style="max-height: 91px" alt="MVP Summit 2015" />
                 </div>
             </div>
         </div>
     </div>
 
     <div class="container">
-
+	</meta > 
         <div class="row">
             <div class="col-sm-12">
-                <h1>Friday, November 6, 2015</h1>
-                <h3>The Garage, Building 27<br/>Microsoft Campus, MVP Summit</h3>
-                <p class="lead">
+                <h1 itemprop="startDate">Friday, November 6, 2015</h1>
+                <h3 itemprop="location" itemscope itemtype="https://schema.org/Place">
+                	<span itemprop="address">The Garage, Building 27</span><br/>
+                	<span itemprop="name">Microsoft Campus</span>, MVP Summit
+                </h3>
+                <p class="lead" itemprop="description">
                     <strong>fsharp + ML</strong> is a one-day event that gives you a fast-track
                     to Machine Learning and F#.
                 </p>
@@ -81,13 +85,13 @@
 
             <hr>
             <h1 class="col-sm-12">Speakers</h1>
-
-            <h2 class="col-sm-12">David Stephens</h2>
-
+	<div itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            <h2 itemprop="name" class="col-sm-12">David Stephens</h2>
+	    <meta itemprop="url" content="https://www.linkedin.com/in/david-stephens-40658431"/>
             <div class="col-sm-2">
-                <img src="images/photo-ds.jpg" class="img-thumbnail" alt="David Stephens" style="max-height: 140px">
+                <img itemprop="image" src="images/photo-ds.jpg" class="img-thumbnail" alt="David Stephens" style="max-height: 140px">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10" itemprop="description">
               <p>
                 David is the Program Manager for the F# programming language, working with the open-source F#
                 community and the internal users at Microsoft.
@@ -99,13 +103,14 @@
                 studies, working on the Visual Studio team.
               </p>
             </div>
-
-            <h2 class="col-sm-12">Tomas Petricek</h2>
-
+	</div>
+	<div itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            <h2 itemprop="name" class="col-sm-12">Tomas Petricek</h2>
+	    <meta itemprop="url" content="https://www.linkedin.com/in/tomaspetricek"/>
             <div class="col-sm-2">
-                <img src="images/photo-tp.jpg" class="img-thumbnail" alt="Tomas Petricek" style="max-height: 140px">
+                <img itemprop="image" src="images/photo-tp.jpg" class="img-thumbnail" alt="Tomas Petricek" style="max-height: 140px">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10" itemprop="description">
                 <p>
                   Tomas is a long-time F# enthusiast, Microsoft MVP and author of a book <a href="http://manning.com/petricek">Real-World Functional Programming </a>
                   which explains functional programming concepts using C# 3.0 and teaching F# alongside. He leads functional programming and F# 
@@ -117,13 +122,14 @@
                    He also contributed to the development of F# as a contractor at Microsoft Research in Cambridge.
                 </p>
             </div>
-
-            <h2 class="col-sm-12">Mathias Brandewinder</h2>
-
+	</div>
+	<div itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            <h2 itemprop="name" class="col-sm-12">Mathias Brandewinder</h2>
+	    <meta itemprop="url" content="https://www.linkedin.com/in/brandewinder"/>
             <div class="col-sm-2">
-                <img src="images/photo-mb.png" class="img-thumbnail" alt="Mathias Brandewinder" style="max-height: 140px">
+                <img itemprop="image" src="images/photo-mb.png" class="img-thumbnail" alt="Mathias Brandewinder" style="max-height: 140px">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10" itemprop="description">
 
                 <p>
                     Mathias specializes in the design and development of decision systems and forecasting models. 
@@ -141,7 +147,7 @@
                   which shows you how to build smarter .NET applications that learn from data, using simple algorithms
                    and techniques that can be applied to a wide range of real-world problems.</p>                  
             </div>
-
+	</div>
         </div>
         <style type="text/css">
           h3 { line-height:24pt; margin-bottom:20px; margin-top:20px; }
