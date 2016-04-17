@@ -24,7 +24,7 @@
     <![endif]-->
 
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/Event">
     <div class="navbar-inner">
         <div class="container">
             <div class="row header">
@@ -39,7 +39,7 @@
         </div>
     </div>
 
-    <div class="container" itemscope itemtype="http://schema.org/Event">
+    <div class="container">
 
         <div class="row">
             <div class="col-sm-12">
@@ -83,13 +83,13 @@
 
             <hr>
             <h1 class="col-sm-12">Speakers</h1>
-
-            <h2 class="col-sm-12">Tomas Petricek</h2>
+	<div itemprop="performer" itemscope itemtype="https://schema.org/Person"/>
+            <h2 itemprop="name" class="col-sm-12">Tomas Petricek</h2>
 
             <div class="col-sm-2">
-                <img src="images/Tomas-Petricek.jpg" class="img-thumbnail" alt="Tomas Petricek" style="max-height: 165px">
+                <img itemprop="image" src="images/Tomas-Petricek.jpg" class="img-thumbnail" alt="Tomas Petricek" style="max-height: 165px">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10" itemprop="description">
                 <p>
                     Tomas has been using F# since the early Microsoft Research versions many years ago. 
                 </p>
@@ -105,12 +105,13 @@
                         to libraries such as <a href="http://fsharp.github.io/FSharp.Data/">FSharp.Data</a> and <a href="http://bluemountaincapital.github.io/Deedle/">Deedle</a>.
                 </p>
             </div>
-
-            <h2 class="col-sm-12">Scott Wlaschin</h2>
+	</div>
+	<div itemprop="performer" itemscope itemtype="https://schema.org/Person"/>
+            <h2 class="col-sm-12" itemprop="name">Scott Wlaschin</h2>
             <div class="col-sm-2">
-                <img src="images/Scott-Wlaschin.jpeg" class="img-thumbnail" alt="Scott Wlaschin" style="max-height: 165px">
+                <img itemprop="image" src="images/Scott-Wlaschin.jpeg" class="img-thumbnail" alt="Scott Wlaschin" style="max-height: 165px">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10" itemprop="description">
                 <p>
                     Scott has over 20 years experience in development, design and architecture, 
                 covering all aspects of business software. 
@@ -120,36 +121,38 @@
                 and the author of the forthcoming book <a href="https://leanpub.com/understandingfunctionalprogramming">Understanding Functional Programming</a>.
                 </p>
             </div>
-
-            <h2 class="col-sm-12">Steffen Forkmann</h2>
+        </div>
+	<div itemprop="performer" itemscope itemtype="https://schema.org/Person"/>
+            <h2 class="col-sm-12" itemprop="name">Steffen Forkmann</h2>
             <div class="col-sm-2">
-                <img src="images/Steffen-Forkmann.jpg" class="img-thumbnail" alt="Steffen Forkmann" style="max-height: 165px">
+                <img itemprop="image" src="images/Steffen-Forkmann.jpg" class="img-thumbnail" alt="Steffen Forkmann" style="max-height: 165px">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10" itemprop="description">
                 <p>
                     Steffen Forkmann is a F# MVP and works as a Software Developer on large billing systems in Dynamics NAV and therefore has great experience in applying functional concepts to real-world applications.
 					</p> 
 				<p>Steffen is a very active part in the F# open source community and works on projects like "FAKE - F# Make", NaturalSpec and fsharpx. 
                 </p>               
             </div>
-			
-            <h2 class="col-sm-12">Robert Pickering</h2>
+	</div>
+	<div itemprop="performer" itemscope itemtype="https://schema.org/Person"/>
+            <h2 class="col-sm-12" itemprop="name">Robert Pickering</h2>
             <div class="col-sm-2">
-                <img src="images/Robert-Pickering.jpg" class="img-thumbnail" alt="Robert Pickering" style="max-height: 165px">
+                <img itemprop="image" src="images/Robert-Pickering.jpg" class="img-thumbnail" alt="Robert Pickering" style="max-height: 165px">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10" itemprop="description">
                 Robert is an experienced software engineer, community leader and 
             author of <a href="http://www.amazon.co.uk/Beginning-F-Robert-Pickering-ebook/dp/B003U890UU">Beginning F# (Apress)</a>,
             as well as the programme lead on the recent <a href="https://skillsmatter.com/conferences/1819-functional-programming-exchange">Functional Programming eXchange</a>.
             </div>
-
-
-            <h2 class="col-sm-12">Mathias Brandewinder</h2>
+	</div>
+	<div itemprop="performer" itemscope itemtype="https://schema.org/Person"/>
+            <h2 class="col-sm-12" itemprop="name">Mathias Brandewinder</h2>
 
             <div class="col-sm-2">
-                <img src="images/Mathias-Brandewinder.png" class="img-thumbnail" alt="Mathias Brandewinder" style="max-height: 165px">
+                <img itemprop="image" src="images/Mathias-Brandewinder.png" class="img-thumbnail" alt="Mathias Brandewinder" style="max-height: 165px">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10" itemprop="description">
 
                 <p>
                     Mathias specializes in the design and development of decision systems and forecasting models. 
@@ -163,17 +166,18 @@
                 speaks regularly at user group meetings around the world.
                 </p>
             </div>
+        </div>
+	<div itemprop="performer" itemscope itemtype="https://schema.org/Person"/>
 
-
-            <h2 class="col-sm-12">Jérémie Chassaing</h2>
+            <h2 class="col-sm-12" itemprop="name">Jérémie Chassaing</h2>
 
             <div class="col-sm-2">
-                <img src="images/Jeremie-Chassaing.jpg" class="img-thumbnail" alt="Jeremie Chassaing" style="max-height: 165px">
+                <img itemprop="image" src="images/Jeremie-Chassaing.jpg" class="img-thumbnail" alt="Jeremie Chassaing" style="max-height: 165px">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10" itemprop="description">
                 Jérémie Chassaing is the author of the <a href="http://thinkbeforecoding.com">thinkbeforecoding.com</a> blog, specializing in Domain Driven Design, CQRS and Event Sourcing.
             </div>
-
+	</div>
         </div>
 
 		
