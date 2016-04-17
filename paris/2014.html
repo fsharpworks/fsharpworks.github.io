@@ -39,13 +39,13 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" itemscope itemtype="http://schema.org/Event">
 
         <div class="row">
             <div class="col-sm-12">
-                <h1>Friday, June 27, 2014</h1>
+                <h1 itemprop="startDate">Friday, June 27, 2014</h1>
                 <p class="lead">
-                    fsharpWorks |> Paris '14 is a one-day conference for developers who want to take the fast track to F#. 
+                    <span itemprop="name">fsharpWorks |> Paris '14</span> is <span itemprop="description">a one-day conference for developers who want to take the fast track to F#.</span> 
                 </p>
                 <p class="lead">
                     The program will feature a morning of talks by <b>world-class experts</b>, 
@@ -53,6 +53,10 @@
                 and an afternoon of <b>hands-on workshops</b>, to learn first-hand how to use it productively.
                 </p>
                 <p><a class="btn btn-lg btn-success" href="https://www.eventbrite.com/e/fsharpworks-paris-14-tickets-11611238527" role="button">Sign up today</a></p>
+               	<div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                	<meta itemprop="name" content="Microsoft"/>
+               		<meta itemprop="address" content="Paris, France"/>
+                </div> />
             </div>
         </div>
 
