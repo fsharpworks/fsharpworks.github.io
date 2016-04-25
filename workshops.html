@@ -46,13 +46,14 @@
     <![endif]-->
 </head>
 
-<body>
+<body itemscope itemtype="https://schema.org/Organization">
 
     <div class="navbar-inner">
         <div class="container">
             <div class="row header">
                 <div class="col-lg-3 col-md-4">
-                    <img src="images/fsharp_works_logo_50.png" class="img-responsive" />
+                    <img itemprop="image" src="images/fsharp_works_logo_50.png" class="img-responsive" alt="fsharpWorks"/>
+                    <meta itemprop="name" content="fsharpWorks"/>
                 </div>
                 <div class="col-lg-5 col-md-6 header-tagline2">
                     <h2 class="header-tagline2">The safe choice for functional-first development</h2>
@@ -61,7 +62,7 @@
             <div class="row fw-sm-header">
             	<nav>
                 <ul class="nav nav-tabs">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a itemprop="url" href="index.html">Home</a></li>
                     <li class="active"><a href="workshops.html">Our Workshops</a></li>
                     <li><a href="team.html">Our Team</a></li>
                     <li><a href="testimonials.html">Testimonials</a></li>
@@ -87,11 +88,12 @@
           </p>
         </div>
 
+        <section itemprop="makesOffer" itemscope itemtype="http://schema.org/Offer">
         <div class="row">
             <div class="col-md-12">
-                <h1>Workshops and training sessions</h1>
-                <p>
-                    No matter what your background is, our workshops and trainins will help you get started with F#.
+                <h1 itemprop="category">Workshops and training sessions</h1>
+                <p itemprop="description">
+                    No matter what your background is, our workshops and trainings will help you get started with F#.
                     We expect that you have some programming background, but no prior experience with F# or the
                     theme of the workshop is needed.
                     If you would like to arrange a private, personalized workshop, please contact us directly.
@@ -100,7 +102,7 @@
             </div>
         </div>
         <div class="row">
-        	<section itemscope itemtype="http://schema.org/Product">
+        	<section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
             <div class="col-sm-6" >
                 <a itemprop="url" href="workshops/fast-track.html"><h2 itemprop="name">Fast Track to F#</h2></a>
                 <p itemprop="description">
@@ -117,7 +119,7 @@
                 </p>
             </div>
             </section>
-            <section itemscope itemtype="http://schema.org/Product">
+            <section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
             <div class="col-sm-6">
                 <a itemprop="url" href="workshops/finance.html"><h2 itemprop="name">F# in Finance</h2></a>
                 <p itemprop="description">
@@ -136,7 +138,7 @@
             </section>
         </div>
         <div class="row">
-        	<section itemscope itemtype="http://schema.org/Product">
+        	<section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
             <div class="col-sm-6">
                 <h2 itemprop="name">Introduction to Machine Learning with F#</h2>
                 <p itemprop="description">
@@ -153,7 +155,7 @@
                 </p>
             </div>
             </section>
-            <section itemscope itemtype="http://schema.org/Product">
+            <section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
             <div class="col-sm-6" >
                 <h2 itemprop="name">Domain driven design with F#</h2>
                 <p itemprop="description">
@@ -173,7 +175,7 @@
         </div>
 
         <div class="row">
-        	<section itemscope itemtype="http://schema.org/Product">
+        	<section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
             <div class="col-sm-6">
                 <a itemprop="url" href="workshops/type-providers.html"><h2 itemprop="name">Accessing Data with F# Type Providers</h2></a>
                 <p itemprop="description">Modern applications need to access data from a variety of external data sources, including
@@ -188,7 +190,7 @@
                 </p>
             </div>
             </section>
-            <section itemscope itemtype="http://schema.org/Product">
+            <section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
             <div class="col-sm-6">
                 <h2 itemprop="name">Functional web development</h2>
                 <p itemprop="description">
@@ -206,6 +208,7 @@
             </div>
             </section>
         </div>
+        </section>
     </div>
 
     <footer>
