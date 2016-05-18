@@ -19,6 +19,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
     color: #00002a;
 }
 
+h1 {
+  font-size:200%;
+}
+h2 {
+  font-size:180%;
+}
+h3 {
+  font-size:150%;
+}
+
 .fw-statement
 {
   background: #f0f0f0;
@@ -63,7 +73,6 @@ code
     background-image: url("http://fsharpworks.imgix.net/fsworks.png");
 }
 
-
 .footer
 {
     margin:60px 0px 20px 0px;
@@ -98,8 +107,13 @@ code
   font-weight:bold;
 }
 .fw-header li {
-  min-width:150px;
   margin-right:10px;
+}
+.fw-header li a {
+  padding:10px 22px 10px 22px;
+}
+.fw-sm-header .pull-right a {
+  padding:10px 8px 10px 8px;
 }
 .fw-sm-header {
   margin:20px 0px 20px 0px;
@@ -137,6 +151,52 @@ code
   margin-top:30px;
 }
 
+.fw-materials {
+  margin-top:25px;
+}
+.fw-materials img.hidden-sm {
+  float:left;
+  width:100px;
+  margin:0px 15px 20px 0px;
+}
+.fw-materials .book-image {
+  padding:10px;
+  text-align:center;
+}
+.fw-materials .book-image img {
+  max-height:200px;
+  margin:0px auto 0px auto;
+}
+.fw-materials h3 {
+  margin-top:0px;
+}
+.fw-materials .book-author {
+  margin:15px 0px 10px 0px;
+  font-style:italic;
+}
+.fw-materials .author {
+  margin:15px 0px 0px 0px;
+}
+.fw-materials .quote {
+  text-align:left;
+}
+
+.fw-talk {
+  min-height:160px;
+}
+.fw-talk img {
+  border:1px solid black;
+}
+.fw-talk h4 {
+  margin:0px;
+}
+.fw-talk .author {
+  margin:5px 0px 0px 0px;
+  font-style:italic;
+}
+.fw-talk .about {
+  margin:5px 0px 0px 0px;
+}
 /*************** Sliding photos at the top of the fancy index ***************/
 .fw-photos {
   background:#600a15;
