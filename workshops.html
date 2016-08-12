@@ -47,49 +47,51 @@
 </head>
 
 <body itemscope itemtype="https://schema.org/Organization">
-
-    <div class="navbar-inner">
-        <div class="container">
-            <div class="row header">
-                <div class="col-lg-3 col-md-4">
-                    <img itemprop="image" src="images/fsharp_works_logo_50.png" class="img-responsive" alt="fsharpWorks"/>
-                    <meta itemprop="name" content="fsharpWorks"/>
-                </div>
-                <div class="col-lg-5 col-md-6 header-tagline2">
-                    <h2 class="header-tagline2">The safe choice for functional-first development</h2>
-                </div>
+    <div class="container">
+        <div class="row header fw-logo">
+            <div class="col-lg-6 col-md-8">
+                <img itemprop="image" src="http://fsharpworks.imgix.net/fsharp_works_logo_100.png" alt="fsharpWorks logo" class="img-responsive" />
             </div>
-            <div class="row fw-sm-header">
-            	<nav>
-                <ul class="nav nav-tabs">
-                    <li><a itemprop="url"x` href="index.html">Home</a></li>
-                    <li class="active" ><a href="workshops.html">Workshops</a></li>
-                    <li><a href="materials.html">Books and talks</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="survey.html">Survey</a></li>
-                    <li><a href="team.html">About us</a></li>
-
-                    <li class="pull-right"><a href="mailto:info@fsharpworks.com"><i class="fa fa-envelope"></i>&nbsp; Contact Us</a></li>
-                    <li class="pull-right"><a href="https://twitter.com/fsharpWorks"><i class="fa fa-twitter"></i>&nbsp; Follow Us</a></li>
-                </ul>
-                </nav>
+            <div class="col-lg-6 col-md-4 header-tagline">
+                <h2 class="header-tagline">The safe choice for functional-first development</h2>
             </div>
         </div>
     </div>
 
+    <div class="fw-photos fw-photos-subtle">
+    <div id="fworks-banner" class="carousel slide" data-ride="carousel">
+      <!-- Content -->
+      <div class="carousel-inner" role="listbox">
+        <div class="img4 item active"></div>
+      </div>
+      <div class="overlay2">
+      <div class="container">
+          <div class="row fw-header">
+              <ul class="nav nav-pills">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active"><a href="workshops.html">Workshops</a></li>
+                  <li><a href="materials.html">Books and talks</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                  <li><a href="survey.html">Survey</a></li>
+                  <li><a href="team.html">About us</a></li>
+              </ul>
+          </div>
+      </div>
+      </div>
+      <div class="overlay">
+        <p>
+            We believe strongly in the benefits of using F#, but we also understand the issues and challenges
+            around adding F# into your software development process.  Thats's why we offer training, support and other
+            services to make your use of F# as painless as possible.
+        </p>
+        <p>
+          <a href="mailto:info@fsharpworks.com"><i class="fa fa-envelope"></i> On-site custom trainings?</a>
+        </p>
+      </div>
+    </div></div>
+
+
     <div class="container fw-workshops">
-
-        <div class="row fw-statement">
-                <p>
-                    We believe strongly in the benefits of using F#, but we also understand the issues and challenges
-                    around adding F# into your software development process.  Thats's why we offer training, support and other
-                    services to make your use of F# as painless as possible.
-                </p>
-          <p>
-            <a href="mailto:info@fsharpworks.com"><i class="fa fa-envelope"></i> On-site custom trainings?</a>
-          </p>
-        </div>
-
         <section itemprop="makesOffer" itemscope itemtype="http://schema.org/Offer">
         <div class="row">
             <div class="col-md-12">
@@ -103,10 +105,10 @@
                 </p>
             </div>
         </div>
-        <div class="row">
+        <div class="row courses">
         	<section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
             <div class="col-sm-6" >
-                <a itemprop="url" href="workshops/fast-track.html"><h2 itemprop="name">Fast Track to F#</h2></a>
+                <h2 itemprop="name"><a itemprop="url" href="workshops/fast-track.html">Fast Track to F#</a></h2>
                 <p itemprop="description">
                     This two day Fast Track to F# course is what you need to start using F# in practice and to get
                     the most out of functional and concurrent programming concepts.
@@ -115,6 +117,9 @@
                     builds on their real-world experience with F#. You'll learn how to use F# in production for
                     domain modelling, data processing, concurrency and more!
                 </p>
+                <div class="tweet">
+                  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">More F# at <a href="https://twitter.com/hashtag/codenode?src=hash">#codenode</a>&#39;s Spacebar with <a href="https://twitter.com/tomaspetricek">@tomaspetricek</a> - <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> <a href="https://twitter.com/skillsmatter">@skillsmatter</a> <a href="https://t.co/LHgne7dwp7">pic.twitter.com/LHgne7dwp7</a></p>&mdash; wendydevolder (@wendydevolder) <a href="https://twitter.com/wendydevolder/status/669970769267564544">November 26, 2015</a></blockquote>
+                </div>                
                 <p class="buttons">
                   <a href="workshops/fast-track.html" class="btn btn-primary" role="button">Details</a>
                   <a href="http://skillsmatter.com/course/scala/tomas-petricek-phil-trelford-fast-track-to-fsharp/ps-6679" class="btn btn-success" role="button">Book now!</a>
@@ -123,69 +128,81 @@
             </section>
             <section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
             <div class="col-sm-6">
-                <a itemprop="url" href="workshops/finance.html"><h2 itemprop="name">F# in Finance</h2></a>
-                <p itemprop="description">
-                    Functional-first programming in F# is an effective tool for solving complex problems that often
-                    arise in financial computing. The strong typing of F# provides important correctness guarantees
-                    and means that numeric code written in F# runs efficiently.
-                </p><p>
-                    Furthermore, a
-                    number of case-studies show that F# significantly reduces time-to-market, especially in the financial domain.
-                </p>
-                <p class="buttons">
-                  <a href="workshops/finance.html" class="btn btn-primary" role="button">Details</a>
-                  <a href="http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek" class="btn btn-success" role="button">Attend online</a>
-                </p>
+              <h2 itemprop="name">Machine Learning with F#</h2>
+              <p itemprop="description">
+                  Machine learning is the art of writing program that become better at performing tasks using data.
+                  In this hands-on workshop you will learn how to use the power of F# by building simple but effective
+                  machine learning predictive models and solving real-world problems.
+              </p><p>
+                  You will learn
+                  fundamental concepts and methods of machine learning that are broadly applicable by software engineers,
+                  and gain a solid foundation to start writing clean and effective F# code.
+              </p>
+              <div class="tweet">
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Great turnout for intro workshop to <a href="https://twitter.com/hashtag/machinelearning?src=hash">#machinelearning</a> with <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a>! Huge thank you to <a href="https://twitter.com/brandewinder">@brandewinder</a> for stopping by <a href="https://t.co/K8vxYNWgPR">pic.twitter.com/K8vxYNWgPR</a></p>&mdash; Prolucid (@prolucid) <a href="https://twitter.com/prolucid/status/722585636423610368">April 20, 2016</a></blockquote>
+              </div>
+              <p class="buttons">
+                <a href="mailto:info@fsharpworks.com" class="btn btn-success" role="button">Contact us</a>
+              </p>
             </div>
             </section>
         </div>
-        <div class="row">
+        <div class="row courses">
         	<section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
             <div class="col-sm-6">
-                <h2 itemprop="name">Introduction to Machine Learning with F#</h2>
-                <p itemprop="description">
-                    Machine learning is the art of writing program that become better at performing tasks using data.
-                    In this hands-on workshop you will learn how to use the power of F# by building simple but effective
-                    machine learning predictive models and solving real-world problems.
-                </p><p>
-                    In the process, you will learn
-                    fundamental concepts and methods of machine learning that are broadly applicable by software engineers,
-                    and gain a solid foundation to start writing clean and effective F# code.
-                </p>
-                <p class="buttons">
-                  <a href="mailto:info@fsharpworks.com" class="btn btn-success" role="button">Contact us</a>
-                </p>
+              <h2 itemprop="name"><a href="workshops/web.html">Functional web development</a></h2>
+              <p itemprop="description">
+                One of the myths about F# and functional programming is that it is only good for complex mathematics.
+                This could not be further from truth. A web server is essentially a function from a request to a response
+                and so functional programming is a perfect fit for it.
+              </p><p>
+                This workshop covers all you need to get started with building web applications in F# using the
+                Suave server. By the end of the workshop, you'll write a real-world web application that works with data,
+                handles concurrency and can be easily deployed to Azure or Heroku.                </p>
+              <div class="tweet">
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Happy faces after <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> workshop with <a href="https://twitter.com/tomaspetricek">@tomaspetricek</a> ! That&#39;s what we love! <a href="https://t.co/RfVcSRflot">pic.twitter.com/RfVcSRflot</a></p>&mdash; SkillsTemple (@SkillsTemple) <a href="https://twitter.com/SkillsTemple/status/700048741970092032">February 17, 2016</a></blockquote>
+              </div>
+              <p class="buttons">
+                <a href="workshops/web.html" class="btn btn-primary" role="button">Details</a>
+                <a href="mailto:info@fsharpworks.com" class="btn btn-success" role="button">Contact us</a>
+              </p>
             </div>
             </section>
             <section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-            <div class="col-sm-6" >
-                <h2 itemprop="name">Domain driven design with F#</h2>
-                <p itemprop="description">
-                    This course teaches you how to use types as part of a domain driven process, emphasizing
-                    real world examples over jargon and maths. In this course, you'll learn how to use F# types
-                    to represent the domain in a fine-grained, self-documenting way.
-                </p><p>
-                    The type system is your friend, not an annoyance. In this course, you'll learn how to use
-                    types to your benefit - and types can even be used to encode business rules so that you literally
-                    cannot create incorrect code.
-                </p>
-                <p class="buttons">
-                  <a href="mailto:info@fsharpworks.com" class="btn btn-success" role="button">Contact us</a>
-                </p>
+            <div class="col-sm-6">
+              <h2 itemprop="name">Domain driven design with F#</h2>
+              <p itemprop="description">
+                  This course teaches you how to use types as part of a domain driven process, emphasizing
+                  real world examples over jargon and maths. In this course, you'll learn how to use F# types
+                  to represent the domain in a fine-grained, self-documenting way.
+              </p><p>
+                  The type system is your friend, not an annoyance. You'll learn how to use
+                  types to your benefit - and types can even be used to encode business rules so that you literally
+                  cannot create incorrect code.<br /><br /><br />
+              </p>
+              <div class="tweet">
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Enjoying <a href="https://twitter.com/ScottWlaschin">@ScottWlaschin</a> workshop, he is now showing how to make illegal states unrepresentable. / <a href="https://twitter.com/CodingGrace">@CodingGrace</a> :) <a href="http://t.co/1mQf3hZSmt">pic.twitter.com/1mQf3hZSmt</a></p>&mdash; Andrea McAts (@silverSpoon) <a href="https://twitter.com/silverSpoon/status/576769185172361216">March 14, 2015</a></blockquote>
+                <br /><br />
+              </div>
+              <p class="buttons">
+                <a href="mailto:info@fsharpworks.com" class="btn btn-success" role="button">Contact us</a>
+              </p>
             </div>
             </section>
         </div>
-
-        <div class="row">
+        <div class="row courses">
         	<section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
             <div class="col-sm-6">
-                <a itemprop="url" href="workshops/type-providers.html"><h2 itemprop="name">Accessing Data with F# Type Providers</h2></a>
+                <h2 itemprop="name"><a itemprop="url" href="workshops/type-providers.html">Accessing Data with Type Providers</a></h2>
                 <p itemprop="description">Modern applications need to access data from a variety of external data sources, including
                   XML, SQL, and JSON-based services. In this course, we look at F# type providers. With type
                   providers, you can easily explore and access a wide range of data sources directly from your code editor.
                   We start by learning about type providers using the F# interactive and then we demonstrate how you can
                   integrate data access code written in F# as part of a larger C# ASP.NET project.
                 </p>
+                <div class="tweet">
+                  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Look at <a href="https://twitter.com/tomaspetricek">@tomaspetricek</a> talk in depth <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> &#39;s type providers! <a href="https://twitter.com/skillsmatter">@skillsmatter</a> <a href="https://twitter.com/hashtag/functionalpx?src=hash">#functionalpx</a> <a href="http://t.co/cFsxSNGG">pic.twitter.com/cFsxSNGG</a></p>&mdash; Anaïs (@AnaisatSM) <a href="https://twitter.com/AnaisatSM/status/180676588629803008">March 16, 2012</a></blockquote>
+                </div>
                 <p class="buttons">
                   <a href="workshops/type-providers.html" class="btn btn-primary" role="button">Details</a>
                   <a href="https://www.pluralsight.com/courses/accessing-data-fsharp-type-providers" class="btn btn-success" role="button">Attend online</a>
@@ -193,20 +210,23 @@
             </div>
             </section>
             <section itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
-            <div class="col-sm-6">
-                <h2 itemprop="name">Functional web development</h2>
-                <p itemprop="description">
-                  One of the myths about F# and functional programming is that it is only good for complex mathematics.
-                  This could not be further from truth. A web server is essentially a function from a request to a response
-                  and so functional programming is a perfect fit for it.
-                </p><p>
-                  In this workshop, you'll learn all you need to get started with building web applications in F# using the
-                  Suave.io server. By the
-                  end of the workshop, you'll write a application that accesses multiple external data sources asynchronously,
-                  presents data through a web page and can be easily deployed to Azure or Heroku.                </p>
-                <p class="buttons">
-                  <a href="mailto:info@fsharpworks.com" class="btn btn-success" role="button">Contact us</a>
-                </p>
+            <div class="col-sm-6" >
+              <h2 itemprop="name"><a itemprop="url" href="workshops/finance.html">F# in Finance</a></h2>
+              <p itemprop="description">
+                Functional-first programming in F# is an effective tool for solving complex problems that often arise in financial computing. The strong typing of F# provides important correctness guarantees and means that numeric code written in F# runs efficiently.</p><p>Furthermore, a number of case-studies show that F# significantly reduces time-to-market, especially in the financial domain.
+The course is practically focused. Throughout the course, we look at examples of time-series analysis, modelling and pricing of stock options and more.
+              </p>
+              <div class="tweet">
+                <br />
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Really enjoying the <a href="https://twitter.com/QuantsHub">@Quantshub</a> course on F# in Finance by <a href="https://twitter.com/tomaspetricek">@tomaspetricek</a>. It&#39;s week 2 and I am already learning things I didn&#39;t know <a href="https://twitter.com/hashtag/Fsharp?src=hash">#Fsharp</a></p>&mdash; Kevin Ashton (@ashtonkj) <a href="https://twitter.com/ashtonkj/status/528055316295192578">October 31, 2014</a></blockquote>
+                <br />
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I highly recommend taking  <a href="https://twitter.com/tomaspetricek">@tomaspetricek</a> course if you&#39;re looking to jump start your <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> skills. I was great. <a href="https://t.co/CrIkdRBHPP">https://t.co/CrIkdRBHPP</a></p>&mdash; Gene Chiaramonte (@waahhoo) <a href="https://twitter.com/waahhoo/status/730361285473243141">May 11, 2016</a></blockquote>
+                <br />
+              </div>
+              <p class="buttons">
+                <a href="workshops/finance.html" class="btn btn-primary" role="button">Details</a>
+                <a href="http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek" class="btn btn-success" role="button">Attend online</a>
+              </p>
             </div>
             </section>
         </div>
@@ -223,6 +243,35 @@
         </div>
     </footer>
 
+    <!-- 
+    
+    Machine learning
+    ================
+
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Attended fabulous workshop in F# and Machine Learning, listening to <a href="https://twitter.com/ptrelford">@ptrelford</a> ! Thank you for invite <a href="https://twitter.com/IrisClasson">@IrisClasson</a> ! <a href="http://t.co/hGcX2wKP4I">pic.twitter.com/hGcX2wKP4I</a></p>&mdash; Ronny (@Qezlot) <a href="https://twitter.com/Qezlot/status/456569623987490816">April 16, 2014</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thx <a href="https://twitter.com/jayway">@jayway</a>, <a href="https://twitter.com/tomaspetricek">@tomaspetricek</a> and <a href="https://twitter.com/brandewinder">@brandewinder</a> for the ‘Machine Learning Workshop’ here in Stockholm. <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a></p>&mdash; Hans Sterby (@TigerHasse) <a href="https://twitter.com/TigerHasse/status/475984152609976320">June 9, 2014</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> day in Stockholm today, starting off with a sold out workshop at <a href="https://twitter.com/jayway">@jayway</a> with <a href="https://twitter.com/tomaspetricek">@tomaspetricek</a> and <a href="https://twitter.com/brandewinder">@brandewinder</a>!</p>&mdash; christian jacobsen (@chribben) <a href="https://twitter.com/chribben/status/475859046877368320">June 9, 2014</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Excellent Machine Learning and <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> workshop on day one of <a href="https://twitter.com/hashtag/dotnetfringe?src=hash">#dotnetfringe</a> by <a href="https://twitter.com/evelgab">@evelgab</a> &amp; <a href="https://twitter.com/brandewinder">@brandewinder</a> - many thanks.</p>&mdash; Dave Evans (@DaveDev) <a href="https://twitter.com/DaveDev/status/752295329446244356">July 11, 2016</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Great workshop on machine learning with <a href="https://twitter.com/evelgab">@evelgab</a> and <a href="https://twitter.com/brandewinder">@brandewinder</a> at <a href="https://twitter.com/dotnetfringe">@dotnetfringe</a></p>&mdash; Richard Beier (@rbeier) <a href="https://twitter.com/rbeier/status/752246320572735488">July 10, 2016</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Packed room for <a href="https://twitter.com/brandewinder">@brandewinder</a> and <a href="https://twitter.com/evelgab">@evelgab</a> 2 day <a href="https://twitter.com/hashtag/MachineLearning?src=hash">#MachineLearning</a> workshop at <a href="https://twitter.com/hashtag/ndcoslo?src=hash">#ndcoslo</a>  <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> <a href="https://t.co/BMIxITzxZV">pic.twitter.com/BMIxITzxZV</a></p>&mdash; Jamie Dixon (@jamie_dixon) <a href="https://twitter.com/jamie_dixon/status/739717451496165376">June 6, 2016</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Packed room for 2nd day of <a href="https://twitter.com/hashtag/machinelearning?src=hash">#machinelearning</a> in <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> workshop with <a href="https://twitter.com/brandewinder">@brandewinder</a> <a href="https://t.co/zr7YKSUKkl">pic.twitter.com/zr7YKSUKkl</a></p>&mdash; Pierre Irrmann (@pirrmann) <a href="https://twitter.com/pirrmann/status/668325258693378048">November 22, 2015</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I tried to crash <a href="https://twitter.com/brandewinder">@brandewinder</a>&#39;s Machine Learning workshop, but it&#39;s totally full! <a href="https://t.co/JEfjRTpNqx">pic.twitter.com/JEfjRTpNqx</a></p>&mdash; Rachel Reese (@rachelreese) <a href="https://twitter.com/rachelreese/status/667963923023470592">November 21, 2015</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Awesome workshop with <a href="https://twitter.com/brandewinder">@brandewinder</a> about ML and F#. Thanks!</p>&mdash; Javier de Frutos (@frotaelsubos) <a href="https://twitter.com/frotaelsubos/status/644165227962105856">September 16, 2015</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/brandewinder">@brandewinder</a> thanks for an amazing <a href="https://twitter.com/hashtag/buildstufflt?src=hash">#buildstufflt</a> workshop! Best one I&#39;ve been to in ages!</p>&mdash; Sam Elamin (@samelamin) <a href="https://twitter.com/samelamin/status/536547318775156737">November 23, 2014</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">ML coding at <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> meetup in Paris with <a href="https://twitter.com/brandewinder">@brandewinder</a> <a href="https://twitter.com/dotnetstation">@dotnetstation</a> at C17. Great workshop and host cc <a href="https://twitter.com/PMurasso">@PMurasso</a> <a href="http://t.co/mK5tL4ZRYx">pic.twitter.com/mK5tL4ZRYx</a></p>&mdash; Tomasz Jaskuλa (@tjaskula) <a href="https://twitter.com/tjaskula/status/409102393075589122">December 6, 2013</a></blockquote>
+
+    Scott's course
+    ==============
+
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Today&#39;s in-house <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> training: &quot;functional applicatives for validation&quot; - courtesy of <a href="https://twitter.com/ScottWlaschin">@ScottWlaschin</a> - looking forwards to that!</p>&mdash; Matt Ball (@MattDrivenDev) <a href="https://twitter.com/MattDrivenDev/status/362889439753678848">August 1, 2013</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">had a great time with <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> workshop at <a href="https://twitter.com/ncraftsConf">@ncraftsConf</a>.so thanks to <a href="https://twitter.com/ScottWlaschin">@ScottWlaschin</a> for the workshop + the awesome demo solution, it´s a gem!</p>&mdash; Norman Mendel (@N0_M3) <a href="https://twitter.com/N0_M3/status/601114506870321152">May 20, 2015</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Had a great F# workshop today at the Lakeside with the guru that is <a href="https://twitter.com/ScottWlaschin">@ScottWlaschin</a>.  Thanks Scott .. <a href="https://twitter.com/hashtag/fsharpforfunandprofit?src=hash">#fsharpforfunandprofit</a></p>&mdash; Alan Green (@alanmgreen) <a href="https://twitter.com/alanmgreen/status/387292240889921537">October 7, 2013</a></blockquote>
+
+    Tomas' at Jet
+    =============
+
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I really enjoyed <a href="https://twitter.com/tomaspetricek">@tomaspetricek</a>&#39;s at <a href="https://twitter.com/JetTechnology">@JetTechnology</a> today. It was lots of fun exploring <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> for beginners and experts alike.</p>&mdash; Brian Mitchell (@cddddr) <a href="https://twitter.com/cddddr/status/745697356591554560">June 22, 2016</a></blockquote>
+    -->
 
     <!-- Bootstrap core JavaScript -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

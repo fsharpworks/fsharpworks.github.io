@@ -25,42 +25,50 @@
     <![endif]-->
 </head>
 
-<body>
-
-    <div class="navbar-inner">
-        <div class="container">
-            <div class="row header">
-                <div class="col-lg-3 col-md-4">
-                    <img src="../images/fsharp_works_logo_50.png" class="img-responsive" />
-                </div>
-                <div class="col-lg-5 col-md-6 header-tagline2">
-                    <h2 class="header-tagline2">The safe choice for functional-first development</h2>
-                </div>
+<body itemscope itemtype="http://schema.org/Service">
+    <div class="container">
+        <div class="row header fw-logo">
+            <div class="col-lg-6 col-md-8">
+                <img itemprop="image" src="http://fsharpworks.imgix.net/fsharp_works_logo_100.png" alt="fsharpWorks logo" class="img-responsive" />
             </div>
-            <div class="row fw-sm-header">
-                <ul class="nav nav-tabs">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../workshops.html">Our Workshops</a></li>
-                    <li><a href="../team.html">Our Team</a></li>
-                    <li><a href="../testimonials.html">Testimonials</a></li>
-                    <li class="pull-right"><a href="mailto:info@fsharpworks.com"><i class="fa fa-envelope"></i>&nbsp; Contact Us</a></li>
-                    <li class="pull-right"><a href="https://twitter.com/fsharpWorks"><i class="fa fa-twitter"></i>&nbsp; Folow Us</a></li>
-                </ul>
+            <div class="col-lg-6 col-md-4 header-tagline">
+                <h2 class="header-tagline">The safe choice for functional-first development</h2>
             </div>
         </div>
     </div>
 
-    <div class="container fw-content" itemscope itemtype="http://schema.org/Service">
+    <div class="fw-photos fw-photos-subtle">
+    <div id="fworks-banner" class="carousel slide" data-ride="carousel">
+      <!-- Content -->
+      <div class="carousel-inner" role="listbox">
+        <div class="img4 item active"></div>
+      </div>
+      <div class="overlay2">
+      <div class="container">
+          <div class="row fw-header">
+              <ul class="nav nav-pills">
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="../workshops.html">Workshops</a></li>
+                  <li><a href="../materials.html">Books and talks</a></li>
+                  <li><a href="../testimonials.html">Testimonials</a></li>
+                  <li><a href="../survey.html">Survey</a></li>
+                  <li><a href="../team.html">About us</a></li>
+              </ul>
+          </div>
+      </div>
+      </div>
+      <div class="overlay">
+        <p itemprop="description">
+          Learn how to easily process XML documents and call JSON-based REST services using F# type providers, how to package your F# code into a reusable .NET library, and how to integrate it into a C# ASP.NET application.
+        </p>
+  <p>
+    <a href="mailto:info@fsharpworks.com"><i class="fa fa-envelope"></i> On-site training</a>
+    &#160;&#160;&#160;<a href="https://www.pluralsight.com/courses/accessing-data-fsharp-type-providers"><i class="fa fa-arrow-circle-right"></i> Attend on-line</a>
+  </p>
+      </div>
+    </div></div>
 
-        <div class="row fw-statement">
-                <p itemprop="description">
-                  Learn how to easily process XML documents and call JSON-based REST services using F# type providers, how to package your F# code into a reusable .NET library, and how to integrate it into a C# ASP.NET application.
-                </p>
-          <p>
-            <a href="mailto:info@fsharpworks.com"><i class="fa fa-envelope"></i> On-site training</a>
-            &#160;&#160;&#160;<a href="https://www.pluralsight.com/courses/accessing-data-fsharp-type-providers"><i class="fa fa-arrow-circle-right"></i> Attend on-line</a>
-          </p>
-        </div>
+    <div class="container fw-content">
 
         <div class="row">
           <div class="col-md-12" style="margin:30px 0px 20px 0px">
@@ -97,7 +105,12 @@
                     A brief theoretical introduction to every concept will be followed by numerous practical demos and exercises. At the end of the first day, you&#39;ll leave with a complete real-world F# application. In the second day, we&#39;ll solve a number of complex problems in concurrent and data-oriented programming.
                 </p>
                 
-                <p class="text-center" style="margin-top:140px;">
+                <h3>What viewers say</h3>
+                <div style="margin:20px 0px 20px 0px" class="tweet">
+                  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Great course from <a href="https://twitter.com/tomaspetricek">@tomaspetricek</a> about <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> data type providers on <a href="https://twitter.com/pluralsight">@pluralsight</a> Thanks for this <a href="https://twitter.com/hashtag/studyyear?src=hash">#studyyear</a></p>&mdash; Jarda Jirava (@jiravanet) <a href="https://twitter.com/jiravanet/status/683916465867722757">January 4, 2016</a></blockquote>              
+                </div>
+              
+                <p class="text-center">
                     <a href="https://pluralsight.com/">In partnership with Pluralsight.<br />
                         <img src="../images/pluralsight.png" style="margin-top:10px" /></a>
                 </p>
@@ -154,7 +167,6 @@
                 
             </div>
         </div>
-
     </div>
     <!-- /container -->
 

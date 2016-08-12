@@ -28,7 +28,6 @@ h2 {
 h3 {
   font-size:150%;
 }
-
 .fw-statement
 {
   background: #f0f0f0;
@@ -106,12 +105,19 @@ code
   font-size:110%;
   font-weight:bold;
 }
-.fw-header li {
-  margin-right:10px;
+@media (max-width: 768px) {
+  .fw-header li { float:none; text-align:left; }
+  .fw-header li a { margin:0px 30px 0px 30px; padding:10px 10px 10px 10px; }
 }
-.fw-header li a {
-  padding:10px 22px 10px 22px;
+@media (min-width: 768px) {
+  .fw-header li { margin-right:5px; }
+  .fw-header li a { padding:10px 10px 10px 10px; }
 }
+@media (min-width: 992px) {
+  .fw-header li { margin-right:10px; }
+  .fw-header li a { padding:10px 22px 10px 22px; }
+}
+
 .fw-sm-header .pull-right a {
   padding:10px 8px 10px 8px;
 }
@@ -132,9 +138,19 @@ code
   margin:0px 2px 0px 2px;
 }
 .fw-workshops .buttons {
-  text-align:right;
+  text-align:left;
+  margin-left:20px;
+}
+.fw-workshops .tweet {
+  margin:30px 0px 0px 0px;
 }
 
+.tweet twitterwidget  {
+  margin:0px auto 0px auto;
+}
+.fw-workshops .courses {
+  margin-bottom:20px;
+}
 .fw-workshops .btn {
     min-width:100px;
     margin:10px 0px 10px 10px;
@@ -150,7 +166,6 @@ code
   font-size:135%;
   margin-top:30px;
 }
-
 .fw-materials {
   margin-top:25px;
 }
@@ -207,9 +222,14 @@ code
   text-align:center;
   width:100%;
 }
-.fw-photos .overlay {
+.fw-photos-hp .overlay {
   font-size:16pt;
   background:rgba(255,255,255,0.8);
+  padding:20px 40px 20px 40px;
+}
+.fw-photos-subtle .overlay {
+  font-size:14pt;
+  background:rgba(255,255,255,0.9);
   padding:20px 40px 20px 40px;
 }
 .fw-photos .overlay h2 {
@@ -233,38 +253,19 @@ code
 }
 @media (min-width: 768px) {
   .fw-photos .carousel-inner .item { height:500px; }
-  .fw-photos .overlay {
-    background:rgba(255,255,255,0.65);
-    position:absolute;
-    top:10%;
-    right:5%;
-    width:60%;
-    font-size:16pt;
-  }
-  .fw-photos .overlay2 {
-    background:rgba(255,255,255,0.75);
-    position:absolute;
-    bottom:0px;
-  }
+  .fw-photos-hp .overlay { background:rgba(255,255,255,0.65); position:absolute; top:10%; right:5%; width:60%; font-size:16pt; }
+  .fw-photos-subtle .overlay { background:rgba(255,255,255,0.8); position:absolute; top:10%; right:5%; width:90%; font-size:16pt; }
+  .fw-photos .overlay2 { background:rgba(255,255,255,0.8); position:absolute; bottom:0px; }
 }
 @media (min-width: 992px) {
-  .fw-photos .carousel-inner .item { height:600px; }
-  .fw-photos .overlay {
-    position:absolute;
-    top:10%;
-    right:5%;
-    width:60%;
-    font-size:18pt;
-  }
+  .fw-photos-hp .carousel-inner .item { height:600px; }
+  .fw-photos-subtle .carousel-inner .item { height:400px; }
+  .fw-photos-hp .overlay { position:absolute; top:10%; right:5%; width:60%; font-size:18pt; }
+  .fw-photos-subtle .overlay { position:absolute; top:10%; right:5%; width:90%; font-size:17pt; }
 }
 @media (min-width: 1200px) {
-  .fw-photos .overlay {
-    position:absolute;
-    top:10%;
-    right:5%;
-    width:40%;
-    font-size:20pt;
-  }
+  .fw-photos-hp .overlay { position:absolute; top:10%; right:5%; width:40%; font-size:20pt; }
+  .fw-photos-subtle .overlay { position:absolute; top:10%; right:5%; max-width:1000px; width:75%; font-size:18pt; }
 }
 .fw-photos .img1 { background-image:url('http://fsharpworks.imgix.net/hp/1.jpg') !important; }
 .fw-photos .img2 { background-image:url('http://fsharpworks.imgix.net/hp/2.jpg') !important; }
