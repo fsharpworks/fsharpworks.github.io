@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+   
+<div class="fw-photos fw-photos-subtle">
+<div id="fworks-banner" class="carousel slide" data-ride="carousel">
+  <!-- Content -->
+  <div class="carousel-inner" role="listbox">
+     <div class="{{ page.bannerImage }} item active"></div>
+  </div>
+
+  {% include navbar.inc %}
+
+
+    <div class="overlay">
+    {% if page.banner1 %}
+    <p>{{ page.banner1 }}</p>
+    {% endif %}
+    {% if page.banner2 %}
+    <p>{{ page.banner2 }}</p>
+    {% endif %}
+    </div>
+
+</div>
+</div>
+
+
+<div class="container">
+    {{ content }}
+</div> <!-- /container -->
+

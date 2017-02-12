@@ -1,1 +1,3 @@
-/_junk
+_site
+.sass-cache
+.jekyll-metadata
