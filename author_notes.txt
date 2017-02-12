@@ -1,6 +1,9 @@
 Files should be encoded as UTF-8 no BOM (BOM causes jekyll error)
 
-Use relative paths for links and images so that sit can be tested locally.
+In the templates you must use absolute paths for CSS/images/other pages because pages are at different levels.
+Which implies -- when testing, use `jekyll serve` rather than just opening page in browser.
+
+But in the page itself you can use relative paths for links and images.
 
 html tags with markdown="1" are used for bootstrap rows (see index.md for lots of examples)
 When mixing markdown and HTML, html tags MUST start on left margin
