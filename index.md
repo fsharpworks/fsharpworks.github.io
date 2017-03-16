@@ -55,6 +55,34 @@ are proud to support the F# Software Foundation as silver sponsors.
 
 # Upcoming events
 
+### Mini NDC - Copenhagen, February 22-24
+
+<div class="row" markdown="1">
+<div class="col-sm-10">
+
+Mathias will be teaming up with Evelina Gabasova, for 2 days of hands-on 
+machine learning with F#.
+
+</div>
+<div class="col-sm-2">
+<a href="http://cph.ndcmini.com/workshop/practical-machine-learning-with-functional-programming/" class="btn btn-primary" role="button">Register</a>
+</div>
+</div>
+
+### Practical Machine Learning with Functional Programming - Kongsberg, February 26-27
+
+<div class="row" markdown="1">
+<div class="col-sm-10">
+
+In this 100% hands-on workshop, learn practical ideas from Machine Learning, 
+by tackling real-world problems and implementing solutions in F#, in a functional style.
+
+</div>
+<div class="col-sm-2">
+<a href="http://programutvikling.no/en/course/practical-machine-learning-with-functional-programming-1/" class="btn btn-primary" role="button">Register</a>
+</div>
+</div>
+ 
 ### NDC London - London, January 16-20
 
 <div class="row" markdown="1">
