@@ -261,5 +261,255 @@ and learn some practical machine learning on real-world datasets (with plenty of
 </div> <!-- END # Col -->
 </div> <!-- END # Row -->
 
-        
-  
+<div class="row fw-events">
+  <h1 style="margin:20px 0px 0px 15px">Past events</h1>
+  <div class="col-sm-4">
+
+    <h3>December 11-15 2016, Rishon Le-Ziyon</h3>
+    <p>
+    Mathias taught a one-day initiation to Machine Learning with F# at SELA, 
+    and presented at the SELA Developer Practice conference. 
+    </p>
+
+    <h3>December 5-6, 2016, London</h3>
+    <p>
+    The fsharpWorks team collaborated with Skillsmatter on Progressive F# Tutorials, 
+    a two-day event full of hands-on tutorials!
+    </p>
+
+    <h3>November 19-20 2016, Tokyo</h3>
+    <p>F# Bootcamp in Tokyo with Tomas!
+    </p>
+
+    <h3>October 17-18 2016, Oslo</h3>
+    <p>Two-day of hands-on Machine Learning with F#, with Mathias and Evelina Gabasova!
+    </p>
+
+    <h3>October 15 2016, Gdansk</h3>
+    <p>
+      Mathias gave a keynote on Machine Learning and F# at Get.NET.
+    </p>
+
+    <h3>September 19-20 2016, London</h3>
+    <p>Tomas and Phil ran their 2-day intensive F# training.
+    </p>
+
+    <h3>June 23 2016, New York</h3>
+    <p>Tomas hosted a 1-day hands-on workshop on asynchronous web development
+      using F# and Suave at <a href="http://tech.jet.com/">Jet.com</a>.</p>
+
+   	<h3>June 22-24 2016, London</h3>
+    <p>Phil did a half-day tutorial on compliler writing, parsing and code generation
+      at the Progressive .NET tutorials</p>
+
+    <h3>June 30 2016, London</h3>
+    <p>Phil and Tomas did a 2-day training at SkillsMatter with a free evening
+      user group talk on hacking web stuff with F#, Suave and Fable.</p>
+
+    <h3>June 6-7 2016, Oslo</h3>
+    <p>
+      Mathias did a two-day joint workshop with Evelina Gabasova at NDC Oslo.
+      Check out <a href="workshops.html">our workshops</a> to learn more about it.
+    </p>
+
+    <h3>June 8-10, Oslo</h3>
+    <p>Scott and Tomas talked at NDC Oslo on a range of topics including big time-series
+      data processing and parser combinators. The fsharpWorks team also hosted FP labs
+      during the lunch breaks.</p>
+
+    <h3>May 12-13, 2016, Paris</h3>
+    <p>Mathias was in Paris for NCrafts, speaking about running
+      machine learning experiments in an agile fashion.</p>
+
+    <h3>April 15, 2016, London</h3>
+    <p>We helped to organize F# eXchange, the largest F# conference
+      with one day of talks and a community hackathon.</p>
+
+    <h3>April 15, 2016, MLConf NYC</h3>
+    <p>Mathias talked about F#, machine learning and distributed
+      computing at MLConf in New York.</p>
+
+    <h3>April 13-14, 2016, London</h3>
+    <p>Tomas a delivered 2-day intensive F# training at SkillsMatter in London.
+      Learn <a href="workshops/fast-track.html">more about the training</a> and
+      join us next time.</p>
+
+
+    <h3>March 28, 2016, QCon SP</h3>
+    <p>Tomas did a talk on web development with F# and a joint hands-on
+      workshop on ployglot data science at the QCon conference in  São Paulo Brazil.</p>
+
+    <h3>February 17, Kraków</h3>
+    <p>Tomas taught our <a href="http://fsharpworks.com/workshops.html">1-day workshop on functional web development</a> with
+        Suave.io and F# in Kraków in Poland.
+        </p>
+
+    <h3>January 2016, NDC London</h3>
+    <p>
+      The fsharpWorks team was at NDC and Scott Wlaschin did a
+      one-day pre-conference workshop called Introduction to Functional
+      Programming Concepts.
+    </p>
+
+    <h3>December 7-8, 2015, London</h3>
+    <p>We helped organize the Progressive F# Tutorials with SkillsMatter
+      and Tomas did a 3 hour workshop on functional web development.
+    </p>
+
+  </div>
+  <div class="col-sm-4">
+    <h3>November 18-20, 2015, Vilnius</h3>
+    <p>
+      Phil and Mathias spoke and ran workshops at BuildStuff covering
+      F#, machine learning and cloud programming!
+    </p>
+
+    <h3>October 10, 2015, Stockholm</h3>
+    <p>Scott talked on "Dr Frankenfunctor and the terrible Monadster" at Leetspeak,
+       an intimate and highly recommended conference in Sweden.
+    </p>
+
+    <h3>September 16, 2015, Kraków</h3>
+    <p>
+      Tomas and Mathias talked about F#, data science, type providers
+      and machine learning at the DevDay conference in Kraków.
+    </p>
+
+    <h3>July 1-3, 2015, London</h3>
+    <p>Phil and Scott gave hands-on tutorials at Progressive .NET Tutorials, an independent
+      conference, crafted for and by the .NET community. Read more at
+        <a href="https://skillsmatter.com/conferences/6859-progressive-dotnet-2015">SkillsMatter</a>
+        web site.</p>
+
+    <h3>June 22, 2015, Cambridge</h3>
+    <p>
+      Scott talked about domain modelling in F# at the
+        <a href="http://www.meetup.com/Cambridge-F-Community/events/222419831/">F# Meetup</a>
+        in Cambridge.
+    </p>
+
+    <h3>June 15-19, 2015, Oslo</h3>
+    <p>
+      The team from fsharpWorks was at NDC Oslo, talking about web development, type-driven
+      development and F#. Read more at <a href="http://ndcoslo.com">NDC web site</a>.
+    </p>
+
+    <h3>June 12, 2015, London</h3>
+    <p>Scott talked about domain modelling in F# at DDD eXchange at SkillsMatter.
+      Read <a href="https://skillsmatter.com/conferences/6453-ddd-exchange-2015">more</a>.
+    </p>
+
+    <h3>May 21-22, 2015, Paris</h3>
+    <p>fsharpWorks hosted a special F# track at the NCrafts conference with
+      talks from Tomas, Mathias, Phil and other F# experts. Read
+        <a href="http://ncrafts.io/">more</a>.</p>
+
+    <h3>May 18-19, 2015, Benelux</h3>
+    <p>Scott talked about domain modelling at user groups in Leuven and Utrecht.
+      See <a href="http://devnology.nl/en/meetings/details/85-domain-modelling-with-the-f-type-system">Utrecht</a>
+      and <a href="http://www.meetup.com/dddbelgium/events/220803108/">Leuven</a> meetups.</p>
+
+    <h3>April 17, 2015, London, </h3>
+    <p>
+      Tomas, Scott and Phil spoke at the first F# eXchange conference. Videos are online.
+      (<a href="https://skillsmatter.com/conferences/6724-fsharp-exchange-2015#program" >link</a>)
+    </p>
+
+
+    <h3>March 14 2015, Dublin</h3>
+    <p>
+    Scott did a full day workshop on "An introduction to functional programming / Domain modelling the functional way" for the
+    female-friendly Coding Grace community in Dublin.
+    (<a href="http://www.codinggrace.com/events/introduction-f-scott-wlaschin/41/" >link</a>)
+    </p>
+
+    <h3>March 10 2015, Dublin</h3>
+    <p>
+    Scott talked about functional programming at the Functional Kats meetup in Dublin.
+    (<a href="http://www.meetup.com/FunctionalKats/events/219228537/" >link</a>)
+    </p>
+
+    <h3>February 26-27 2015, Kraków</h3>
+    <p>Tomas talked about Literate Programming with F# at the LambdaDays conference.
+      See <a href="http://tpetricek.github.io/Talks/2015/literate-programming/krakow">slides</a> and
+      <a href="https://github.com/tpetricek/Talks/tree/master/2015/literate-programming">source</a></p>
+
+
+  </div>
+  <div class="col-sm-4">
+
+    <h3>January 20 2015, Southampton</h3>
+    <p>Scot talked about Functional Design patterns at the Southampton user group.
+      <a href="http://www.meetup.com/Functional-South-Coast/events/219198649/">Details</a>
+    </p>
+
+    <h3>December 1-5 2014, NDC London</h3>
+    <p>Phil, Scott and Mathias did a number of talks
+      at the conference.
+    <a href="http://vimeo.com/ndcoslo">Watch recordings</a>
+    </p>
+
+    <h3>December 8-9 2014, Oslo</h3>
+    <p>
+      Mathias did a 2-day workshop on F# and Machine Learning, and a talk at the user group.
+      <a href="http://www.programutvikling.no/kurs/f-via-machine-learning-mathias-brandewinder/5571">Details</a>
+    </p>
+
+    <h3>November 18-22 2014, BuildStuff</h3>
+    <p>
+      Phil, Scott, Tomas and Mathias talked and delivered
+      workshops at the conference. <a href="http://buildstuff.lt/">Details</a>
+    </p>
+
+
+    <h3>November 5-7 2014, London</h3>
+    <p>
+        Phil, Scott, Mathias and Tomas will all be running tutorials at Progressive F# Tutorials in London. Come to see us!
+        <a href="https://skillsmatter.com/conferences/1926-progressive-f-tutorials-2014">Details</a>
+    </p>
+
+    <h3>November 4 2014, Aarhus</h3>
+    <p>
+        Mathias and Tomas did a one-day workshop and spoke at the local user group.
+        <a href="https://www.eventbrite.com/e/f-via-machine-learning-tickets-13055813289">Details</a>
+    </p>
+
+
+    <h3>October 2-3 2014, Prog F# NYC</h3>
+    <p>
+        Mathias and Scott presented tutorials and coding dojos at Progressive F# Tutorials in New York. Come to see us!
+        <a href="https://skillsmatter.com/conferences/1886-progressive-f-tutorials-nyc-2014">Details</a>
+    </p>
+
+
+    <h3>July 23 2014, LambdaJam Chicago</h3>
+    <p>
+      Tomas and Mathias did a workshop "F# and data science: A match made in heaven".
+      <a href="https://a.confui.com/-NoGbZHuv">Details</a>
+    </p>
+
+    <h3>June 27 2014, Paris </h3>
+    <p>
+        The fsharpWorks team hosted a one-day F# mini conference in Paris, with speakers and mini-workshops.
+        <a href="paris/2014.html">More Information</a>.
+    </p>
+
+    <h3>June 19-20 2014, London</h3>
+    <p>
+        Tomas and Scott presented the two day course "Fast Track to F#" at Skills Matter in London.
+        <a href="https://skillsmatter.com/courses/473-tomas-petricek-phil-trelford-fast-track-to-fsharp">More information</a>.
+    </p>
+
+    <h3>June 9 2014, Stockholm</h3>
+    <p>
+        The fsharpWorks team presented a one day event on "Machine Learning with F#" in Stockholm.
+        <a href="http://www.eventbrite.com/e/machine-learning-with-f-tickets-11594646901">More information</a>.
+   </p>
+
+    <h3>June 4-6 2014, Oslo</h3>
+    <p>
+        Tomas, Mathias and Scott spoke at <a href="http://www.ndcoslo.com/">NDC 2014 conference in Oslo</a>.
+        See <a href="http://vimeo.com/ndcoslo">recorded talks at NDC web site</a>.
+    </p>
+  </div>
+</div>
