@@ -1,0 +1,22 @@
+Files should be encoded as UTF-8 no BOM (BOM causes jekyll error)
+
+In the templates you must use absolute paths for CSS/images/other pages because pages are at different levels.
+Which implies -- when testing, use `jekyll serve` rather than just opening page in browser.
+
+But in the page itself you can use relative paths for links and images.
+
+html tags with markdown="1" are used for bootstrap rows (see index.md for lots of examples)
+When mixing markdown and HTML, html tags MUST start on left margin
+
+
+YAML header for each page
+* title - page title
+* description - page title
+* nav - if set to "Home" the home button on nav bar is active. Ditto for "Materials", "Team", etc. See navbar.inc in /_includes/ 
+* layout - Which template for the page:
+     "page" - has a single banner image
+     "homepage" - has a carousel
+     The page templates are stored in /_layouts/
+* banner1 - html for banner line 1.      
+* banner2 - html for banner line 2. Inline HTML is OK but no double quotes (use singles)
+* bannerImage - CSS id of image for banner ("page" template only) - eg "img1" "img2"
