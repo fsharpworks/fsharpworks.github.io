@@ -40,7 +40,7 @@ into your software development mix, having written many of the definitive librar
 We think that F# is the best technology for you because it offers a unique combination of
 correctness, time to market, efficiency and an ability to handle complex problems.
 
-![F# Software Foundation](http://fsharpworks.imgix.net/fsharp_logo.png){:style="width:110px;float:right;margin:0px 0px 0px 15px"}
+![F# Software Foundation](https://fsharpworks.com/images/fsharp_logo.png){:style="width:110px;float:right;margin:0px 0px 0px 15px"}
 We are active members of the F# open-source community and we
 are proud to support the F# Software Foundation as silver sponsors.
 
@@ -192,14 +192,14 @@ research and many others.
 
 
 <div class="fw-logos fw-logos-hp">
-  <a href="https://www.bluemountaincapital.com/"><img src="http://fsharpworks.imgix.net/partners/bmc.png" alt="BlueMountain Capital logo" /></a>
-  <a href="http://www.danskebank.dk/"><img src="http://fsharpworks.imgix.net/partners/db.png" alt="Danske Bank logo" /></a>
-  <a href="http://www.genetec.com/"><img src="http://fsharpworks.imgix.net/partners/genetec.png" alt="Genetec logo" /></a>
-  <a href="http://www.microsoft.com/"><img src="http://fsharpworks.imgix.net/partners/msft.png" alt="Microsoft logo" /></a>
-  <a href="http://research.microsoft.com/"><img src="http://fsharpworks.imgix.net/partners/msr.png" alt="Microsoft Research logo" /></a>
-  <a href="http://www.skillsmatter.com/"><img src="http://fsharpworks.imgix.net/partners/skillsmatter.png" alt="Skills Matter logo" /></a>
-  <a href="http://www.webstep.no/"><img src="http://fsharpworks.imgix.net/partners/webstep.png" alt="Webstep logo"/></a>
-  <a href="http://broadrivercap.com/"><img src="http://fsharpworks.imgix.net/partners/broadriver.png" alt="BroadRiver logo"/></a>
+  <a href="https://www.bluemountaincapital.com/"><img src="https://fsharpworks.com/images/partners/bmc.png" alt="BlueMountain Capital logo" /></a>
+  <a href="http://www.danskebank.dk/"><img src="https://fsharpworks.com/images/partners/db.png" alt="Danske Bank logo" /></a>
+  <a href="http://www.genetec.com/"><img src="https://fsharpworks.com/images/partners/genetec.png" alt="Genetec logo" /></a>
+  <a href="http://www.microsoft.com/"><img src="https://fsharpworks.com/images/partners/msft.png" alt="Microsoft logo" /></a>
+  <a href="http://research.microsoft.com/"><img src="https://fsharpworks.com/images/partners/msr.png" alt="Microsoft Research logo" /></a>
+  <a href="http://www.skillsmatter.com/"><img src="https://fsharpworks.com/images/partners/skillsmatter.png" alt="Skills Matter logo" /></a>
+  <a href="http://www.webstep.no/"><img src="https://fsharpworks.com/images/partners/webstep.png" alt="Webstep logo"/></a>
+  <a href="http://broadrivercap.com/"><img src="https://fsharpworks.com/images/partners/broadriver.png" alt="BroadRiver logo"/></a>
 </div>
 
 </div> <!-- END # Col -->

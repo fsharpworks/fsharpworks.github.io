@@ -69,7 +69,7 @@ code
 }
 .logo
 {
-    background-image: url("http://fsharpworks.imgix.net/fsworks.png");
+    background-image: url("https://fsharpworks.com/images/fsworks.png");
 }
 
 .footer
@@ -267,11 +267,11 @@ code
   .fw-photos-hp .overlay { position:absolute; top:10%; right:5%; width:40%; font-size:20pt; }
   .fw-photos-subtle .overlay { position:absolute; top:10%; right:5%; max-width:1000px; width:75%; font-size:18pt; }
 }
-.fw-photos .img1 { background-image:url('http://fsharpworks.imgix.net/hp/1.jpg') !important; }
-.fw-photos .img2 { background-image:url('http://fsharpworks.imgix.net/hp/2.jpg') !important; }
-.fw-photos .img3 { background-image:url('http://fsharpworks.imgix.net/hp/3.jpg') !important; }
-.fw-photos .img4 { background-image:url('http://fsharpworks.imgix.net/hp/4.jpg') !important; }
-.fw-photos .img5 { background-image:url('http://fsharpworks.imgix.net/hp/5.jpg') !important; }
+.fw-photos .img1 { background-image:url('https://fsharpworks.com/images/hp/1.jpg') !important; }
+.fw-photos .img2 { background-image:url('https://fsharpworks.com/images/hp/2.jpg') !important; }
+.fw-photos .img3 { background-image:url('https://fsharpworks.com/images/hp/3.jpg') !important; }
+.fw-photos .img4 { background-image:url('https://fsharpworks.com/images/hp/4.jpg') !important; }
+.fw-photos .img5 { background-image:url('https://fsharpworks.com/images/hp/5.jpg') !important; }
 
 .fw-logos {
   text-align:center;
