@@ -42,7 +42,8 @@
     <meta name="twitter:image" content="https://fsharpworks.com/images/fsharp_works_logo_100.png">
     {% endif %}
     <meta name="twitter:site" content="@fsharpWorks">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}fsharpWorks: F# training and consulting">
+    <meta name="twitter:title" content="{% if page.title == '' %}{% else %}{{ page.title | escape }} | {% endif %}fsharpWorks: F# training and consulting">
+
     <meta name="twitter:description" content="{{page.description | escape}}">
     <meta name="twitter:image:alt" content="fsharpWorks logo">
 
