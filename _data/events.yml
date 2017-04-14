@@ -1,3 +1,37 @@
+- date: '2017-04-06'
+  until: '2017-04-07'
+  city: London
+  country: UK
+  summary: Phil and Tomas helped to run the F# eXchange and Tomas talked on async, observables and more.
+
+- date: '2017-02-07'
+  city: Pune
+  country: India
+  summary: Tomas paired up with Evelina Gabasova to talk about F#, data science and data visualization at ThoughtWorks Geek Night.
+
+- date: '2017-01-28'
+  city: London
+  country: UK
+  summary: Tomas talked about visualizing Olympic medals with F# and Fable at the London F# meetup.
+  
+- date: '2017-01-16'
+  until: '2017-01-20'
+  city: London
+  country: UK
+  summary: Scott, Tomas and Mathias covered functional programming, turtles, serverless and data science at NDC!
+ 
+- date: '2017-01-16'
+  until: '2017-01-20'
+  city: London
+  country: UK
+  summary: Scott, Tomas and Mathias covered functional programming, turtles, serverless and data science at NDC!
+
+- date: '2017-02-22'
+  until: '2017-02-24'
+  city: Copenhagen
+  country: Denmark
+  summary: Mathias teamed up with Evelina Gabasova, for 2 days of hands-on course on machine learning with F# at Mini NDC.
+
 - date: '2016-12-11'
   until: '2016-12-15'
   city: Rishon Le-Ziyon

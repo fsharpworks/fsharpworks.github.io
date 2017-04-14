@@ -55,74 +55,83 @@ are proud to support the F# Software Foundation as silver sponsors.
 
 # Upcoming events
 
-### Mini NDC - Copenhagen, February 22-24
+### NewCrafts Conference, May 18-19 2017, Paris
 
 <div class="row" markdown="1">
 <div class="col-sm-10">
 
-Mathias will be teaming up with Evelina Gabasova, for 2 days of hands-on 
-machine learning with F#.
+Scott, Mathias and Tomas will be speaking about F#, turtles, server-less architecture
+and different approaches to error handling at an independent and international software 
+development conference held annually in Paris.
 
 </div>
 <div class="col-sm-2">
-<a href="http://cph.ndcmini.com/workshop/practical-machine-learning-with-functional-programming/" class="btn btn-primary" role="button">Register</a>
+<a href="http://ncrafts.io/#speaker" class="btn btn-primary" role="button">Register</a>
 </div>
 </div>
 
-### Practical Machine Learning with Functional Programming - Kongsberg, February 26-27
+### Practical Machine Learning with Functional Programming, June 12-13 2017, Oslo
 
 <div class="row" markdown="1">
 <div class="col-sm-10">
 
-In this 100% hands-on workshop, learn practical ideas from Machine Learning, 
-by tackling real-world problems and implementing solutions in F#, in a functional style.
+Machine Learning and Functional Programming are both very hot topics these days; they are 
+also both rather intimidating for the beginner. In this workshop, we’ll take a 100% hands-on 
+approach, and learn practical ideas from Machine Learning, by tackling real-world problems 
+and implementing solutions in F#.
 
 </div>
 <div class="col-sm-2">
-<a href="http://programutvikling.no/en/course/practical-machine-learning-with-functional-programming-1/" class="btn btn-primary" role="button">Register</a>
+<a href="http://ndcoslo.com/workshop/practical-machine-learning-with-functional-programming/" class="btn btn-primary" role="button">Register</a>
 </div>
 </div>
- 
-### NDC London - London, January 16-20
+
+### NDC Oslo, June 14-16 2017, Oslo
 
 <div class="row" markdown="1">
-<div class="col-sm-10" markdown="1">
-Scott, Tomas and Mathias will be talking functional programming, turtles, 
-data visualization, serverless cloud architecture - and more!
-</div>
+<div class="col-sm-10">
 
+Scott and Mathias will be speaking at the NDC conference in Oslo! The fsharpWorks team
+will also help to host the functional programming office hours, a unique informal session 
+format where you can get all your questions answered!
+
+</div>
 <div class="col-sm-2">
-<a href="http://ndc-london.com/" class="btn btn-primary" role="button">Learn More</a>
+<a href="http://ncrafts.io/#speaker" class="btn btn-primary" role="button">Register</a>
 </div>
 </div>
 
-### Mini NDC - Copenhagen, February 22-24
+### F# FastTrack, Jul 17-18 2018, London
 
 <div class="row" markdown="1">
-<div class="col-sm-10" markdown="1">
-Mathias will be teaming up with Evelina Gabasova, for 2 days of hands-on 
-machine learning with F#.
-</div>
+<div class="col-sm-10">
 
+This intensive hands-on course by F# experts Tomas Petricek and Phil Trelford covers
+all you need to get started with F# in practice. You'll gain understanding of F# foundations
+and killer applications for F# in practice!
+
+</div>
 <div class="col-sm-2">
-<a href="http://cph.ndcmini.com/workshop/practical-machine-learning-with-functional-programming/" class="btn btn-primary" role="button">Register</a>
+<a href="https://skillsmatter.com/courses/473-tomas-petricek-phil-trelford-fast-track-to-fsharp" class="btn btn-primary" role="button">Register</a>
 </div>
 </div>
 
-### Practical Machine Learning with Functional Programming - Kongsberg, February 26-27
+### F# eXchange, Apr 5-6 2018, London
 
 <div class="row" markdown="1">
-<div class="col-sm-10" markdown="1">
-In this 100% hands-on workshop, learn practical ideas from Machine Learning, 
-by tackling real-world problems and implementing solutions in F#, in a functional style.
-</div>
+<div class="col-sm-10">
 
+The fsharpWorks team will be present at F# eXchange in 2018, a two-day conference in 
+London featuring F# talks and hands-on tutorials. Book your ticket 
+now to save with the early bird discount!
+
+</div>
 <div class="col-sm-2">
-<a href="http://programutvikling.no/en/course/practical-machine-learning-with-functional-programming-1/" class="btn btn-primary" role="button">Register</a>
+<a href="https://skillsmatter.com/conferences/9419-f-sharp-exchange-2018" class="btn btn-primary" role="button">Register</a>
 </div>
 </div>
 
-### F# in Finance - Available online
+### F# in Finance - Online
 
 <div class="row" markdown="1">
 <div class="col-sm-10" markdown="1">
@@ -137,7 +146,7 @@ The workshop teaches practical functional concepts, data analysis with F# and mo
 </div>
 </div>
 
-### Accessing Data with Type Providers - Available online
+### Accessing Data with Type Providers - Online
 
 <div class="row" markdown="1">
 <div class="col-sm-10" markdown="1">
