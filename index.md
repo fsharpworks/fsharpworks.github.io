@@ -73,6 +73,20 @@ are proud to support the F# Software Foundation as silver sponsors.
         <a href="{{ event.url }}" class="btn btn-primary" role="button">Register</a>
       </div>
       </div>
+      <script type="application/ld+json">
+      { 
+        "@context": "http://schema.org",
+        "@type": "EducationEvent",
+        "location": { "@type": "Place", "name": "{{ event.city }}, {{ event.country }}", "address": "{{ event.city }}, {{ event.country }}" },
+        "description": "{{ event.invite }}",
+        "name": "{{ event.event }}",
+        "startDate": "{{ event.date | date: "%F" }}",
+        "endDate": "{% if event.until <> nil %}{{ event.until | date: "%F" }}{% else %}{{ event.date | date: "%F" }}{% endif %}",
+        "url": "{{ event.url }}",
+        "image": "https://fsharpworks.com/images/hp/1.jpg",
+        "eventStatus": "http://schema.org/EventScheduled"
+      }
+      </script>      
     {% endif %}
   {% endfor %}
 

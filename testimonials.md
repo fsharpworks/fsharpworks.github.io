@@ -43,7 +43,7 @@ D.C.</a> and a frequent F# speaker. Joined Microsoft as a Technical Lead in 2013
 </div> <!-- END # Col -->
 <div class="col-md-9 fw-quotebody" markdown="1">
 
-Riccardo attended the <a href="/workshops/fast-track.html" itemprop="itemReviewed">FastTrack to F#</a>
+Riccardo attended the <a href="/workshops/fast-track.html">FastTrack to F#</a>
 course in New York in 2013. He has been an active community leader ever since, speaking about F#,
 concurrency, reactive programming, web and many other topics.
 
@@ -65,7 +65,7 @@ Research Software Development Engineer in the Adaptive Systems and Interaction G
 </div> <!-- END # Col -->
 <div class="col-md-9 fw-quotebody" markdown="1">
 
-Anne attended a private <span itemprop="itemReviewed">F# training</span> organised by fsharpWorks for Microsoft Research in 2015.
+Anne attended a private F# training organised by fsharpWorks for Microsoft Research in 2015.
 She builds systems that enable research in the areas of artificial intelligence and situated interaction. For
 more information <a href="http://research.microsoft.com/en-us/people/annelo/">see her Microsoft Research web site</a>.
 
@@ -86,7 +86,7 @@ Senior Software Development Engineer</span> at Microsoft Research, looking at ne
 </div> <!-- END # Col -->
 <div class="col-md-9 fw-quotebody" markdown="1">
 
-Jorgen attended a private <span itemprop="itemReviewed">F# training</span> organised by fsharpWorks for Microsoft in 2015. He is
+Jorgen attended a private F# training organised by fsharpWorks for Microsoft in 2015. He is
 Learn more about his work <a href="http://research.microsoft.com/en-us/people/jthelin/">from his Microsoft Research web page</a>!
 
 > “Some of the F# features just blew my mind. This course really helped open my eyes for what the language could do.”
@@ -110,7 +110,7 @@ F# MVP, experienced C# and F# consultant currently working on cloud-based softwa
 </div> <!-- END # Col -->
 <div class="col-md-9 fw-quotebody" markdown="1">
 
-Isaac attended the precursor of the <a href="/workshops/fast-track.html" itemprop="itemReviewed">FastTrack to F#</a> in 2012.
+Isaac attended the precursor of the <a href="/workshops/fast-track.html">FastTrack to F#</a> in 2012.
 He is now an F# MVP and a CTO of <a href="http://www.elastacloud.com/">ElastaCloud</a> which provides BigData solutions,
 including the F#-enabled <a href="https://www.briskengine.com/">Brisk engine</a> service.
 
