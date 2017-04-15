@@ -1,0 +1,175 @@
+- title: 'London F# eXchange 2017'
+  url: https://skillsmatter.com/conferences/8053-f-sharp-exchange-2017
+  details: >
+    The fsharpWorks team helped to organize the F# eXchange conference in London.
+    Watch Tomas Petricek's talk on [Observables, Events, Asynchronous Sequences and Other Wild Animals](https://skillsmatter.com/skillscasts/9835-observables-events-asynchronous-sequences-and-other-wild-animals).
+
+- title: Azure Functions with F#
+  url: http://brandewinder.com/2017/02/11/fsharp-azure-function-from-the-ground-up-part-1/
+  details: >
+    Mathias wrote a series of blog posts on implementing Azure Functions using F#. 
+    Get started with F# and server-less:
+    
+     * [Azure Function from the ground up (I.)](http://brandewinder.com/2017/02/11/fsharp-azure-function-from-the-ground-up-part-1/)
+     * [Azure Function from the ground up (II.)](http://brandewinder.com/2017/03/06/fsharp-azure-function-from-the-ground-up-part-2/ )
+     * [Azure Functions solution diagrams](http://brandewinder.com/2017/04/01/azure-function-app-diagram/)
+    
+- title: 'F# for Fun and Profit'
+  url: https://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/details
+  details: Scott Wlaschin released the blog posts from his F# for Fun and Profit web site as an e-book. Download it now and get into all the great F# articles offline!
+
+- title: Expressing Intent Workshop at Jet.com
+  url: https://tech.jet.com/blog/2016/07-13-workshop-recap-expressing-intent-f-tomas-petricek/
+  details: Tomas Petricek visited Jet.com and did a workshop on domain modelling and *expressing intent* with F#. Read more about the workshop in an awesome experience report from the attendees!
+            
+- title: Books and talks
+  url: materials.html
+  details: >
+    Check out our new page with books and high-quality talk recordings from fsharpWorks experts.
+
+      * [Getting started with F# in practice](materials.html#getting-started)
+      * [Machine learning and data science](materials.html#mlds)
+      * [Web development and cloud services](materials.html#web)
+      * [Using F# in the enterprise](materials.html#enterprise)
+      * [Functional, compilers & fun!](materials.html#fun)'
+                            
+- title: fsharpConf 2016
+  url: http://fsharpconf.com/
+  details: We were supporters of fsharpConf 2016, first live virtual F# conference done in partnership with Channel 9. [Watch the recordings!](https://channel9.msdn.com/events/FSharp-Events/fsharpConf-2016)
+
+- title: Accessing Data with Type Providers  on Pluralsight
+  url: https://www.pluralsight.com/courses/accessing-data-fsharp-type-providers)
+  details: Tomas published a new Pluralsight course on type providers. Watch the course to learn how to use F# to build a data access layer in a larger ASP.NET C# application!
+
+- title: Analyzing and Visualizing Data with F# by O'Reilly
+  url: http://www.oreilly.com/programming/free/analyzing-visualizing-data-f-sharp.csp)
+  details: In this free O'Reilly report, Tomas explains many of the key features of the F# language that make it a great tool for data science and machine learning.
+
+- title: 'F# + ML |> MVP Summit'
+  url: https://channel9.msdn.com/Events/FSharp-Events/fsharp-ML-MVP-Summit-2015)
+  details: >
+    Tomas and Mathias organized an F# and Machine Learning event at Microsoft MVP Summit. Check out the talk recordings!
+
+      * [Introduction and Doing Data Science with FsLab](https://channel9.msdn.com/Events/FSharp-Events/fsharp-ML-MVP-Summit-2015/WelcomeIntroduction-and-Doing-Data-Science-with-FsLab)
+      * [Crunching through big data with MBrace, Azure and F#](https://channel9.msdn.com/Events/FSharp-Events/fsharp-ML-MVP-Summit-2015/Crunching-through-big-data-with-MBrace-Azure-and-F)
+
+- title: Mathias' book is now available on Amazon
+  url: http://www.amazon.com/Machine-Learning-Projects-NET-Developers/dp/1430267674)
+  details: Mathias' book, "Machine Learning Projects for .NET Developers" (Apress), is out! [Get your copy from Amazon](http://www.amazon.com/Machine-Learning-Projects-NET-Developers/dp/1430267674) and learn some practical machine learning on real-world datasets (with plenty of F#), or [take a sneak peek at the code here](http://bit.ly/ml-projects).
+  
+- title: Video recordings from NDC 2015
+  url: http://lanyrd.com/2015/ndcoslo/coverage/
+  details:
+    <p>The fsharpWorks team did a number of talks at the NDC 2015 conference. Watch the recordings to learn more about our work:</p>
+    <ul>
+      <li><a href="https://vimeo.com/131196782">Enterprise Tic-Tac-Toe (Scott)</a>
+      <li><a href="https://vimeo.com/131641270">Functional Web Development (Tomas)</a>
+      <li><a href="https://vimeo.com/131637364">Crunching through big data (Mathias)</a>
+      <li><a href="https://vimeo.com/131640714">F# for C# Developers (Phil)</a>
+    </ul>
+
+- title: Tomas on F# at Channel 9
+  url: http://channel9.msdn.com/Blogs/Seth-Juarez/Making-the-Case-for-using-F-with-Tomas-Petricek
+  details:   
+    <p>Tomas visited Channel 9 in the Microsoft campus to do a mini series of video recordings on F#, working with types and
+      web programming. Watch the videos:</p>
+    <ul>
+      <li><a title="Making the Case for using F# with Tomas Petricek" href="http://channel9.msdn.com/Blogs/Seth-Juarez/Making-the-Case-for-using-F-with-Tomas-Petricek">Making the Case for using F#</a></li>
+      <li><a title="Domain Modeling in F# with Tomas Petricek" href="http://channel9.msdn.com/Blogs/Seth-Juarez/Domain-Modeling-in-F-with-Tomas-Petricek">Domain Modeling in F#</a></li>
+      <li><a title="Type Providers in F# with Tomas Petricek" href="http://channel9.msdn.com/Blogs/Seth-Juarez/Type-Providers-in-F-with-Tomas-Petricek">Type Providers in F#</a></li>
+      <li><a title="Deploying an F# Web Application with Suave" href="http://channel9.msdn.com/Blogs/Seth-Juarez/Deploying-an-F-Web-Application-with-Suave">Deploying an F# Web with Suave</a></li>
+    </ul>
+
+- title: F# and FsLab in Finance
+  url: http://tpetricek.github.io/Talks/2015/deedle-finance/toronto/
+  details: 
+    <p>Tomas traveled to Toronto and visited Citi and S&amp;P to talk about F# in Finance. The
+      slides discuss business motivations for F# and some of the interesting data-science
+      technologies available in F#.</p>
+
+- title: Videos from F# Exchange
+  url: https://skillsmatter.com/conferences/6724-fsharp-exchange-2015#program
+  details: Tomas, Scott and Phil spoke at the first F# eXchange conference.
+    All the talks were recorded. <a href="http://trelford.com/blog/post/FSharpEx.aspx">Phil's comments and links to the online videos</a>.
+
+- title: O'Reilly Webcasts by fsharpWorks
+  url: http://www.oreilly.com/pub/e/3340
+  details: <p>Scott did a 90 min webcast on "Domain Modelling with the F# Type System",
+    which has been recorded and <a href="http://www.oreilly.com/pub/e/3340">can be watched online</a>.</p>
+    <p>On the same day, Mathias did a web cast on "F# for the C# Developer", which
+      <a href="http://www.oreilly.com/pub/e/3343">is also available online</a>!</p>
+
+- title: The F# Path to Data Scripting Nirvana
+  url: http://channel9.msdn.com/Events/dotnetConf/2015/The-F-Path-to-Data-Scripting-Nirvana
+  details: <p>Tomas joined F# creator Don Syme and F# MVP Isaac Abraham to present at Microsoft
+      dotnetConf 2015, talking about working with data and cloud computing.</p>
+    <p><em>
+      There's never been an easier way to get up and running with data scripting and scalable compute in Visual Studio and Azure. Data and cloud scripting like you've never seen it before!
+    </em></p>
+
+- title: Functional Library Design
+  url: http://tomasp.net/blog/2015/library-layers
+  details: '<p>Tomas wrote a series about patterns in functional library design:
+      <a href="http://tomasp.net/blog/2015/library-layers/">multiple levels of abstraction</a>
+      and <a href="http://tomasp.net/blog/2015/library-frameworks/">composable libraries</a>.
+    </p>
+    <p><em>
+      "In the second article, I focus on how to design composable libraries and how (and why) to avoid callbacks in library design.
+      This boils down to one thing - build libraries rather than frameworks!"
+    </em></p>'
+
+- title: Enterprise Tic-Tac-Toe
+  url: http://fsharpforfunandprofit.com/posts/enterprise-tic-tac-toe/
+  details: <p>Scott does a walkthrough of a functional Tic-Tac-Toe design.</p>
+    <p>
+        <em>"This post is one of series in which I hope to close the gap between theory and
+            practice in functional programming. I pick a small project and show you my thought processes as I
+            go about designing and implementing it from beginning to end."
+      </em>
+    </p>
+
+- title: Is your programming language unreasonable?
+  url: http://fsharpforfunandprofit.com/posts/is-your-language-unreasonable
+  details: <p>Scott writes about why predictability of programming languages matters.</p>
+    <p>
+      <em>"Reasoning about the code" means that you can draw conclusions using only the information that you have
+        right in front of you, rather than having to delve into other parts of the codebase.
+        In other words, you can predict the behavior of some code just by looking at it."
+      </em>
+    </p>
+
+- title: Why you should learn F# in 2015 (and how)?
+  url: http://tomasp.net/blog/2015/why-fsharp-in-2015/index.html
+  details: 
+    <p>
+      Tomas writes about the most recent developments in the F# community and why
+      is now the best time to learn F#.
+    </p>
+    <p>
+      <em>I guess that it might be a bit too late for adding to your list of new year's resulution now.
+        But just if you still have an empty slot (or in case an originally taken slot has become
+        available), your new year's resolution should be to get into F#!</em>
+    </p>
+
+- title: First impressions with DiffSharp, an F# autodiff library
+  url: http://clear-lines.com/blog/post/First-impressions-with-DiffSharp-an-fsharp-autodiff-library.aspx
+  details: 
+    '<p>
+      Mathias shares his first impressions using DiffSharp, an autodiff library in F#.
+    </p>
+    <p>
+      <em>A few weeks ago, I came across DiffSharp, an automatic differentiation library in F#.
+      As someone who needs to deal with gradients and the like on a regular basis because they are
+      quite useful in machine learning and numerical methods, the project looked pretty interesting:
+      who wouldn’t want exact and efficient calculations of derivatives?</em>
+    </p>'
+
+- title: Progressive F# Tutorials London
+  url: http://trelford.com/blog/post/ProgFSharp14SM.aspx
+  details: 
+    <p>
+      Phil wrote a retrospective about Progressive F# Tutorials in London.
+    </p>
+    <p>
+      <em>Last week saw the fourth instalment of the annual Progressive F# Tutorials hosted at Skills Matter in London, with 8 sessions over 2 days and 2 tracks, to a full house.</em>
+    </p>

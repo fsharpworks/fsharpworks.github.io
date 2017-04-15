@@ -33,9 +33,7 @@ into your software development mix, having written many of the definitive librar
 
 </div>
 <div class="col-md-4"  markdown="1">
-
 # Our technology
-
 
 We think that F# is the best technology for you because it offers a unique combination of
 correctness, time to market, efficiency and an ability to handle complex problems.
@@ -213,59 +211,14 @@ research and many others.
 
 </div> <!-- END # Col -->
 <div class="col-sm-1"></div>
-<div class="col-sm-4 fw-past" markdown="1">
+<div class="col-sm-4 fw-past">
 
-# News and updates
+<h2>News and updates</h2>
+{% for item in site.data.news limit: 9 %}  
+  <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+  {{ item.details | markdownify }}
+{% endfor %}
 
-### [F# for Fun and Profit](https://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/details)
-
-Scott Wlaschin released the blog posts from his F# for Fun and Profit web site
-as an e-book. Download it now and get into all the great F# articles offline!
-
-### [Expressing Intent Workshop at Jet.com](https://tech.jet.com/blog/2016/07-13-workshop-recap-expressing-intent-f-tomas-petricek/)
-            
-Tomas Petricek visited Jet.com and did a workshop on domain modelling and 
-*expressing intent* with F#. Read more about the workshop in an awesome
-experience report from the attendees!
-            
-### [Books and talks](materials.html)
-
-Check out our new page with books and high-quality talk recordings from fsharpWorks experts.
-
-* [Getting started with F# in practice](materials.html#getting-started)
-* [Machine learning and data science](materials.html#mlds)
-* [Web development and cloud services](materials.html#web)
-* [Using F# in the enterprise](materials.html#enterprise)
-* [Functional, compilers & fun!](materials.html#fun)
-              
-              
-### [fsharpConf 2016](http://fsharpconf.com/)
-
-We were supporters of fsharpConf 2016, first live virtual F# conference
-done in partnership with Channel 9. [Watch the recordings!](https://channel9.msdn.com/events/FSharp-Events/fsharpConf-2016)
-
-### [Accessing Data with Type Providers  on Pluralsight](https://www.pluralsight.com/courses/accessing-data-fsharp-type-providers)
-
-Tomas published a new Pluralsight course on type providers. Watch the course to learn how to use F# to build a data access
-layer in a larger ASP.NET C# application!
-
-### [Analyzing and Visualizing Data with F# by O'Reilly](http://www.oreilly.com/programming/free/analyzing-visualizing-data-f-sharp.csp)
-
-In this free O'Reilly report, Tomas explains many of the key features of the F# language that make it a great tool for data science and machine learning.
-
-### [F# + ML |> MVP Summit](https://channel9.msdn.com/Events/FSharp-Events/fsharp-ML-MVP-Summit-2015)
-
-Tomas and Mathias organized an F# and Machine Learning event at Microsoft MVP Summit. Check out the talk recordings!
-
-* [Introduction and Doing Data Science with FsLab](https://channel9.msdn.com/Events/FSharp-Events/fsharp-ML-MVP-Summit-2015/WelcomeIntroduction-and-Doing-Data-Science-with-FsLab)
-* [Crunching through big data with MBrace, Azure and F#](https://channel9.msdn.com/Events/FSharp-Events/fsharp-ML-MVP-Summit-2015/Crunching-through-big-data-with-MBrace-Azure-and-F)
-
-### [Mathias' book is now available on Amazon](http://www.amazon.com/Machine-Learning-Projects-NET-Developers/dp/1430267674)
-
-Mathias' book, "Machine Learning Projects for .NET Developers" (Apress), is out!
-[Get your copy from Amazon](http://www.amazon.com/Machine-Learning-Projects-NET-Developers/dp/1430267674)
-and learn some practical machine learning on real-world datasets (with plenty of F#), or
-[take a sneak peek at the code here](http://bit.ly/ml-projects).
 
 </div> <!-- END # Col -->
 </div> <!-- END # Row -->
