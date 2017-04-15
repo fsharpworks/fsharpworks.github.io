@@ -1,3 +1,59 @@
+- event: NewCrafts
+  date: '2017-05-18'
+  until: '2017-05-19'
+  city: Paris
+  country: France
+  invite: Scott, Mathias and Tomas will be speaking about F#, turtles, server-less architecture
+    and different approaches to error handling at an independent and international software 
+    development conference held annually in Paris.
+  summary: Scott, Mathias and Tomas talked about F#, server-less and more at NewCrafts in Paris.
+  url: http://ncrafts.io/
+
+- event: Practical Machine Learning with Functional Programming
+  date: '2017-06-12'
+  until: '2017-06-13'
+  city: Oslo
+  country: Norway
+  invite: Machine Learning and Functional Programming are both very hot topics these days; they are 
+    also both rather intimidating for the beginner. In this workshop, we’ll take a 100% hands-on 
+    approach, and learn practical ideas from Machine Learning, by tackling real-world problems 
+    and implementing solutions in F#.
+  summary: Mathias taught a hands-on workshop on machine learning and fnctional programming at NDC Oslo.
+  url: http://ndcoslo.com/workshop/practical-machine-learning-with-functional-programming
+
+- event: NDC Oslo
+  date: '2017-06-14'
+  until: '2017-06-16'
+  city: Oslo
+  country: Norway
+  invite: Scott and Mathias will be speaking at the NDC conference in Oslo! The fsharpWorks team
+    will also help to host the functional programming office hours, a unique informal session 
+    format where you can get all your questions answered!
+  summary: Scott and Mathias talked at NDC Oslo and hosted the functional programming office hours session.
+  url: http://ndcoslo.com/
+
+- event: F# FastTrack
+  date: '2017-07-17'
+  until: '2017-07-17'
+  city: London
+  country: UK
+  invite: This intensive hands-on course by F# experts Tomas Petricek and Phil Trelford covers
+    all you need to get started with F# in practice. You'll gain understanding of F# foundations
+    and killer applications for F# in practice!
+  summary: Tomas taught the F# FastTrack course in London. Check out the <a href="https://fsharpworks.com/workshops/fast-track.html">course details</a> and contact us to join the next session!
+  url: https://skillsmatter.com/courses/473-tomas-petricek-phil-trelford-fast-track-to-fsharp
+
+- event: F# eXchange
+  date: '2018-04-05'
+  until: '2018-04-06'
+  city: London
+  country: UK
+  invite: The fsharpWorks team will be present at F# eXchange in 2018, a two-day conference in 
+    London featuring F# talks and hands-on tutorials. Book your ticket 
+    now to save with the early bird discount!
+  summary: The fsharpWorks team helped to organize and spoke at the F# eXchange 2018.
+  url: https://skillsmatter.com/conferences/9419-f-sharp-exchange-2018  
+  
 - date: '2017-04-06'
   until: '2017-04-07'
   city: London

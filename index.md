@@ -1,8 +1,8 @@
 ---
 layout: homepage
 title: ""
-description: "A team of F# experts that can offer you a complete range of services including F# training, consulting, and functional-first development."
-
+description: "A team of F# experts that can offer you a complete range of services 
+  including F# training, consulting, and functional-first development."
 nav: "Home"
 ---
 
@@ -15,7 +15,6 @@ We offer a complete range of services including training, F# consulting, and ful
 We believe strongly in the benefits of using F#, but we also understand the challenges
 around adding F# into your software development process.  Thats's why we offer training, support and other
 services to make your use of F# as painless as possible.
-
 
 [Read more about our workshops...](workshops.html)
 
@@ -48,155 +47,92 @@ are proud to support the F# Software Foundation as silver sponsors.
 </div>
 
 
-<div class="row fw-events" markdown="1">
-<div class="col-sm-7 fw-future" markdown="1">
+<div class="row fw-events">
+<div class="col-sm-7 fw-future">
 
-# Upcoming events
+  <h1>Upcoming events</h1>
 
-### NewCrafts Conference, May 18-19 2017, Paris
+  {% assign now = site.time | date: "%s" %}
+  {% assign events = site.data.events | sort: "date" %}  
+  {% for event in events %}  
+    {% assign ed = event.date | date: "%s" %}
+    {% if ed >= now %}
+      <div class="row">
+      <div class="col-sm-10">
+        <h3>{{ event.event }},
+        {% if event.until <> nil %}
+          {% assign m1 = event.date | date: "%b" %}
+          {% assign m2 = event.until | date: "%b" %}
+          {% if m1 == m2 %}{{ event.date | date: "%-d"}}-{{ event.until | date: "%-d"}} {{ event.date | date: "%b %Y"}}{% 
+             else %}{{ event.date | date: "%-d %b"}} - {{ event.until | date: "%-d %b %Y"}}{% endif %}{% 
+          else 
+        %}{{ event.date | date: "%-d %b %Y"}}{% endif %}, {{ event.city }}</h3>
+        <p>{{ event.invite }}</p>
+      </div>
+      <div class="col-sm-2">
+        <a href="{{ event.url }}" class="btn btn-primary" role="button">Register</a>
+      </div>
+      </div>
+    {% endif %}
+  {% endfor %}
 
-<div class="row" markdown="1">
-<div class="col-sm-10">
+  <h3>F# in Finance - Online</h3>
+  <div class="row">
+  <div class="col-sm-10">
+    <p>Join our 6-lecture online <a href="/workshops/finance.html">F# in Finance</a>
+    any time and follow at your own pace, or contact us to arrange a private training.
+    The workshop teaches practical functional concepts, data analysis with F# and more!</p>
+  </div>
+  <div class="col-sm-2">
+    <a href="http://quantshub.com/content/self-paced-f-and-functional-programming-finance-tomas-petricek" class="btn btn-success" role="button">Join</a>
+  </div>
+  </div>
 
-Scott, Mathias and Tomas will be speaking about F#, turtles, server-less architecture
-and different approaches to error handling at an independent and international software 
-development conference held annually in Paris.
+  <h3>Accessing Data with Type Providers - Online</h3>
+  <div class="row">
+  <div class="col-sm-10">
+    <p>In this Pluralsight course by Tomas, you will learn how to easily
+    call JSON-based REST services using type providers, package your F# code into a
+    reusable .NET library, and integrate it into a C# ASP.NET application.</p>
+  </div>
+  <div class="col-sm-2">
+    <a href="https://www.pluralsight.com/courses/accessing-data-fsharp-type-providers" class="btn btn-success" role="button">Join</a>
+  </div>
+  </div>
 
-</div>
-<div class="col-sm-2">
-<a href="http://ncrafts.io/#speaker" class="btn btn-primary" role="button">Register</a>
-</div>
-</div>
+  <h3>On-site Private Training</h3>
+  <div class="row">
+  <div class="col-sm-10">
+    <p>Do you want to gain practical hands-on F# skills? We offer private on-site trainings
+    and consulting to fit your needs.</p>
+  </div>
+  <div class="col-sm-2">
+    <a href="mailto:info@fsharpworks.com" class="btn btn-success" role="button">Contact us!</a>
+  </div>
+  </div>
 
-### Practical Machine Learning with Functional Programming, June 12-13 2017, Oslo
+<div class="fw-testimonials">
+  <h1>Training testimonials</h1>
+  <p>The fsharpWorks team has been providing F# trainings since 2011 and our attendees
+  include many F# community leaders. <a href="testimonials.html">Learn more on our testimonials page!</a></p>
 
-<div class="row" markdown="1">
-<div class="col-sm-10">
+  <p class="fw-quote">
+    "I attended a fsharpWorks 2-day F# course run by Phil and Tomas. (...) I would highly
+    recommend this course for software developers that want to learn how to solve problems
+    using functional programming techniques and quickly get up to speed with F#."
+  </p>
 
-Machine Learning and Functional Programming are both very hot topics these days; they are 
-also both rather intimidating for the beginner. In this workshop, we’ll take a 100% hands-on 
-approach, and learn practical ideas from Machine Learning, by tackling real-world problems 
-and implementing solutions in F#.
-
-</div>
-<div class="col-sm-2">
-<a href="http://ndcoslo.com/workshop/practical-machine-learning-with-functional-programming/" class="btn btn-primary" role="button">Register</a>
-</div>
-</div>
-
-### NDC Oslo, June 14-16 2017, Oslo
-
-<div class="row" markdown="1">
-<div class="col-sm-10">
-
-Scott and Mathias will be speaking at the NDC conference in Oslo! The fsharpWorks team
-will also help to host the functional programming office hours, a unique informal session 
-format where you can get all your questions answered!
-
-</div>
-<div class="col-sm-2">
-<a href="http://ncrafts.io/#speaker" class="btn btn-primary" role="button">Register</a>
-</div>
-</div>
-
-### F# FastTrack, Jul 17-18 2018, London
-
-<div class="row" markdown="1">
-<div class="col-sm-10">
-
-This intensive hands-on course by F# experts Tomas Petricek and Phil Trelford covers
-all you need to get started with F# in practice. You'll gain understanding of F# foundations
-and killer applications for F# in practice!
-
-</div>
-<div class="col-sm-2">
-<a href="https://skillsmatter.com/courses/473-tomas-petricek-phil-trelford-fast-track-to-fsharp" class="btn btn-primary" role="button">Register</a>
-</div>
-</div>
-
-### F# eXchange, Apr 5-6 2018, London
-
-<div class="row" markdown="1">
-<div class="col-sm-10">
-
-The fsharpWorks team will be present at F# eXchange in 2018, a two-day conference in 
-London featuring F# talks and hands-on tutorials. Book your ticket 
-now to save with the early bird discount!
-
-</div>
-<div class="col-sm-2">
-<a href="https://skillsmatter.com/conferences/9419-f-sharp-exchange-2018" class="btn btn-primary" role="button">Register</a>
-</div>
-</div>
-
-### F# in Finance - Online
-
-<div class="row" markdown="1">
-<div class="col-sm-10" markdown="1">
-
-Join our 6-lecture online [F# in Finance](/workshops/finance.html)
-any time and follow at your own pace, or contact us to arrange a private training.
-The workshop teaches practical functional concepts, data analysis with F# and more!
+  <p class="fw-quote-author">
+    <a href="https://twitter.com/isaac_abraham/">Isaac Abraham</a>, F# MVP<br />
+    Attended FastTrack to F# in 2012
+  </p>
 </div>
 
-<div class="col-sm-2">
-<a href="http://quantshub.com/content/self-paced-f-and-functional-programming-finance-tomas-petricek" class="btn btn-success" role="button">Join</a>
-</div>
-</div>
+<h1>Our customers and partners</h1>
 
-### Accessing Data with Type Providers - Online
-
-<div class="row" markdown="1">
-<div class="col-sm-10" markdown="1">
-In this Pluralsight course by Tomas, you will learn how to easily
-call JSON-based REST services using type providers, package your F# code into a
-reusable .NET library, and integrate it into a C# ASP.NET application.
-</div>
-
-<div class="col-sm-2">
-<a href="https://www.pluralsight.com/courses/accessing-data-fsharp-type-providers" class="btn btn-success" role="button">Join</a>
-</div>
-</div>
-
-### On-site Private Training
-
-<div class="row" markdown="1">
-<div class="col-sm-10" markdown="1">
-Do you want to gain practical hands-on F# skills? We offer private on-site trainings
-and consulting to fit your needs.
-</div>
-
-<div class="col-sm-2">
-<a href="mailto:info@fsharpworks.com" class="btn btn-success" role="button">Contact us!</a>
-</div>
-</div>
-
-
-<div class="fw-testimonials" markdown="1">
-# Training testimonials
-
-The fsharpWorks team has been providing F# trainings since 2011 and our attendees
-include many F# community leaders. [Learn more on our testimonials page!](testimonials.html)
-
-<p class="fw-quote">
-  "I attended a fsharpWorks 2-day F# course run by Phil and Tomas. (...) I would highly
-  recommend this course for software developers that want to learn how to solve problems
-  using functional programming techniques and quickly get up to speed with F#."
-</p>
-
-<p class="fw-quote-author">
-  <a href="https://twitter.com/isaac_abraham/">Isaac Abraham</a>, F# MVP<br />
-  Attended FastTrack to F# in 2012
-</p>
-
-</div>
-
-# Our customers and partners
-
-Our customers include both large and small companies working in a wide range of areas
+<p>Our customers include both large and small companies working in a wide range of areas
 including finance and data analytics, security, enterprise software development,
-research and many others.
-
+research and many others.</p>
 
 <div class="fw-logos fw-logos-hp">
   <a href="https://www.bluemountaincapital.com/"><img src="https://fsharpworks.com/images/partners/bmc.png" alt="BlueMountain Capital logo" /></a>
@@ -213,7 +149,7 @@ research and many others.
 <div class="col-sm-1"></div>
 <div class="col-sm-4 fw-past">
 
-<h2>News and updates</h2>
+<h1>News and updates</h1>
 {% for item in site.data.news limit: 9 %}  
   <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
   {{ item.details | markdownify }}
@@ -225,12 +161,21 @@ research and many others.
 
 <div class="row fw-events">
   <h1 style="margin:20px 0px 0px 15px">Past events</h1>  
-  {% assign events = site.data.events | sort: "date" | reverse %}
+  
+  {% assign events = site.data.events | sort: "date" | reverse %}  
+  {% assign now = site.time | date: "%s" %}
+  {% assign futurecount = 0 %}
+  
+  {% for event in events %}
+    {% assign ed = event.date | date: "%s" %}
+    {% if ed >= now %}{% assign futurecount = futurecount | plus: 1 %}{% endif %}
+  {% endfor %}
+  
   {% for col in (1..3) %}
     <div class="col-sm-4">
-    {% assign items = 15 %}
-    {% assign offs = col | minus: 1 | times: items %}
-    {% for event in events limit: 10 offset: offs %}  
+    {% assign items = 10 %}
+    {% assign offs = col | minus: 1 | times: items | plus: futurecount %}
+    {% for event in events limit: items offset: offs %}  
       <h3>
       {% if event.until <> nil %}
         {% assign m1 = event.date | date: "%b" %}
