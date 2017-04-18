@@ -1,3 +1,12 @@
+- event: J on the Beach
+  date: '2017-05-17'
+  until: '2017-05-19'
+  city: Malaga
+  country: Spain
+  invite: Mathias will bring some F# to this devOps and Big Data conference, with a gentle introduction to machine learning with F#, and a talk on Agility and ML.
+  summary: Mathias talked F# and Machine Learning at J on the Beach in Spain.
+  url: https://jonthebeach.com/
+
 - event: NewCrafts
   date: '2017-05-18'
   until: '2017-05-19'
