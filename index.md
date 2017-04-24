@@ -57,16 +57,16 @@ are proud to support the F# Software Foundation as silver sponsors.
   {% for event in events %}  
     {% assign ed = event.date | date: "%s" %}
     {% if ed >= now %}
+      <h3>{{ event.event }},
+      {% if event.until <> nil %}
+        {% assign m1 = event.date | date: "%b" %}
+        {% assign m2 = event.until | date: "%b" %}
+        {% if m1 == m2 %}{{ event.date | date: "%-d"}}-{{ event.until | date: "%-d"}} {{ event.date | date: "%b %Y"}}{% 
+           else %}{{ event.date | date: "%-d %b"}} - {{ event.until | date: "%-d %b %Y"}}{% endif %}{% 
+        else 
+      %}{{ event.date | date: "%-d %b %Y"}}{% endif %}, {{ event.city }}</h3>
       <div class="row">
       <div class="col-sm-10">
-        <h3>{{ event.event }},
-        {% if event.until <> nil %}
-          {% assign m1 = event.date | date: "%b" %}
-          {% assign m2 = event.until | date: "%b" %}
-          {% if m1 == m2 %}{{ event.date | date: "%-d"}}-{{ event.until | date: "%-d"}} {{ event.date | date: "%b %Y"}}{% 
-             else %}{{ event.date | date: "%-d %b"}} - {{ event.until | date: "%-d %b %Y"}}{% endif %}{% 
-          else 
-        %}{{ event.date | date: "%-d %b %Y"}}{% endif %}, {{ event.city }}</h3>
         <p>{{ event.invite }}</p>
       </div>
       <div class="col-sm-2">
