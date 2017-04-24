@@ -1,3 +1,14 @@
+- event: Open { fsharp } 2017
+  date: '2017-09-28'
+  until: '2017-09-29'
+  city: San Francisco
+  country: USA
+  invite: Mathias is helping with the organization of open fsharp, a new two-day conference in the heart
+     of San Francisco featuring 2 days of F# talks and workshops with world-class speakers, and a unique 
+     opportunity to connect with the F# Community. Register now for an early bird ticket!
+  summary: Mathias helped to organize open fsharp, a two-day F# conference in the heart of San Francisco.
+  url: http://openfsharp.org/
+  
 - event: J on the Beach
   date: '2017-05-17'
   until: '2017-05-19'
