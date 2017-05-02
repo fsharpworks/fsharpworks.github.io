@@ -52,6 +52,18 @@
   summary: Scott and Mathias talked at NDC Oslo and hosted the functional programming office hours session.
   url: http://ndcoslo.com/
 
+ - event: NDC Sydney
+  date: '2017-08-14'
+  until: '2017-08-18'
+  city: Sydney
+  country: Australia
+  invite: Scott and Mathias will be speaking at the NDC conference in Sydney! The fsharpWorks team
+    will also help to host the functional programming office hours, a unique informal session 
+    format where you can get all your questions answered!
+  summary: Scott and Mathias talked at NDC Sydney and hosted the functional programming office hours session.
+  url: http://ndcsydney.com/
+
+  
 - event: F# FastTrack
   date: '2017-07-17'
   until: '2017-07-17'
