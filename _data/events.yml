@@ -1,3 +1,14 @@
+- event: Data Science Summit
+  date: '2017-06-09'
+  until: '2017-06-10'
+  city: Cambridge
+  country: UK
+  invite: Cambridge Spark invited Tomas to do a keynote on his work on The Gamma project
+    at the Cambridge Spark Data Science Summit. Join us to learn about a wide range of data science
+    topics and how F# and Fable help us build future data science tooling.
+  summary: Tomas did a keynote on democratizing data science at Data Science Summit in Cambridge.
+  url: https://cambridgespark.com/datascience-summit
+  
 - event: Open { fsharp }
   date: '2017-09-28'
   until: '2017-09-29'
