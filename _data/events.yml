@@ -1,3 +1,34 @@
+- event: Data Science Summit
+  date: '2017-06-09'
+  until: '2017-06-10'
+  city: Cambridge
+  country: UK
+  invite: Cambridge Spark invited Tomas to do a keynote on his work on The Gamma project
+    at the Cambridge Spark Data Science Summit. Join us to learn about a wide range of data science
+    topics and how F# and Fable help us build future data science tooling.
+  summary: Tomas did a keynote on democratizing data science at Data Science Summit in Cambridge.
+  url: https://cambridgespark.com/datascience-summit
+  
+- event: Open { fsharp }
+  date: '2017-09-28'
+  until: '2017-09-29'
+  city: San Francisco
+  country: USA
+  invite: Mathias is helping with open fsharp, a new two-day conference in the heart
+     of San Francisco featuring 2 days of F# talks and workshops with world-class speakers, and a unique 
+     opportunity to connect with the community. Register now for an early bird ticket!
+  summary: Mathias helped to organize open fsharp, a two-day F# conference in the heart of San Francisco.
+  url: http://openfsharp.org/
+  
+- event: J on the Beach
+  date: '2017-05-17'
+  until: '2017-05-19'
+  city: Malaga
+  country: Spain
+  invite: Mathias will bring some F# to this devOps and Big Data conference, with a gentle introduction to machine learning with F#, and a talk on Agility and ML.
+  summary: Mathias talked F# and Machine Learning at J on the Beach in Spain.
+  url: https://jonthebeach.com/
+
 - event: NewCrafts
   date: '2017-05-18'
   until: '2017-05-19'
@@ -32,9 +63,21 @@
   summary: Scott and Mathias talked at NDC Oslo and hosted the functional programming office hours session.
   url: http://ndcoslo.com/
 
+- event: NDC Sydney
+  date: '2017-08-14'
+  until: '2017-08-18'
+  city: Sydney
+  country: Australia
+  invite: Scott and Mathias will be speaking at the NDC conference in Sydney! The fsharpWorks team
+    will also help to host the functional programming office hours, a unique informal session 
+    format where you can get all your questions answered!
+  summary: Scott and Mathias talked at NDC Sydney and hosted the functional programming office hours session.
+  url: http://ndcsydney.com/
+
+  
 - event: F# FastTrack
   date: '2017-07-17'
-  until: '2017-07-17'
+  until: '2017-07-18'
   city: London
   country: UK
   invite: This intensive hands-on course by F# experts Tomas Petricek and Phil Trelford covers
