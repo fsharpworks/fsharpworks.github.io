@@ -123,6 +123,15 @@
   year: 2015
   about: 'Building news site and chat using Suave, F#, type providers and agents.'
   category: web
+
+- link: https://skillsmatter.com/skillscasts/9835-observables-events-asynchronous-sequences-and-other-wild-animals
+  image: async.jpg
+  title: 'Observables, Events, Asynchronous Sequences and Other Wild Animals'
+  author: Tomas Petricek
+  event: F# eXchange
+  year: 2017
+  about: 'Code-focused deep-dive into how different asynchronous programming abstractions work.'
+  category: web
   
 - link: https://vimeo.com/113725369
   image: fsi.jpg
