@@ -76,9 +76,10 @@ Forecasting Bicycle Usage: discover usage patterns in historical data to explain
 
 <div class="row" style="margin:30px 0px 10px 0px">
   <div class="col-md-12">
-    <h2>What attendees say</h1>
+    <h2>What attendees say</h2>
   </div>
 </div>
+
 <div class="row">
   <div class="col-md-6 tweet">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Holy lambdas - awesome group for my <a href="https://twitter.com/hashtag/ndcoslo?src=hash">#ndcoslo</a> <a href="https://twitter.com/hashtag/machinelearning?src=hash">#machinelearning</a> with F# workshop! Had a fantastic time, thank you all for coming :) <a href="https://twitter.com/hashtag/fsharp?src=hash">#fsharp</a> <a href="https://t.co/uupbzLyQ8w">pic.twitter.com/uupbzLyQ8w</a></p>&mdash; Mathias Brandewinder (@brandewinder) <a href="https://twitter.com/brandewinder/status/874755766565179392">June 13, 2017</a>
@@ -88,7 +89,7 @@ Forecasting Bicycle Usage: discover usage patterns in historical data to explain
   <div class="col-md-6 tweet">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Here&#39;s my <a href="https://twitter.com/hashtag/languagerecognition?src=hash">#languagerecognition</a> algorithm. It even recognizes Czech (I think) :D <a href="https://twitter.com/hashtag/MachineLearning?src=hash">#MachineLearning</a> <a href="https://twitter.com/hashtag/ndcoslo?src=hash">#ndcoslo</a> <a href="https://t.co/t430AxdvVe">pic.twitter.com/t430AxdvVe</a></p>&mdash; Ronald Wildenberg (@rwwilden) <a href="https://twitter.com/rwwilden/status/739797808547516420">June 6, 2016</a></blockquote>
   </div>
-  
+
 </div>
 
 

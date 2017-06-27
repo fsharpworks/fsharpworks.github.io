@@ -46,7 +46,7 @@ domain modelling, data processing, concurrency and more!
 </div> <!-- END # Col -->
 <div class="col-sm-6"  markdown="1">
 
-## Machine Learning with F# ##
+## [Machine Learning with F#] (workshops/machine-learning.html)
 
 Machine learning is the art of writing program that become better at performing tasks using data.
 In this hands-on workshop you will learn how to use the power of F# by building simple but effective
