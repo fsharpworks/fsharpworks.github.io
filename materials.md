@@ -90,7 +90,7 @@ The site (and this book) aims to introduce you to F# and show you ways that F# c
       <div class="img-wrapper"><a href="{{ item.link }}"><img src="images/talks/{{ item.image }}" class="img-responsive" /></a>
     </div></div>
     <div class="col-lg-4 col-md-4 col-sm-8 col-xs-9 fw-talk">
-      <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+      <h4><a href="{{ item.link }}">{{ item.title }}</a></h4>
       <p class="author">{{ item.author }}, {{ item.event }} {{ item.year }}</p>
       <p class="about">{{ item.about }}</p>
     </div>
@@ -168,7 +168,7 @@ finally, implementations for a clustering algorithm using the standard F# librar
       <div class="img-wrapper"><a href="{{ item.link }}"><img src="images/talks/{{ item.image }}" class="img-responsive" /></a>
     </div></div>
     <div class="col-lg-4 col-md-4 col-sm-8 col-xs-9 fw-talk">
-      <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+      <h4><a href="{{ item.link }}">{{ item.title }}</a></h4>
       <p class="author">{{ item.author }}, {{ item.event }} {{ item.year }}</p>
       <p class="about">{{ item.about }}</p>
     </div>
@@ -199,7 +199,7 @@ but you can also learn about building and hosting cloud-based services on Azure.
       <div class="img-wrapper"><a href="{{ item.link }}"><img src="images/talks/{{ item.image }}" class="img-responsive" /></a>
     </div></div>
     <div class="col-lg-4 col-md-4 col-sm-8 col-xs-9 fw-talk">
-      <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+      <h4><a href="{{ item.link }}">{{ item.title }}</a></h4>
       <p class="author">{{ item.author }}, {{ item.event }} {{ item.year }}</p>
       <p class="about">{{ item.about }}</p>
     </div>
@@ -252,7 +252,7 @@ of using F# in the industry.
       <div class="img-wrapper"><a href="{{ item.link }}"><img src="images/talks/{{ item.image }}" class="img-responsive" /></a>
     </div></div>
     <div class="col-lg-4 col-md-4 col-sm-8 col-xs-9 fw-talk">
-      <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+      <h4><a href="{{ item.link }}">{{ item.title }}</a></h4>
       <p class="author">{{ item.author }}, {{ item.event }} {{ item.year }}</p>
       <p class="about">{{ item.about }}</p>
     </div>
@@ -278,7 +278,7 @@ of using F# in the industry.
       <div class="img-wrapper"><a href="{{ item.link }}"><img src="images/talks/{{ item.image }}" class="img-responsive" /></a>
     </div></div>
     <div class="col-lg-4 col-md-4 col-sm-8 col-xs-9 fw-talk">
-      <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+      <h4><a href="{{ item.link }}">{{ item.title }}</a></h4>
       <p class="author">{{ item.author }}, {{ item.event }} {{ item.year }}</p>
       <p class="about">{{ item.about }}</p>
     </div>
