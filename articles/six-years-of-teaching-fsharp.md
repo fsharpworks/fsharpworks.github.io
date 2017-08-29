@@ -1,10 +1,13 @@
 ---
 layout: page
-title: "TBD"
-description: "TBD"
-banner1 : TBD
-banner2 : <a href="mailto:info@fsharpworks.com"><i class="fa fa-envelope"></i> On-site training</a>
-          &#160;&#160;&#160;<a href="http://quantshub.com/content/f-and-functional-programming-finance"><i class="fa fa-globe"></i> Attend online</a>
+title: Lessons from six years of teaching F# 
+description: Six years ago, we run the first F# FastTrack course. To celebrate the anniversary, 
+  this retrospective looks at some of the interesting developments in the course and the 
+  F# ecosystem more generally.
+banner1 : Six years ago, we run the first F# FastTrack course. To celebrate the anniversary, 
+  we are offering 25% off and I wanted to write a retrospective looking at some of the 
+  interesting developments in the course and the F# ecosystem more generally.
+banner2 : <a href="https://skillsmatter.com/courses/473"><i class="fa fa-globe"></i> Register via SkillsMatter</a> and use code F#-OCT2017.
 bannerImage: img4
 ---
 
@@ -15,7 +18,7 @@ bannerImage: img4
 <div style="font-size:13pt;margin:25px 0px 25px 0px" markdown="1">
 
 _Tomas Petricek_, [@tomaspetricek](http://twitter.com/tomaspetricek)  
-_12 August 2017_
+_30 August 2017_
 
 </div>
 
@@ -26,6 +29,10 @@ _12 August 2017_
 Six years ago, I started working with [Phil Trelford](http://www.trelford.com/blog/) on an
 F# course that eventually became [FastTrack to F#](https://fsharpworks.com/workshops/fast-track.html).
 We first run the course at [SkillsMatter in London](https://skillsmatter.com/) on October 27-28 in 2011.
+To celebrate the anniversary, we partnered with SkillsMatter to offer 25% off the upcoming 
+course on October 16-17 in London. Just use the `F#-OCT2017` code when registering
+via the [course page at SkillsMatter](https://skillsmatter.com/courses/473). However, I also 
+wanted to use this opportunity to reflect on how our approach to teaching F# has evolved.
 
 The course has always been focused on people who want to gain practical experience so that they
 can get started with using F# in practice. However, we keep improving and adapting the course 
@@ -36,7 +43,7 @@ largest difference in practice.
 There are a few interesting trends over the last 6 years that are reflected by the course contents:
 
  - **From functional to functional-first.** We started with a lot of emphasis on functional 
-   programming concepts. Over time, the F# style evolved to something we now call _functional-first_
+   programming concepts. Over time, the F# style evolved to something the community now calls _functional-first_
    and so we focus less on some traditional functional concepts and more on mixing them with other
    important (non-functional) aspects of F# programming.
    
@@ -47,17 +54,17 @@ There are a few interesting trends over the last 6 years that are reflected by t
 
  - **Microsoft and F# ecosystem.** When F# appeared, we focused on using F# with other .NET 
    technologies coming from Microsoft. This is still important as the .NET interoperability gives
-   you access to a large number of fantastic libraries, but F# ecosystem became a lot richer, and
+   you access to a large number of fantastic libraries, but the F# ecosystem became a lot richer, and
    so the course now mentions many libraries that are F#-specific including type providers (F# Data), 
    web servers (Suave) and build system (FAKE).
 
-In the rest of the article, I will write a bit more about how the course evolved and about look at 
+In the rest of the article, I will write about how the course evolved and look at 
 some of the notable changes (as well as things that have not changed) in more detail.
 
 ## Brief history of our F# courses
 
 The course keeps evolving pretty much every time we run it, but I split the history into three
-major versions. The early days is from around 2011, the second iteration from 2013 or 2014 and 
+major versions. The early days is from around 2011, the second iteration from late 2013 and 
 the modern times from 2016 onwards.
 
 ### **Early days:** Functional programming
@@ -68,13 +75,13 @@ the modern times from 2016 onwards.
 When we started, LINQ was already around for a few years and we saw F# as a natural
 next step for C# developers who want to apply the power of _functional programming_ to
 areas beyond just data querying. We used C# to explain a number of functional concepts
-such as _higher-order functions_, functional _immutable lists_ , we discussed how functional
+such as _higher-order functions_, functional _immutable lists_, we discussed how functional
 ideas relate to object-oriented design patterns and we even had a C# _monad_ example. 
 
 The focus on functional programming made sense at a time when everyone was excited about
 LINQ, but it paints an inaccurate image of what programming in F# is often like. For example,
-recursion is important in theory, but you can write quite a lot of F# code without needing
-recursion explicitly. So, while the course still uses many functional programming concepts,
+function composition is important in theory, but you can write quite a lot of F# code without using
+it explicitly. So, while the course still uses many functional programming concepts,
 we now talk about them more in context of typical problems or situations where they are useful.
 
 </div><div class="col-md-5 col-lg-5">
@@ -86,7 +93,7 @@ we now talk about them more in context of typical problems or situations where t
 Another topic that we covered very early was parallel and reactive programming. In theory,
 a functional program is easy to parallelize and this was a very attractive promise of 
 functional programming. It turns out, the problem is harder in practice, but more importantly,
-most programs do not really need parallelism to speed-up computations. We kept and extended
+most programs do not really need parallelism of this kind to speed-up computations. We kept and extended
 what we say about reactive and asynchronous programming, which is important for servers, user
 interfaces and streaming systems, but we now discuss CPU-intensive parallelism only briefly.
 
@@ -100,7 +107,7 @@ structures, recursion, design patterns, F# and C# interoperability, WCF and Silv
 
 In our second iteration, we took a lot of inspiration from Don Syme's talk
 [Succeeding with Functional-first Programming in Industry](https://vimeo.com/68226717) and
-we focused much more on application areas where F# has been used in the industry.
+focused much more on application areas where F# has been used in the industry.
 On the technical side, this still means using many functional programming concepts, 
 but we restructured the course to talk more about subjects such as data analytics,
 domain-specific languages and testing.
@@ -143,14 +150,14 @@ learn how to use F# in an idiomatic F# way with a number of practical applicatio
 illustrate the areas where F# excels. However, it differs from the earlier versions in two ways.
 First, we talk about _functional-first programming_ rather than _functional programming_ and,
 second, we look at application areas where F# not just works great in theory, but where it is 
-also supported by strong existing ecosystem. 
+also supported by strong existing ecosystem and community. 
 
 The term _functional-first_ captures the idea that the idiomatic way of using F#, that leads to 
 success, takes many ideas from traditional functional programming, but not all of them. Functional 
-data types, together with pattern matching, are a fantastic tool for modelling and _understanding_ 
-a domain and functional pipelines are great for composing transformations. However, this works fine 
+data types, together with pattern matching, are a fantastic tool for _modelling and understanding_
+a domain, while functional pipelines are great for sequencing transformations. However, this works fine 
 with imperative and object-oriented libraries and even an occasional mutation at the lower level 
-or object-oriented abstraction at the higher level. In the course, we simply aim to give attendees 
+or object-oriented abstraction at the higher level. In the course, we give attendees 
 enough examples so that they will follow and recognize this style.
 
 </div><div class="col-md-5 col-lg-5">
@@ -163,7 +170,7 @@ When it comes to applied F# projects, we want to focus on areas that work well a
 of a long term future - this can be thanks to Microsoft support or thanks community commitment.
 For example, one of our examples now shows the [Suave web server](https://suave.io/), started 
 through the excellent [FAKE build system](https://fake.build/), using [Paket](https://fsprojects.github.io/Paket/)
-for dependency management. This gives you an example of a small, but complete example of the 
+for dependency management. This gives you an example of a small, but complete slice of the 
 community-driven F# ecosystem. Of course, we do not focus solely on the community and give 
 space to, e.g., using F# to write a library or a script for a large .NET system.
 
@@ -179,7 +186,7 @@ it also lets us explain elegant functional-first design patterns such as the Elm
 building user interfaces, which may be equally useful on the desktop. 
 
 Second, I want to finish the transition to _functional-first_ perspective on the F# language basics.
-I think we now have a very good intuitive idea of what the right choices are, but I would like to 
+I believe I now have a very good intuitive idea of what the right choices are, but I would like to 
 distill this into a more concise guideline. In traditional functional programming, you simply 
 avoid all mutation and the rest (including recursion and even monads) follows. Is there a similar
 simple principle for functional-first programming? I'm hoping to find out!
@@ -201,7 +208,7 @@ The frameworks keep changing. It used to be Silverlight, WPF, Windows Forms and 
 use Fable next. However, the F# way of interacting with all of these has remained very similar.
 
 The functional-first style means that most of your domain is immutable and you integrate it
-with some tiny bit of mutation at the top-level. We also use asynchronous workflows for user
+with some tiny bit of mutation at the top-level. In the course, we also use asynchronous workflows for user
 interface programming, which means encoding state machines using recursion with an occasional
 mutation to update the user interface. A variation on this approach works with pretty much 
 all user interface frameworks that we've used throughout the years.
@@ -218,10 +225,10 @@ When we started the course, our audience was primarily existing .NET and C# deve
 that everyone knew how to use .NET libraries and we could use them without too much explaining.
 We could also explain some ideas in terms of what people knew about object-oriented programming.
 For example, some people understood F# discriminated unions once we told them they are a bit like
-a class hierarchy.
+class hierarchies.
 
 Nowadays, the audience is becoming a lot more diverse and so we get a mix of C# developers, people
-with some background in other functional languages, C++ developers (who like `printf`) and also
+with some background in other functional languages, C++ developers (who like `printf`!) and also
 Excel programmers and others working primarily on mathematical and statistical models. It turns out
 that C++ and Excel programmers are pretty good at learning F#, but we had to significantly expand
 our set of analogies that help people understand F# features. 
@@ -231,12 +238,11 @@ our set of analogies that help people understand F# features.
 </div></div>
 <div class="row"><div class="col-md-7 col-lg-6" markdown="1">
 
-
 As already mentioned, we started with a lot of focus on core functional programming concepts that
 people learned through LINQ, such as higher-order functions, polymorphism and ways of implementing
 those in F#. 
 
-Over time, our focus changed a lot more on how to use F# to model your problem domain - be it using
+Over time, our focus shifted to how to use F# to model your problem domain - be it using
 types (see Scott Wlaschin's great [Domain-Driven Design](https://fsharpforfunandprofit.com/ddd/)
 series), or by composing transformations using the pipe operator.
 
@@ -271,7 +277,7 @@ according to the [annual F# survey](https://fsharpworks.com/survey.html) we run.
 ### Editors and operating systems
 
 Finally, another thing that has changed (and that caused us some pain in the second iteration)
-is that people increasingly use F# on Mac and Linux using [Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
+is that the attendees increasingly use F# on Mac and Linux using [Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
 (formerly Xamarin Studio), [Ionide](http://ionide.io/) in VS Code or in Atom or even emacs with 
 the F# mode. We now adapted the course to be fully cross-platform and only use libraries that 
 work equally well on Windows, Mac and Linux. In the early days, this was still hard, but nowadays,
@@ -287,17 +293,18 @@ done on the F# ecosystem.
 
 It is clear from our experience over the last 6 years that the ecosystem will keep evolving. 
 I expect to add a lot more [Fable](http://fable.io/) content, together with Elm-style architecture
-and React and I also expect .NET Core to play more prominent role on the server-side. 
+and React and I also expect .NET Core to play more prominent role on the server-side in the 
+not-so-distant future. 
 
 The experience with new libraries and frameworks is perhaps more interesting. I'm sure that
 new libraries and frameworks for building user-interfaces and web services will appear, but 
-the pragmatic, functional-first F# style is very good at fitting well with different libraries.
+the pragmatic, functional-first F# style is very good at integrating smoothly with different libraries.
 So, while I expect new libraries, I think the way of using them from F# will remain very much the
 same. The one nice new thing is the rise of the Elm-style architecture, which can be nicely 
 implemented in functional-first F# style, but is a bit different than what we did before.
 
 Finally, I think that we will keep using the functional features of F# more as means to an end,
-rather than as the end itself. I think domain modelling and domain-driven design capture these
+rather than as the end itself. Domain modelling and domain-driven design capture these
 ideas quite well, but I would not be surprised if we found even nicer way of talking about the
 principles behind the _functional-first_ F# style of programming.
 
