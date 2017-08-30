@@ -5,8 +5,8 @@ description: Six years ago, we run the first F# FastTrack course. To celebrate t
   this retrospective looks at some of the interesting developments in the course and the 
   F# ecosystem more generally.
 banner1 : Six years ago, we run the first F# FastTrack course. To celebrate the anniversary, 
-  we are offering 25% off and I wanted to write a retrospective looking at some of the 
-  interesting developments in the course and the F# ecosystem more generally.
+  we are offering 25% off the upcoming course and I also wanted to use this opportunity to reflect 
+  on some of the interesting developments in the course and the F# ecosystem more generally.
 banner2 : <a href="https://skillsmatter.com/courses/473"><i class="fa fa-globe"></i> Register via SkillsMatter</a> and use code F#-OCT2017.
 bannerImage: img4
 ---
