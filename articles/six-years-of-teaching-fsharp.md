@@ -85,7 +85,7 @@ it explicitly. So, while the course still uses many functional programming conce
 we now talk about them more in context of typical problems or situations where they are useful.
 
 </div><div class="col-md-5 col-lg-5">
-  <img src="../images/six-years-of-teaching-fsharp/fp-net.png" class="img-responsive"
+  <img src="images/six-years-of-teaching-fsharp/fp-net.png" class="img-responsive"
     style="max-width:500px;margin:0px auto 0px auto"/>
 </div></div>
 <div class="row"><div class="col-md-8" markdown="1">
@@ -124,7 +124,7 @@ the different things that one can do with F#.
 </div><div class="col-md-5 col-lg-5">
 
 </div><div class="col-md-5 col-lg-5">
-  <img src="../images/six-years-of-teaching-fsharp/ft-dash.png" class="img-responsive"
+  <img src="images/six-years-of-teaching-fsharp/ft-dash.png" class="img-responsive"
     style="max-width:500px;margin:0px auto 0px auto"/>
 </div></div>
 <div class="row"><div class="col-md-8" markdown="1">
@@ -161,7 +161,7 @@ or object-oriented abstraction at the higher level. In the course, we give atten
 enough examples so that they will follow and recognize this style.
 
 </div><div class="col-md-5 col-lg-5">
-  <img src="../images/six-years-of-teaching-fsharp/fssf.png" class="img-responsive"
+  <img src="images/six-years-of-teaching-fsharp/fssf.png" class="img-responsive"
     style="max-width:500px;margin:0px auto 0px auto"/>
 </div></div>
 <div class="row"><div class="col-md-8" markdown="1">
@@ -214,7 +214,7 @@ mutation to update the user interface. A variation on this approach works with p
 all user interface frameworks that we've used throughout the years.
 
 </div><div class="col-md-5 col-lg-5">
-  <img src="../images/six-years-of-teaching-fsharp/silverlight.jpg" class="img-responsive"
+  <img src="images/six-years-of-teaching-fsharp/silverlight.jpg" class="img-responsive"
     style="max-width:300px;margin:0px auto 0px auto"/>
 </div></div>
 <div class="row"><div class="col-md-8" markdown="1">
@@ -252,7 +252,7 @@ changes quite a bit. I like this trend because focusing on the domain is where F
 also helps you not to get lost in overly complex abstractions.
 
 </div><div class="col-md-5 col-lg-5">
-  <img src="../images/six-years-of-teaching-fsharp/ddd.png" class="img-responsive"
+  <img src="images/six-years-of-teaching-fsharp/ddd.png" class="img-responsive"
     style="max-width:450px;margin:0px auto 0px auto"/>
 </div></div>
 <div class="row"><div class="col-md-8" markdown="1">
