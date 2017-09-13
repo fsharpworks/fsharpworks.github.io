@@ -1,3 +1,24 @@
+- event: Trondheim Developer Conference
+  date: '2017-10-30'
+  until: '2017-11-01'
+  city: Trondheim
+  country: Norway
+  invite: F# is coming close to the Arctic Circle! Mathias will be sharing his 
+    experience participating in a Kaggle Machine Learning competition, and how F# 
+    helped set up a harness to easily create and run experiments.
+  summary: Mathias shared his experience using F# in a Machine Learning competition.
+  url: https://2017.trondheimdc.no/
+
+- event: NDC TechTown Kongsberg
+  date: '2017-10-17'
+  until: '2017-10-20'
+  city: Kongsberg
+  country: Norway
+  invite: Mathias will be in Kongsberg, for a 2-days hands-on workshop, teaching F# 
+    and classic Machine Learning techniques from the ground up!
+  summary: Mathias talked F# and Machine Learning at NDC TechTown.
+  url: https://ndctechtown.com/
+
 - event: Data Science Summit
   date: '2017-06-09'
   until: '2017-06-10'
