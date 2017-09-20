@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Lessons from six years of teaching F# 
-description: Six years ago, we run the first F# FastTrack course. To celebrate the anniversary, 
+description: Six years ago, we ran the first F# FastTrack course. To celebrate the anniversary, 
   this retrospective looks at some of the interesting developments in the course and the 
   F# ecosystem more generally.
-banner1 : Six years ago, we run the first F# FastTrack course. To celebrate the anniversary, 
+banner1 : Six years ago, we ran the first F# FastTrack course. To celebrate the anniversary, 
   we are offering 25% off the upcoming course and I also wanted to use this opportunity to reflect 
   on some of the interesting developments in the course and the F# ecosystem more generally.
 banner2 : <a href="https://skillsmatter.com/courses/473"><i class="fa fa-globe"></i> Register via SkillsMatter</a> and use code F#-OCT2017.
@@ -28,7 +28,7 @@ _30 August 2017_
 
 Six years ago, I started working with [Phil Trelford](http://www.trelford.com/blog/) on an
 F# course that eventually became [FastTrack to F#](https://fsharpworks.com/workshops/fast-track.html).
-We first run the course at [SkillsMatter in London](https://skillsmatter.com/) on October 27-28 in 2011.
+We first ran the course at [SkillsMatter in London](https://skillsmatter.com/) on October 27-28 in 2011.
 To celebrate the anniversary, we partnered with SkillsMatter to offer 25% off the upcoming 
 course on October 16-17 in London. Just use the `F#-OCT2017` code when registering
 via the [course page at SkillsMatter](https://skillsmatter.com/courses/473). However, I also 
