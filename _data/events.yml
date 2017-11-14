@@ -1,3 +1,13 @@
+- event: Practical Machine Learning with Functional Programming Workshop
+  date: '2018-04-09'
+  until: '2018-04-10'
+  city: Milan
+  country: Italy
+  invite: In this hands-on workshop, Mathias will guide you through solving 
+    real-world problems with Machine Learning and F#!
+  summary: Mathias taught a hands-on workshop on machine learning and fnctional programming in Milan.
+  url: http://www.avanscoperta.it/en/training/practical-machine-learning-with-functional-programming-workshop/
+
 - event: Trondheim Developer Conference
   date: '2017-10-30'
   until: '2017-11-01'
