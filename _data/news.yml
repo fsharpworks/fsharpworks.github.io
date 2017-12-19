@@ -1,3 +1,17 @@
+- title: 'Tomas talks with Brian Troutwine about his CodeMesh talk'
+  url: https://www.youtube.com/watch?v=lv2N6RZ5FlM
+  details: >
+    After his CodeMesh talk, Tomas spent 5 minutes recording this quick interview with 
+    Brian Troutwine! We chatted about aliens, mathematics, computer science, data science
+    and everything...
+    
+- title: 'Democratizing data science'
+  url: https://www.youtube.com/watch?v=LxJwwsOUHXI
+  details: >
+    What if you could look at the source code behind any visualization, understand how it works, 
+    run it to check the results and modify the parameters to explore different aspects of the data? 
+    Learn about the work Tomas has been doing using F# and Fable!
+
 - title: 'Six years of FastTrack to F#'
   url: https://fsharpworks.com/articles/six-years-of-teaching-fsharp.html
   details: >

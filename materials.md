@@ -64,6 +64,23 @@ language and extend your C# skills into the functional domain.
 
 <div class="row fw-materials">
   <div class="col-sm-2 book-image hidden-xs">
+    <a href="https://pragprog.com/book/swdddf/domain-modeling-made-functional"><img src="images/books/ddfp.jpg" class="img-responsive" /></a>
+  </div>
+  <div class="col-sm-10" markdown="1">
+
+### [Domain Modeling Made Functional](https://pragprog.com/book/swdddf/domain-modeling-made-functional)
+
+<p class="book-author">Scott Wlaschin</p>
+
+You want increased customer satisfaction, faster development cycles, and less wasted work. Domain-driven design (DDD) combined with functional programming is the innovative combo that will get you there. In this pragmatic, down-to-earth guide, you’ll see how applying the core principles of functional programming can result in software designs that model real-world requirements both elegantly and concisely—often more so than an object-oriented approach. Practical examples in the open-source F# functional language, and examples from familiar business domains, show you how to apply these techniques to build software that is business-focused, flexible, and high quality.
+
+> *"Tackle Software Complexity with Domain-Driven Design and F#"*<br />
+
+  </div>
+</div>  
+
+<div class="row fw-materials">
+  <div class="col-sm-2 book-image hidden-xs">
     <a href="http://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/"><img src="images/books/funprof.png" class="img-responsive" /></a>
   </div>
   <div class="col-sm-10" markdown="1">
