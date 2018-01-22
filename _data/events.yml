@@ -9,6 +9,16 @@
   summary: Tomas taught the F# FastTrack course in London. Check out the <a href="https://fsharpworks.com/workshops/fast-track.html">course details</a> and contact us to join the next session!
   url: https://skillsmatter.com/courses/473-tomas-petricek-phil-trelford-fast-track-to-fsharp
 
+- event: F#unctional Londoners
+  date: '2018-02-14'
+  until: '2018-02-14'
+  city: London
+  country: UK
+  invite: Is it possible to use functional style for user interfaces? Join Tomas for a hands-on meetup 
+    session to find out!
+  summary: Tomas talked about Fable and Elm-architecture at F# meetup.
+  url: https://www.meetup.com/en-AU/FSharpLondon/events/246967482/
+
 - event: LambdaDays
   date: '2018-02-22'
   until: '2018-02-23'
