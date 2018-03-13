@@ -1,6 +1,6 @@
 - event: F# FastTrack
-  date: '2018-02-01'
-  until: '2018-02-02'
+  date: '2018-04-03'
+  until: '2018-04-04'
   city: London
   country: UK
   invite: This intensive hands-on course by F# experts Tomas Petricek and Phil Trelford covers
@@ -18,6 +18,16 @@
     of fsharpConf, a free virtual F# conference, featuring a full day of talks by leading F# experts!
   summary: fsharpWorks partnered with Channel 9 to organise a one-day virtual F# conference, fsharpConf.
   url: http://www.fsharpconf.com
+
+- event: F#unctional Londoners
+  date: '2018-02-14'
+  until: '2018-02-14'
+  city: London
+  country: UK
+  invite: Is it possible to use functional style for user interfaces? Join Tomas for a hands-on meetup 
+    session to find out!
+  summary: Tomas talked about Fable and Elm-architecture at F# meetup.
+  url: https://www.meetup.com/en-AU/FSharpLondon/events/246967482/
 
 - event: LambdaDays
   date: '2018-02-22'

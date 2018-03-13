@@ -50,7 +50,7 @@ are proud to support the F# Software Foundation as silver sponsors.
 <div class="row fw-events">
 <div class="col-sm-7 fw-future">
 
-  <h1>Upcoming events</h1>
+  <h1 id="events">Upcoming events</h1>
 
   {% assign now = site.time | date: "%s" %}
   {% assign events = site.data.events | sort: "date" %}  
