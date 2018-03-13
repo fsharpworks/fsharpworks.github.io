@@ -9,6 +9,16 @@
   summary: Tomas taught the F# FastTrack course in London. Check out the <a href="https://fsharpworks.com/workshops/fast-track.html">course details</a> and contact us to join the next session!
   url: https://skillsmatter.com/courses/473-tomas-petricek-phil-trelford-fast-track-to-fsharp
 
+- event: fsharpConf
+  date: '2018-04-16'
+  until: '2018-04-16'
+  city: Online
+  country: Online
+  invite: The fsharpWorks team is joining forces with Channel 9 to organise a second edition
+    of fsharpConf, a free virtual F# conference, featuring a full day of talks by leading F# experts!
+  summary: fsharpWorks partnered with Channel 9 to organise a one-day virtual F# conference, fsharpConf.
+  url: http://www.fsharpconf.com
+
 - event: LambdaDays
   date: '2018-02-22'
   until: '2018-02-23'

@@ -316,3 +316,10 @@ code
 .fw-topmargin {
   margin-top:10px;
 }
+.survey-links {
+  text-align:right;
+  padding:10px 0px 20px 0px;
+}
+.survey-links a {
+  margin-left:10px;
+}
