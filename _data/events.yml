@@ -1,6 +1,6 @@
 - event: F# FastTrack
-  date: '2018-04-03'
-  until: '2018-04-04'
+  date: '2018-09-20'
+  until: '2018-09-21'
   city: London
   country: UK
   invite: This intensive hands-on course by F# experts Tomas Petricek and Phil Trelford covers
@@ -9,9 +9,28 @@
   summary: Tomas taught the F# FastTrack course in London. Check out the <a href="https://fsharpworks.com/workshops/fast-track.html">course details</a> and contact us to join the next session!
   url: https://skillsmatter.com/courses/473-tomas-petricek-phil-trelford-fast-track-to-fsharp
 
+- event: Capturing domain logic in F# – From types to domain specific languages
+  date: '2018-04-17'
+  city: Seattle
+  country: USA
+  invite: If you design the right F# domain model, you can prevent errors, avoid concurrency issues
+    and make your system easy to extend. In this hands-on one-day workshop, Tomas will teach you how
+    to do this!
+  summary: Tomas taught a course on capturing domain logic in F#, from types to domain specific languages.
+  url: https://www.eventbrite.com/e/capturing-domain-logic-in-f-from-types-to-domain-specific-languages-tickets-44370668865
+
+- event: Capturing domain logic in F# – From types to domain specific languages
+  date: '2018-04-23'
+  city: NYC
+  country: USA
+  invite: If you design the right F# domain model, you can prevent errors, avoid concurrency issues
+    and make your system easy to extend. In this hands-on one-day workshop, Tomas will teach you how
+    to do this!
+  summary: Tomas taught a course on capturing domain logic in F#, from types to domain specific languages.
+  url: https://www.eventbrite.com/e/capturing-domain-logic-in-f-from-types-to-domain-specific-languages-tickets-44370668865
+
 - event: fsharpConf
   date: '2018-04-16'
-  until: '2018-04-16'
   city: Online
   country: Online
   invite: The fsharpWorks team is joining forces with Channel 9 to organise a second edition
@@ -21,7 +40,6 @@
 
 - event: F#unctional Londoners
   date: '2018-02-14'
-  until: '2018-02-14'
   city: London
   country: UK
   invite: Is it possible to use functional style for user interfaces? Join Tomas for a hands-on meetup 
