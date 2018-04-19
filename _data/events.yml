@@ -19,16 +19,6 @@
   summary: Tomas taught a course on capturing domain logic in F#, from types to domain specific languages.
   url: https://www.eventbrite.com/e/capturing-domain-logic-in-f-from-types-to-domain-specific-languages-tickets-44370668865
 
-- event: Capturing domain logic in F# – From types to domain specific languages
-  date: '2018-04-23'
-  city: NYC
-  country: USA
-  invite: If you design the right F# domain model, you can prevent errors, avoid concurrency issues
-    and make your system easy to extend. In this hands-on one-day workshop, Tomas will teach you how
-    to do this!
-  summary: Tomas taught a course on capturing domain logic in F#, from types to domain specific languages.
-  url: https://www.eventbrite.com/e/capturing-domain-logic-in-f-from-types-to-domain-specific-languages-tickets-44370668865
-
 - event: fsharpConf
   date: '2018-04-16'
   city: Online
