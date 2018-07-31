@@ -1,3 +1,23 @@
+- event: Practical Machine Learning with Functional Programming Workshop
+  date: '2019-04-02'
+  until: '2018-04-03'
+  city: Milan
+  country: Italy
+  invite: In this 2-days hands-on workshop, you will be working on real-world datasets, 
+    applying a variety of machine learning techniques, using a functional programming approach.   
+  summary: Mathias taught a hands-on workshop on machine learning and functional programming in Milan.
+  url: https://www.avanscoperta.it/en/training/practical-machine-learning-with-functional-programming-workshop/
+
+- event: Open F#
+  date: '2018-09-26'
+  until: '2018-09-28'
+  city: San Francisco
+  country: USA
+  invite: Tomas will be live-coding Excel in the browser, using Fable to compile F# to JavaScript
+    and the Elm architecture. He will also run a Taster Workshop on F# Reactive and Async abstractions.
+  summary: Tomas talked interactive web applications, and ran a workshop on Async and reactive abstractions at Open F#.
+  url: https://www.openfsharp.org/speakers/tomas-petricek/
+
 - event: F# FastTrack
   date: '2018-09-20'
   until: '2018-09-21'
