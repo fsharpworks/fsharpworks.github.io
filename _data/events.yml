@@ -9,6 +9,15 @@
   url: https://www.avanscoperta.it/en/training/practical-machine-learning-with-functional-programming-workshop/
 
 - event: Open F#
+  date: '2018-09-17'
+  until: '2018-09-18'
+  city: Seattle
+  country: USA
+  invite: Join Tomas for a talk on the challenges of re-thinking compilers in the context of live coding.
+  summary: Tomas discussed the challenges of designing compilers for live coding.
+  url: http://seattle.lambda.world/
+
+- event: Open F#
   date: '2018-09-26'
   until: '2018-09-28'
   city: San Francisco
