@@ -1,3 +1,57 @@
+- link: https://vimeo.com/281241807
+  image: excel.jpg
+  title: 'Build your own Excel 365 in an hour with F#'
+  author: Tomas Petricek
+  event: NDC Oslo
+  year: 2018
+  about: 'Live coding session showing how to write a spreadsheet from scartch'
+  category: fun
+
+- link: https://vimeo.com/281219301
+  image: compose.jpg
+  title: 'The Power of Composition'
+  author: Scott Wlaschin
+  event: NDC Oslo 
+  year: 2018
+  about: 'How is composition different from an OO approach, and how to use it in practice?'
+  category: intro
+
+- link: https://vimeo.com/239722972
+  image: fpd.jpg
+  title: 'Domain Modeling Made Functional'
+  author: Scott Wlaschin
+  event: NDC Sydeny
+  year: 2017
+  about: 'Domain modelling with F#. No jargon, no maths, and no prior F# experience necessary!'
+  category: enterprise
+
+- link: https://vimeo.com/239639857
+  image: design.jpg
+  title: 'Functional Design Patterns'
+  author: Scott Wlaschin
+  event: NDC Sydney
+  year: 2017
+  about: 'FP patterns, from the basics of partial application all the way to monads and monoids.'
+  category: intro
+
+- link: https://vimeo.com/225970651
+  image: fscs.jpg
+  title: 'F# for C# programmers'
+  author: Scott Wlaschin
+  event: NDC Oslo
+  year: 2018
+  about: 'Basics of coding in F#, and how functional programming differs from object-oriented programming.'
+  category: intro
+
+- link: https://vimeo.com/262937931
+  image: deep.jpg
+  title: 'Deep Learning with CNTK and F#'
+  author: Mathias Brandewinder
+  event: NDC Oslo
+  year: 2018
+  about: 'Learn how deep neural networks work and how to use CNTK from F#!'
+  category: ml
+
 - link: https://www.youtube.com/watch?v=LxJwwsOUHXI
   image: gamma.jpg
   title: 'The Gamma: Democratizing data science'
