@@ -13,7 +13,8 @@
   until: '2018-09-18'
   city: Seattle
   country: USA
-  invite: Join Tomas for a talk on the challenges of re-thinking compilers in the context of live coding.
+  invite: Join Tomas for a talk on the challenges of creating compilers for a live coding programming environment. 
+    What do you do when a traditional textbook compiler does not do the trick? I'll show you the answer using F# and Fable demos!
   summary: Tomas discussed the challenges of designing compilers for live coding.
   url: http://seattle.lambda.world/
 
