@@ -127,16 +127,34 @@ code
   font-weight:bold;
 }
 
-.fw-team h2 {
-  margin:40px 0px 20px 0px;
-  font-size:200%;
+.fw-team .img-floatbox {
+  max-width:200px;
+  margin:0px 0px 0px 20px;
+}
+@media only screen and (min-width : 992px) {
+  .fw-team .img-floatbox {
+    max-width:200px;
+    float:right;
+    margin-left:10px;
+  }
+}
+
+.fw-team .img-box {
+  max-width:300px;
 }
 .fw-team .social {
   text-align:center;
-  padding-top:15px;
+  padding-top:5px;
+  max-width:300px;
+  margin-bottom:30px;
+  font-size:80%;
 }
 .fw-team .social i {
   margin:0px 2px 0px 2px;
+  color:#909090;
+}
+.fw-team .social a:hover i {
+  color:#c0c0c0;
 }
 .fw-workshops .buttons {
   text-align:left;

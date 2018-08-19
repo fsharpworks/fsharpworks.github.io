@@ -8,39 +8,45 @@ banner2 : "We understand not only the benefits, but also the issues and challeng
 bannerImage: img4
 ---
 
-<div class="row" markdown="1">
-<div class="col-md-12" markdown="1">
-## Mathias Brandewinder
-</div> <!-- END # Col -->
+<div class="row fw-statement" markdown="1">
+
+The **fsharpWorks** team has many years of experience solving real-world problems with F# in a 
+wide range of areas including finance, business application development, machine learning and other.
+
+As active members of the F# community, we also have an extensive network of contacts and collaborators.
+This means that we are always able to find someone to work with you, be it one of us, or one of our
+[trusted partners](partners.html),    
+
 </div> <!-- END # Row -->
 
+<div class="fw-team">
 
-<div class="row" markdown="1">
-<div class="col-md-2" markdown="1">
-![Mathias Brandewinder](images/Mathias-Brandewinder.png){:class="img-thumbnail"}
-
-<div class="social">
-<a itemprop="sameAs" href="https://twitter.com/brandewinder"><i class="fa fa-twitter fa-lg"></i></a>
-<a itemprop="sameAs" href="https://github.com/mathias-brandewinder"><i class="fa fa-github fa-lg"></i></a>
-<a itemprop="sameAs" href="http://stackoverflow.com/users/114519/mathias"><i class="fa fa-stack-overflow fa-lg"></i></a>
-<a itemprop="sameAs" href="http://www.slideshare.net/mathias-brandewinder"><i class="fa fa-slideshare fa-lg"></i></a>
+<div class="row">
+  <div class="col-md-12">
+    <h2>Mathias Brandewinder</h2>
+  </div>
 </div>
-
-
-</div> <!-- END # Col -->
-<div class="col-md-10" markdown="1">
-
+<div class="row">
+  <div class="col-md-3">
+    <div class="img-box">
+      <img src="images/photos/mathias.png" alt="Mathias Brandewinder" class="img-thumbnail" />
+      <div class="social">
+        <a itemprop="sameAs" href="https://twitter.com/brandewinder"><i class="fa fa-twitter fa-lg"></i></a>
+        <a itemprop="sameAs" href="https://github.com/mathias-brandewinder"><i class="fa fa-github fa-lg"></i></a>
+        <a itemprop="sameAs" href="http://stackoverflow.com/users/114519/mathias"><i class="fa fa-stack-overflow fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-9" markdown="1">
 
 Mathias specializes in the design and development of decision systems and forecasting models.
 He has been developing .NET applications for the past 8 years, for a variety of industries
 ranging from biotech to retail and global health.
 
-
 He is a Microsoft MVP for F#, and was previously MVP for VSTO (Visual Studio Tools for Office).
 He leads the San Francisco chapter of the [Bay.NET user group](http://www.baynetug.org/),
 and the [San Francisco F# user group](http://www.sfsharp.org/) and
 speaks regularly at user group meetings around the world.
-
 He has a MS in Operations Research from Stanford, an MS in Economics
 from the University of Paris 10, and a MBA from ESSEC.
 
@@ -50,112 +56,65 @@ Or at the closest Coffee House, having his umpteenth Espresso of the day.
 > “I am very passionate about F#, good design and development practices, with a specific interest
   in test-driven development, and enjoy looking at code, arguing about it, and finding ways to make it better.”
 
-</div> <!-- END # Col -->
-</div> <!-- END # Row -->
+</div></div>
 
 
-
-<div class="row" markdown="1">
-<div class="col-md-12" markdown="1">
-## Tomas Petricek
-</div> <!-- END # Col -->
-</div> <!-- END # Row -->
-
-
-<div class="row" markdown="1">
-<div class="col-md-2" markdown="1">
-![Tomas Petricek](images/tomas-Petricek.jpg){:class="img-thumbnail"}
-
-<div class="social">
-<a itemprop="sameAs" href="https://www.linkedin.com/in/tomaspetricek"><i class="fa fa-linkedin fa-lg"></i></a>
-<a itemprop="sameAs" href="https://twitter.com/tomaspetricek"><i class="fa fa-twitter fa-lg"></i></a>
-<a itemprop="sameAs" href="https://github.com/tpetricek"><i class="fa fa-github fa-lg"></i></a>
-<a itemprop="sameAs" href="http://stackoverflow.com/users/33518/tomas-petricek"><i class="fa fa-stack-overflow fa-lg"></i></a>
+<div class="row">
+  <div class="col-md-12">
+    <h2>Tomas Petricek</h2>
+  </div>
 </div>
+<div class="row">
+  <div class="col-md-3">
+    <div class="img-box">
+      <img src="images/photos/tomas.jpg" alt="Tomas Petricek" class="img-thumbnail" />
+      <div class="social">
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/tomaspetricek"><i class="fa fa-linkedin fa-lg"></i></a>
+        <a itemprop="sameAs" href="https://twitter.com/tomaspetricek"><i class="fa fa-twitter fa-lg"></i></a>
+        <a itemprop="sameAs" href="https://github.com/tpetricek"><i class="fa fa-github fa-lg"></i></a>
+        <a itemprop="sameAs" href="http://stackoverflow.com/users/33518/tomas-petricek"><i class="fa fa-stack-overflow fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-9" markdown="1">
 
-</div> <!-- END # Col -->
-<div class="col-md-10" markdown="1">
+Tomas is a computer scientist, open-source developer and a lecturer at <a href="https://www.cs.kent.ac.uk/">University of Kent</a>.
+He has been using F# since the early Microsoft Research versions many years ago for both research, open-source and commercial
+work. He has a PhD from the <a href="http://www.cl.cam.ac.uk/">University of Cambridge</a> and worked in 
+Microsoft Research and the <a href="https://www.turing.ac.uk/">Alan Turing Institute</a> in London.
 
-
-Tomas is a computer scientist, finishing his PhD at the <a href="http://www.cl.cam.ac.uk/">University of Cambridge</a>.
-He has been using F# since the early Microsoft Research versions many years ago.
-
-
-
-He is the author of the popular (and F#-centric) book <a href="https://www.manning.com/books/real-world-functional-programming">Real World Functional Programming</a>,
+He is the author of the popular F#-centric book <a href="https://www.manning.com/books/real-world-functional-programming">Real World Functional Programming</a>,
 and has written numerous articles and <a href="http://stackoverflow.com/users/33518/tomas-petricek">StackOverflow answers</a>.
 He has been a Microsoft C# MVP since 2004.
 He is also a frequent speaker at F# and .NET events, and a founding member of the <a href="http://fsharp.org/">F# Foundation</a>.
 
-He is the creator of the [FSharp.Formatting](http://tpetricek.github.io/FSharp.Formatting/) library and has made major contributions
-to libraries such as [FSharp.Data](http://fsharp.github.io/FSharp.Data/) and [Deedle](http://bluemountaincapital.github.io/Deedle/).
+He is the creator of the [F# Formatting](http://tpetricek.github.io/FSharp.Formatting/) library and has made major contributions
+to libraries such as [F# Data](http://fsharp.github.io/FSharp.Data/) and [Deedle](http://bluemountaincapital.github.io/Deedle/).
+In his recent work, he has been building a simple data exploration programming environment
+<a href="https://thegamma.net/">The Gamma</a>.
 
 > “I enjoy combining theory and practice. On the theory side, my PhD is on type systems,
-  but I also enjoy the practical side, doing training and consulting, and supporting the community.
-  I am also working on my next book, F# Deep Dives.”
+  but I also enjoy the practical side, writing open-source software, doing training and consulting, 
+  and supporting the community.”
 
-</div> <!-- END # Col -->
-</div> <!-- END # Row -->
+</div></div>
 
-
-<div class="row" markdown="1">
-<div class="col-md-12" markdown="1">
-## Phil Trelford
-</div> <!-- END # Col -->
-</div> <!-- END # Row -->
-
-
-<div class="row" markdown="1">
-<div class="col-md-2" markdown="1">
-![Phil Trelford](images/Phil-Trelford.jpg){:class="img-thumbnail"}
-
-<div class="social">
-<a itemprop="sameAs" href="https://twitter.com/ptrelford"><i class="fa fa-twitter fa-lg"></i></a>
-<a itemprop="sameAs" href="https://github.com/ptrelford"><i class="fa fa-github fa-lg"></i></a>
-<a itemprop="sameAs" href="http://stackoverflow.com/users/2012417/phillip-trelford"><i class="fa fa-stack-overflow fa-lg"></i></a>
-<a itemprop="sameAs" href="http://www.slideshare.net/ptrelford"><i class="fa fa-slideshare fa-lg"></i></a>
+<div class="row">
+  <div class="col-md-12">
+    <h2>Scott Wlaschin</h2>
+  </div>
 </div>
-
-</div> <!-- END # Col -->
-<div class="col-md-10" markdown="1">
-
-Phil is an active member of the software development community, regularly attending and speaking at
-user groups and conferences, blogging and contributing to open source projects.
-He is a co-organizer of the [London F# User Group](http://www.meetup.com/FSharpLondon/)
-and a founding member of the [F# Foundation](http://fsharp.org/).
-
-He has written a number of popular F# libraries, such as <a href="http://foq.codeplex.com/">Foq</a>
-and <a href="http://tickspec.codeplex.com/">TickSpec</a>.
-He has recently published a new book with Tomas, <a href="http://www.manning.com/petricek2/">F# Deep Dives</a>.
-
-> “I started using F# about 10 years ago while working at Microsoft Research and have been enjoying
-  writing both commercial and home projects with it ever since.”
-
-
-</div> <!-- END # Col -->
-</div> <!-- END # Row -->
-
-
-<div class="row" markdown="1">
-<div class="col-md-12" markdown="1">
-## Scott Wlaschin
-</div> <!-- END # Col -->
-</div> <!-- END # Row -->
-
-
-<div class="row" markdown="1">
-<div class="col-md-2" markdown="1">
-![Scott Wlaschin](images/Scott-Wlaschin.jpeg){:class="img-thumbnail"}
-
-<div class="social">
-<a itemprop="sameAs" href="https://twitter.com/ScottWlaschin"><i class="fa fa-twitter fa-lg"></i></a>
-<a itemprop="sameAs" href="https://github.com/swlaschin"><i class="fa fa-github fa-lg"></i></a>
-<a itemprop="sameAs" href="http://www.slideshare.net/ScottWlaschin"><i class="fa fa-slideshare fa-lg"></i></a>
-</div>
-
-</div> <!-- END # Col -->
-<div class="col-md-10" markdown="1">
-
+<div class="row">
+  <div class="col-md-3">
+    <div class="img-box">
+      <img src="images/photos/scott.jpg" alt="Scott Wlaschin" class="img-thumbnail" />
+      <div class="social">
+        <a itemprop="sameAs" href="https://twitter.com/ScottWlaschin"><i class="fa fa-twitter fa-lg"></i></a>
+        <a itemprop="sameAs" href="https://github.com/swlaschin"><i class="fa fa-github fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-9" markdown="1">
 
 Scott has over 20 years experience in development, design and architecture,
 covering all aspects of business software. He has a MA in math from Cambridge University.
@@ -171,6 +130,6 @@ design principles, having used and written about Smalltalk for many years.
   I prefer to use a mixture of top-down and bottom-up design, getting the best of both, and using iterative development and
   early deployment to mitigate risk.”
 
+</div></div>
 
-</div> <!-- END # Col -->
-</div> <!-- END # Row -->
+</div>
