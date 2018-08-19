@@ -15,7 +15,7 @@ wide range of areas including finance, business application development, machine
 
 As active members of the F# community, we also have an extensive network of contacts and collaborators.
 This means that we are always able to find someone to work with you, be it one of us, or one of our
-[trusted partners](partners.html),    
+trusted partners.    
 
 </div> <!-- END # Row -->
 
