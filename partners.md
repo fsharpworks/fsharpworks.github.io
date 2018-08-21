@@ -54,12 +54,12 @@ but can also consider other projects.
   </div>
 </div>
 
-Isaac Abraham is the founder of Compositional IT. He's a Microsoft MVP in F# and .NET as well as an 
+Isaac Abraham is the founder of [Compositional IT](https://compositional-it.com). He's a Microsoft MVP in F# and .NET as well as an 
 Azure Insider and specialises in cloud programmability challenges. He has been working in the 
 software industry for 15 years and is a firm believer in raising the level of software quality in 
 the industry through use of functional programming.
 
-Projects that Isaac and Compositional IT works on include F# and Azure training, consultancy and 
+Projects that Isaac and [Compositional IT](https://compositional-it.com) works on include F# and Azure training, consultancy and 
 development; custom development of a wide of application and other Azure related services such as
 moving and rearchitecting on-site applications for Azure.
 
