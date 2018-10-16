@@ -152,7 +152,7 @@ The course is practically focused. Throughout the course, we look at examples of
 
 {:class="buttons"}
 [Details](workshops/finance.html){:class="btn btn-primary" role="button"}
-[Attend online](http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek){:class="btn btn-success" role="button"}
+[Attend online](http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek-2){:class="btn btn-success" role="button"}
 
 </div> <!-- END # Col -->
 </div> <!-- END # Row -->

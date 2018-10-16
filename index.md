@@ -98,7 +98,7 @@ are proud to support the F# Software Foundation as silver sponsors.
     The workshop teaches practical functional concepts, data analysis with F# and more!</p>
   </div>
   <div class="col-sm-2">
-    <a href="http://quantshub.com/content/self-paced-f-and-functional-programming-finance-tomas-petricek" class="btn btn-success" role="button">Join</a>
+    <a href="http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek-2" class="btn btn-success" role="button">Join</a>
   </div>
   </div>
 

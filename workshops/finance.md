@@ -5,7 +5,7 @@ description: "Functional-first programming in F# is an effective tool for solvin
 nav: "Workshops"
 banner1 : This course is a practical introduction to the F# language, functional programming and their use in the financial domain. You'll learn about F#, fundamental functional concepts as well as libraries for numeric computing, data analysis. You'll also become familiar with best practices for using F# tools and integrating F# with larger systems.
 banner2 : <a href="mailto:info@fsharpworks.com"><i class="fa fa-envelope"></i> On-site training</a>
-          &#160;&#160;&#160;<a href="http://quantshub.com/content/f-and-functional-programming-finance"><i class="fa fa-globe"></i> Attend online</a>
+          &#160;&#160;&#160;<a href="http://quantshub.com/content/f-and-functional-programming-finance-tomas-petricek-2"><i class="fa fa-globe"></i> Attend online</a>
 bannerImage: img4
 ---
 
