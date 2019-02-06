@@ -1,10 +1,43 @@
+- event: NewCrafts
+  date: '2019-05-16'
+  until: '2019-05-17'
+  city: London
+  country: UK
+  invite: Tomas will be speaking about the past and the future of Software Engineering
+    at NewCrafts, a conference for professional developers who care about quality
+    code and bettering their practices.
+  summary: Tomas presented a talk on Software Engineering principles at NewCrafts 2019.
+  url: https://ncrafts.io/
+
+- event: F# eXchange
+  date: '2019-04-04'
+  until: '2019-04-05'
+  city: London
+  country: UK
+  invite: The fsharpWorks team will be present at F# eXchange, a two-day F# conference and
+    our trusted partners will present talks on data science and F# in the cloud.
+    Book your ticket now to save with the early bird discount!
+  summary: The fsharpWorks team and our partners joined the F# eXchange 2019.
+  url: https://skillsmatter.com/conferences/10869-f-sharp-exchange-2019
+
+- event: F# FastTrack
+  date: '2019-04-02'
+  until: '2019-04-03'
+  city: London
+  country: UK
+  invite: This intensive hands-on course by F# experts Tomas Petricek and Phil Trelford covers
+    all you need to get started with F# in practice. You'll gain understanding of F# foundations
+    and killer applications for F# in practice!
+  summary: Tomas taught the F# FastTrack course in London. Check out the <a href="https://fsharpworks.com/workshops/fast-track.html">course details</a> and contact us to join the next session!
+  url: https://skillsmatter.com/courses/473-tomas-petricek-phil-trelford-fast-track-to-fsharp
+
 - event: Practical Machine Learning with Functional Programming Workshop
   date: '2019-04-02'
   until: '2018-04-03'
   city: Milan
   country: Italy
-  invite: In this 2-days hands-on workshop, you will be working on real-world datasets, 
-    applying a variety of machine learning techniques, using a functional programming approach.   
+  invite: In this 2-days hands-on workshop, you will be working on real-world datasets,
+    applying a variety of machine learning techniques, using a functional programming approach.
   summary: Mathias taught a hands-on workshop on machine learning and functional programming in Milan.
   url: https://www.avanscoperta.it/en/training/practical-machine-learning-with-functional-programming-workshop/
 
@@ -13,7 +46,7 @@
   until: '2018-09-18'
   city: Seattle
   country: USA
-  invite: Join Tomas for a talk on the challenges of creating compilers for a live coding programming environment. 
+  invite: Join Tomas for a talk on the challenges of creating compilers for a live coding programming environment.
     What do you do when a traditional textbook compiler does not do the trick? I'll show you the answer using F# and Fable demos!
   summary: Tomas discussed the challenges of designing compilers for live coding.
   url: http://seattle.lambda.world/
@@ -62,7 +95,7 @@
   date: '2018-02-14'
   city: London
   country: UK
-  invite: Is it possible to use functional style for user interfaces? Join Tomas for a hands-on meetup 
+  invite: Is it possible to use functional style for user interfaces? Join Tomas for a hands-on meetup
     session to find out!
   summary: Tomas talked about Fable and Elm-architecture at F# meetup.
   url: https://www.meetup.com/en-AU/FSharpLondon/events/246967482/
@@ -92,18 +125,18 @@
   until: '2018-01-19'
   city: London
   country: UK
-  invite: Composition is a fundamental principle of functional programming, but how is it 
-    different from an object-oriented approach, and how do you use it in practice? 
+  invite: Composition is a fundamental principle of functional programming, but how is it
+    different from an object-oriented approach, and how do you use it in practice?
     Learn from Scott at NDC!
   summary: Scott talked about the power of composition at NDC London.
   url: https://ndc-london.com/page/tickets
 
-- event: Practical Machine Learning with Functional Programming, NDC 
-  date: '2018-03-14' 
+- event: Practical Machine Learning with Functional Programming, NDC
+  date: '2018-03-14'
   until: '2018-03-16'
   city: Copenhagen
   country: Denmark
-  invite: Join Mathias for a conference talk and a two-day hands-on workshop! Mathias will guide 
+  invite: Join Mathias for a conference talk and a two-day hands-on workshop! Mathias will guide
     you through solving real-world problems with Machine Learning and F#.
   summary: Mathias did two-day practical machine learning workshop at NDC Copenhagen.
   url: https://cph.ndcmini.com/workshop/practical-machine-learning-with-functional-programming/
@@ -124,7 +157,7 @@
   until: '2018-05-10'
   city: Minnesota
   country: US
-  invite: Scott and Mathias will be talking about F#, domain modelling and machine learning at 
+  invite: Scott and Mathias will be talking about F#, domain modelling and machine learning at
     the new NDC event in the US! Get an early bird ticket by 17 February!
   summary: Scott and Mathias talked about machine learning and domain modelling at NDC Minnesota.
   url: https://ndcminnesota.com/page/tickets
@@ -134,7 +167,7 @@
   until: '2018-04-10'
   city: Milan
   country: Italy
-  invite: In this hands-on workshop, Mathias will guide you through solving 
+  invite: In this hands-on workshop, Mathias will guide you through solving
     real-world problems with Machine Learning and F#!
   summary: Mathias taught a hands-on workshop on machine learning and fnctional programming in Milan.
   url: http://www.avanscoperta.it/en/training/practical-machine-learning-with-functional-programming-workshop/
@@ -144,8 +177,8 @@
   until: '2017-11-01'
   city: Trondheim
   country: Norway
-  invite: F# is coming close to the Arctic Circle! Mathias will be sharing his 
-    experience participating in a Kaggle Machine Learning competition, and how F# 
+  invite: F# is coming close to the Arctic Circle! Mathias will be sharing his
+    experience participating in a Kaggle Machine Learning competition, and how F#
     helped set up a harness to easily create and run experiments.
   summary: Mathias shared his experience using F# in a Machine Learning competition.
   url: https://2017.trondheimdc.no/
@@ -155,7 +188,7 @@
   until: '2017-10-20'
   city: Kongsberg
   country: Norway
-  invite: Mathias will be in Kongsberg, for a 2-days hands-on workshop, teaching F# 
+  invite: Mathias will be in Kongsberg, for a 2-days hands-on workshop, teaching F#
     and classic Machine Learning techniques from the ground up!
   summary: Mathias talked F# and Machine Learning at NDC TechTown.
   url: https://ndctechtown.com/
@@ -170,18 +203,18 @@
     topics and how F# and Fable help us build future data science tooling.
   summary: Tomas did a keynote on democratizing data science at Data Science Summit in Cambridge.
   url: https://cambridgespark.com/datascience-summit
-  
+
 - event: Open { fsharp }
   date: '2017-09-28'
   until: '2017-09-29'
   city: San Francisco
   country: USA
   invite: Mathias is helping with open fsharp, a new two-day conference in the heart
-     of San Francisco featuring 2 days of F# talks and workshops with world-class speakers, and a unique 
+     of San Francisco featuring 2 days of F# talks and workshops with world-class speakers, and a unique
      opportunity to connect with the community. Register now for an early bird ticket!
   summary: Mathias helped to organize open fsharp, a two-day F# conference in the heart of San Francisco.
   url: http://openfsharp.org/
-  
+
 - event: J on the Beach
   date: '2017-05-17'
   until: '2017-05-19'
@@ -197,7 +230,7 @@
   city: Paris
   country: France
   invite: Scott, Mathias and Tomas will be speaking about F#, turtles, server-less architecture
-    and different approaches to error handling at an independent and international software 
+    and different approaches to error handling at an independent and international software
     development conference held annually in Paris.
   summary: Scott, Mathias and Tomas talked about F#, server-less and more at NewCrafts in Paris.
   url: http://ncrafts.io/
@@ -207,9 +240,9 @@
   until: '2017-06-13'
   city: Oslo
   country: Norway
-  invite: Machine Learning and Functional Programming are both very hot topics these days; they are 
-    also both rather intimidating for the beginner. In this workshop, we’ll take a 100% hands-on 
-    approach, and learn practical ideas from Machine Learning, by tackling real-world problems 
+  invite: Machine Learning and Functional Programming are both very hot topics these days; they are
+    also both rather intimidating for the beginner. In this workshop, we’ll take a 100% hands-on
+    approach, and learn practical ideas from Machine Learning, by tackling real-world problems
     and implementing solutions in F#.
   summary: Mathias taught a hands-on workshop on machine learning and fnctional programming at NDC Oslo.
   url: http://ndcoslo.com/workshop/practical-machine-learning-with-functional-programming
@@ -220,7 +253,7 @@
   city: Oslo
   country: Norway
   invite: Scott and Mathias will be speaking at the NDC conference in Oslo! The fsharpWorks team
-    will also help to host the functional programming office hours, a unique informal session 
+    will also help to host the functional programming office hours, a unique informal session
     format where you can get all your questions answered!
   summary: Scott and Mathias talked at NDC Oslo and hosted the functional programming office hours session.
   url: http://ndcoslo.com/
@@ -231,12 +264,12 @@
   city: Sydney
   country: Australia
   invite: Scott and Mathias will be speaking at the NDC conference in Sydney! The fsharpWorks team
-    will also help to host the functional programming office hours, a unique informal session 
+    will also help to host the functional programming office hours, a unique informal session
     format where you can get all your questions answered!
   summary: Scott and Mathias talked at NDC Sydney and hosted the functional programming office hours session.
   url: http://ndcsydney.com/
 
-  
+
 - event: F# FastTrack
   date: '2017-10-16'
   until: '2017-10-17'
@@ -253,12 +286,12 @@
   until: '2018-04-06'
   city: London
   country: UK
-  invite: The fsharpWorks team will be present at F# eXchange in 2018, a two-day conference in 
-    London featuring F# talks and hands-on tutorials. Book your ticket 
+  invite: The fsharpWorks team will be present at F# eXchange in 2018, a two-day conference in
+    London featuring F# talks and hands-on tutorials. Book your ticket
     now to save with the early bird discount!
   summary: The fsharpWorks team helped to organize and spoke at the F# eXchange 2018.
-  url: https://skillsmatter.com/conferences/9419-f-sharp-exchange-2018  
-  
+  url: https://skillsmatter.com/conferences/9419-f-sharp-exchange-2018
+
 - date: '2017-04-06'
   until: '2017-04-07'
   city: London
@@ -274,13 +307,13 @@
   city: London
   country: UK
   summary: Tomas talked about visualizing Olympic medals with F# and Fable at the London F# meetup.
-  
+
 - date: '2017-01-16'
   until: '2017-01-20'
   city: London
   country: UK
   summary: Scott, Tomas and Mathias covered functional programming, turtles, serverless and data science at NDC!
- 
+
 - date: '2017-01-16'
   until: '2017-01-20'
   city: London
@@ -297,8 +330,8 @@
   until: '2016-12-15'
   city: Rishon Le-Ziyon
   country: Israel
-  summary: Mathias taught a one-day initiation to Machine Learning with F# at SELA, and presented at the SELA Developer Practice conference. 
-  
+  summary: Mathias taught a one-day initiation to Machine Learning with F# at SELA, and presented at the SELA Developer Practice conference.
+
 - date: '2016-12-05'
   until: '2016-12-06'
   city: London
