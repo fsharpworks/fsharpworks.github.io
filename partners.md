@@ -63,6 +63,7 @@ or on her blog at [rachelree.se](http://rachelree.se).
 Rachel is an experienced conference speaker and trainer. She is available to run 1 or 2 day trainings,
 but can also consider other projects.
 
+<br/>
 </div>
 <div class="col-sm-6" markdown="1">
 
@@ -89,7 +90,6 @@ workshop with Mathias.
 
 </div>
 <div class="col-sm-6" markdown="1">
-
 
 <h2>Phil Trelford</h2>
 <div class="img-floatbox">
