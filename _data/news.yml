@@ -1,3 +1,10 @@
+- title: Annual F# Survey
+  url: http://fsharpworks.com/survey.html
+  details: >
+    As the F# community continues to grow, we think that it is helpful to get hard data on 
+    how we use F#, what is going well, and what needs more work. That's why we have been
+    running an [annual F# community survey](http://fsharpworks.com/survey.html) since 2015!
+
 - title: Practical matchine learning with Mathias
   url: https://vimeo.com/277243646
   details: >
