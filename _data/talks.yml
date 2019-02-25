@@ -1,3 +1,12 @@
+- link: https://www.youtube.com/watch?v=CIQRduY82H4
+  image: functionalist.jpg
+  title: 'Functionalist programming language design'
+  author: Tomas Petricek
+  event: ScalaDays
+  year: 2018
+  about: "What if the word 'function' in 'functional programming' referred to modernist design principles?"
+  category: fun
+
 - link: https://vimeo.com/281241807
   image: excel.jpg
   title: 'Build your own Excel 365 in an hour with F#'
@@ -11,7 +20,7 @@
   image: compose.jpg
   title: 'The Power of Composition'
   author: Scott Wlaschin
-  event: NDC Oslo 
+  event: NDC Oslo
   year: 2018
   about: 'How is composition different from an OO approach, and how to use it in practice?'
   category: intro
@@ -60,12 +69,12 @@
   year: 2017
   about: 'Building open data visualization platform with F# and Fable.'
   category: ml
-  
+
 - link: https://vimeo.com/97514517
   image: ml.jpg
   title: 'F# and Machine Learning: a winning combination'
   author: Mathias Brandewinder
-  event: NDC Oslo 
+  event: NDC Oslo
   year: 2014
   about: 'Why choose F# if you are doing machine learning on .NET.'
   category: ml
@@ -74,7 +83,7 @@
   image: mona.jpg
   title: 'Mona Lisa, F# and Azure: simple solutions to hard problems'
   author: Mathias Brandewinder
-  event: NDC London 
+  event: NDC London
   year: 2014
   about: 'Solving the traveling salesman problem using MBrace and Azure.'
   category: ml
@@ -83,7 +92,7 @@
   image: ch9.jpg
   title: 'Understanding the World with F#'
   author: Tomas Petricek
-  event: Channel 9, 
+  event: Channel 9,
   year: 2013
   about: 'Using type providers for JSON, CSV and XML for data analytics.'
   category: ml
@@ -92,7 +101,7 @@
   image: big.jpg
   title: 'Crunching through big data with MBrace, Azure and F#'
   author: Mathias Brandewinder
-  event: NDC Oslo 
+  event: NDC Oslo
   year: 2015
   about: 'From explorative REPL to the cloud, using MBrace and the power of F#.'
   category: ml
@@ -101,7 +110,7 @@
   image: fslab.jpg
   title: 'Analysing Big Time-series Data in the Cloud'
   author: Tomas Petricek
-  event: NDC Oslo 
+  event: NDC Oslo
   year: 2016
   about: 'Using BigDeedle, FsLab and MBrace to understand UK housing crisis.'
   category: ml
@@ -110,7 +119,7 @@
   image: kaggle.jpg
   title: 'Agile experiments in Machine Learning with F#'
   author: Mathias Brandewinder
-  event: NDC Oslo 
+  event: NDC Oslo
   year: 2016
   about: 'Kaggle case study on how "doing machine learning" workflow looks like.'
   category: ml
@@ -119,7 +128,7 @@
   image: olympics.jpg
   title: 'Visualizing Olympic Medals with F# and Fable'
   author: Tomas Petricek
-  event: NDC London 
+  event: NDC London
   year: 2017
   about: 'What if you could look at the source code behind any online visualization?'
   category: ml
@@ -128,7 +137,7 @@
   title: 'F# for C# Developers'
   link: https://vimeo.com/131640714
   author: Phil Trelford
-  event: NDC Oslo 
+  event: NDC Oslo
   year: 2015
   about: 'Everything you ever wanted to know about F# as a C# dev, but were afraid to ask.'
   category: intro
@@ -137,7 +146,7 @@
   title: 'The T in TDD: Tests, Types, Tales'
   link: https://vimeo.com/161995115
   author: Mathias Brandewinder
-  event: NDC London 
+  event: NDC London
   year: 2016
   about: 'How types in F# changed the way I think about TDD and software development.'
   category: intro
@@ -146,7 +155,7 @@
   title: 'Domain modelling with the F# type system'
   link: https://vimeo.com/97507575
   author: Scott Wlaschin
-  event: NDC Oslo 
+  event: NDC Oslo
   year: 2014
   about: 'Using the F# types to make invalid states unrepresentable (and your code correct).'
   category: intro
@@ -155,7 +164,7 @@
   title: 'Domain Specific Languages, the functional way'
   link: https://vimeo.com/97315970
   author: Tomas Petricek
-  event: NDC Oslo 
+  event: NDC Oslo
   year: 2014
   about: 'Using simple functional concepts to build powerful DSLs for fun and profit.'
   category: intro
@@ -164,7 +173,7 @@
   title: 'Building stuff that works with F#'
   link: https://vimeo.com/162056569
   author: Tomas Petricek
-  event: NDC London 
+  event: NDC London
   year: 2016
   about: 'Using F# for the boring things: testing, build scripts and documentation'
   category: intro
@@ -173,7 +182,7 @@
   title: 'Thirteen ways of looking at a Turtle'
   link: https://vimeo.com/204422491
   author: Scott Wlaschin
-  event: NDC London 
+  event: NDC London
   year: 2017
   about: 'Creating API for turtle graphics in 13 different functional ways .'
   category: intro
@@ -182,7 +191,7 @@
   image: web.jpg
   title: 'End-to-end Functional Web Development'
   author: Tomas Petricek
-  event: NDC Oslo 
+  event: NDC Oslo
   year: 2015
   about: 'Building news site and chat using Suave, F#, type providers and agents.'
   category: web
@@ -195,12 +204,12 @@
   year: 2017
   about: 'Code-focused deep-dive into how different asynchronous programming abstractions work.'
   category: web
-  
+
 - link: https://vimeo.com/113725369
   image: fsi.jpg
   title: 'The Great @fsibot Caper'
   author: Mathias Brandewinder
-  event: NDC London 
+  event: NDC London
   year: 2014
   about: 'Building a cloud-based service that reacts to tweets using F# compiler service.'
   category: web
@@ -209,107 +218,106 @@
   image: function.jpg
   title: 'Serverless F# with Azure Functions: fsibot goes nano-services'
   author: Mathias Brandewinder
-  event: NDC London 
+  event: NDC London
   year: 2017
   about: 'This is your chance to get ahead of the curve to serverless nano-services using Azure Functions.'
   category: web
-  
+
 - link: https://skillsmatter.com/skillscasts/7375-celebrating-new-year-s-eve-with-f-sharp-and-suave
   image: hny.jpg
   title: 'Celebrating New Years Eve with F# and Suave'
   author: Tomas Petricek
-  event: F# eXchange 
+  event: F# eXchange
   year: 2016
   about: 'Reactive web programming with New Year tweets as the data source.'
   category: web
-  
+
 - link: https://vimeo.com/113707214
   image: rail.jpg
   title: 'Railway oriented programming'
   author: Scott Wlaschin
-  event: NDC London 
+  event: NDC London
   year: 2014
   about: 'Functional approach to error handling, input validation, logging and other annoyances.'
   category: enterprise
-  
+
 - link: https://www.youtube.com/watch?v=OonLCmLeQUQ
   image: trading.jpg
   title: 'F# for Trading'
   author: Phil Trelford
-  event: CodeMesh London 
+  event: CodeMesh London
   year: 2014
   about: 'What makes F# great for implementing high-performance trading systems.'
   category: enterprise
-  
+
 - link: https://vimeo.com/162209391
   image: cap.jpg
   title: 'Designing with capabilities'
   author: Scott Wlaschin
-  event: NDC London 
+  event: NDC London
   year: 2016
   about: 'Using capabilities to design modular code that is easy to test and refactor.'
   category: enterprise
-  
+
 - link: https://vimeo.com/131196782
   image: ttt.jpg
   title: 'Enterprise Tic-Tac-Toe'
   author: Scott Wlaschin
-  event: NDC London 
+  event: NDC London
   year: 2015
   about: 'Practical enterprise-ready functional development, demonstrated using Tic-Tac-Toe!'
   category: enterprise
-  
+
 - link: https://vimeo.com/113588389
   image: patterns.jpg
   title: 'Functional programming design patterns'
   author: Scott Wlaschin
-  event: NDC London 
+  event: NDC London
   year: 2014
   about: 'Which OOP patterns are still useful? And what are new patterns that apply to FP?'
   category: enterprise
-  
+
 - link: https://vimeo.com/162054542
   image: franken.jpg
   title: 'Dr Frankenfunctor and the Monadster'
   author: Scott Wlaschin
-  event: NDC London 
+  event: NDC London
   year: 2016
   about: 'Warning! This talk contains gruesome topics, strained analogies, discussion of monads.'
   category: fun
-  
+
 - link: https://vimeo.com/124021617
   image: lit.jpg
   title: 'Literate_programming.With("F#")'
   author: Tomas Petricek
-  event: Lambda Days 
+  event: Lambda Days
   year: 2015
   about: 'In this talk, Tomas describes how he built his slides using F#. As one does.'
   category: fun
-  
+
 - link: https://vimeo.com/113588390
   image: compiler.jpg
   title: 'Write Your Own Compiler in 24 Hours'
   author: Phil Trelford
-  event: NDC London 
+  event: NDC London
   year: 2015
   about: 'Compiler writers are often seen as the stuff of myth and legend. Unveil the reality!'
   category: fun
-  
+
 - link: https://www.youtube.com/watch?v=hx2vOwbB-X0&feature=youtu.be&list=PLWbHc_FXPo2jB6IZ887vLXsPoympL3KEy
   image: lists.jpg
   title: 'Beyond Lists: High Performance Data Structures'
   author: Phil Trelford
-  event: CodeMesh London 
+  event: CodeMesh London
   year: 2015
   about: 'Selecting appropriate data structures is key to your applications performance.'
   category: fun
-  
+
 - link: https://vimeo.com/171704565
   image: parsers.jpg
   title: 'Understanding parser combinators: a deep dive'
   author: Scott Wlaschin
-  event: NDC Oslo 
+  event: NDC Oslo
   year: 2016
   about: 'Implementing parser combinators from scratch and parsing JSON in 45 minutes.'
   category: fun
-  
