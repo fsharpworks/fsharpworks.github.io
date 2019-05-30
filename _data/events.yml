@@ -1,3 +1,14 @@
+- event: F# FastTrack
+  date: '2019-09-09'
+  until: '2019-09-10'
+  city: London
+  country: UK
+  invite: This intensive hands-on course by F# experts Tomas Petricek and Phil Trelford covers
+    all you need to get started with F# in practice. You'll gain understanding of F# foundations
+    and killer applications for F# in practice!
+  summary: Tomas taught the F# FastTrack course in London. Check out the <a href="https://fsharpworks.com/workshops/fast-track.html">course details</a> and contact us to join the next session!
+  url: https://skillsmatter.com/courses/473-tomas-petricek-phil-trelford-fast-track-to-fsharp
+
 - event: NewCrafts
   date: '2019-05-16'
   until: '2019-05-17'
@@ -19,17 +30,6 @@
     Book your ticket now to save with the early bird discount!
   summary: The fsharpWorks team and our partners joined the F# eXchange 2019.
   url: https://skillsmatter.com/conferences/10869-f-sharp-exchange-2019
-
-- event: F# FastTrack
-  date: '2019-04-02'
-  until: '2019-04-03'
-  city: London
-  country: UK
-  invite: This intensive hands-on course by F# experts Tomas Petricek and Phil Trelford covers
-    all you need to get started with F# in practice. You'll gain understanding of F# foundations
-    and killer applications for F# in practice!
-  summary: Tomas taught the F# FastTrack course in London. Check out the <a href="https://fsharpworks.com/workshops/fast-track.html">course details</a> and contact us to join the next session!
-  url: https://skillsmatter.com/courses/473-tomas-petricek-phil-trelford-fast-track-to-fsharp
 
 - event: Practical Machine Learning with Functional Programming Workshop
   date: '2019-04-02'
