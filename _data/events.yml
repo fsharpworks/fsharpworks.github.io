@@ -1,3 +1,23 @@
+- event: NDC Sydney
+  date: '2019-10-14'
+  until: '2019-10-18'
+  city: Sydney
+  country: Australia
+  invite: Join Mathias for a talk mixing Dungeons & Dragons and domain modeling techniques in F#, and
+    a 2-days hands-on machine learning workshop!
+  summary: Mathias taught his machine learning workshop, and discussed Dungeons, Dragons, and domain modeling.
+  url: https://ndcsydney.com/speaker/mathias-brandewinder/
+
+- event: Open F#
+  date: '2019-09-25'
+  until: '2019-09-27'
+  city: San Francisco
+  country: USA
+  invite: Scott will be running a domain modeling workshop at the Open F# conference in San Francisco, 
+    and speaking about functional techniques and patterns.
+  summary: Scott taught his domain modeling workshop open fsharp, a two-days F# conference in San Francisco.
+  url: https://www.openfsharp.org/speakers/2019/scott-wlaschin/
+
 - event: F# FastTrack
   date: '2019-09-09'
   until: '2019-09-10'
