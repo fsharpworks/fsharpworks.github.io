@@ -1,7 +1,14 @@
+- title: F# Europe
+  url: https://fsharp.eu/
+  details: >
+    F# Europe is coming to Brussels in November 2020.
+    Program announcements are coming soon
+    Blind Bird tickets now available.
+
 - title: Annual F# Survey
   url: http://fsharpworks.com/survey.html
   details: >
-    As the F# community continues to grow, we think that it is helpful to get hard data on 
+    As the F# community continues to grow, we think that it is helpful to get hard data on
     how we use F#, what is going well, and what needs more work. That's why we have been
     running an [annual F# community survey](http://fsharpworks.com/survey.html) since 2015!
 
@@ -9,7 +16,7 @@
   url: https://vimeo.com/277243646
   details: >
     Learn more about Mathias' popular machine learning workshop in this interview from NDC Oslo!
-  
+
 - title: fsharpConf 2018
   url: http://fsharpconf.com/
   details: We helped to organise fsharpConf 2018, one-day virtual F# conference done in partnership with Channel 9. The conference featured 9 talks covering everything from web and business applications to games and quantum computing. [Watch the recordings!](https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2018)
@@ -17,22 +24,22 @@
 - title: 'Tomas talks with Brian Troutwine about his CodeMesh talk'
   url: https://www.youtube.com/watch?v=lv2N6RZ5FlM
   details: >
-    After his CodeMesh talk, Tomas spent 5 minutes recording this quick interview with 
+    After his CodeMesh talk, Tomas spent 5 minutes recording this quick interview with
     Brian Troutwine! We chatted about aliens, mathematics, computer science, data science
     and everything...
-    
+
 - title: 'Democratizing data science'
   url: https://www.youtube.com/watch?v=LxJwwsOUHXI
   details: >
-    What if you could look at the source code behind any visualization, understand how it works, 
-    run it to check the results and modify the parameters to explore different aspects of the data? 
+    What if you could look at the source code behind any visualization, understand how it works,
+    run it to check the results and modify the parameters to explore different aspects of the data?
     Learn about the work Tomas has been doing using F# and Fable!
 
 - title: 'Six years of FastTrack to F#'
   url: https://fsharpworks.com/articles/six-years-of-teaching-fsharp.html
   details: >
-    Six years ago, we run the first F# FastTrack course. To celebrate the anniversary, we are 
-    offering 25% off the upcoming course and Tomas Petricek also used this opportunity to reflect on 
+    Six years ago, we run the first F# FastTrack course. To celebrate the anniversary, we are
+    offering 25% off the upcoming course and Tomas Petricek also used this opportunity to reflect on
     some of the interesting developments in the course and the F# ecosystem more generally.
 
 - title: 'London F# eXchange 2017'
@@ -44,13 +51,13 @@
 - title: Azure Functions with F#
   url: http://brandewinder.com/2017/02/11/fsharp-azure-function-from-the-ground-up-part-1/
   details: >
-    Mathias wrote a series of blog posts on implementing Azure Functions using F#. 
+    Mathias wrote a series of blog posts on implementing Azure Functions using F#.
     Get started with F# and server-less:
-    
+
      * [Azure Function from the ground up (I.)](http://brandewinder.com/2017/02/11/fsharp-azure-function-from-the-ground-up-part-1/)
      * [Azure Function from the ground up (II.)](http://brandewinder.com/2017/03/06/fsharp-azure-function-from-the-ground-up-part-2/ )
      * [Azure Functions solution diagrams](http://brandewinder.com/2017/04/01/azure-function-app-diagram/)
-    
+
 - title: 'F# for Fun and Profit'
   url: https://www.gitbook.com/book/swlaschin/fsharpforfunandprofit/details
   details: Scott Wlaschin released the blog posts from his F# for Fun and Profit web site as an e-book. Download it now and get into all the great F# articles offline!
@@ -58,7 +65,7 @@
 - title: Expressing Intent Workshop at Jet.com
   url: https://tech.jet.com/blog/2016/07-13-workshop-recap-expressing-intent-f-tomas-petricek/
   details: Tomas Petricek visited Jet.com and did a workshop on domain modelling and *expressing intent* with F#. Read more about the workshop in an awesome experience report from the attendees!
-            
+
 - title: Books and talks
   url: materials.html
   details: >
@@ -69,7 +76,7 @@
       * [Web development and cloud services](materials.html#web)
       * [Using F# in the enterprise](materials.html#enterprise)
       * [Functional, compilers & fun!](materials.html#fun)'
-                            
+
 - title: fsharpConf 2016
   url: http://fsharpconf.com/
   details: We were supporters of fsharpConf 2016, first live virtual F# conference done in partnership with Channel 9. [Watch the recordings!](https://channel9.msdn.com/events/FSharp-Events/fsharpConf-2016)
@@ -93,7 +100,7 @@
 - title: Mathias' book is now available on Amazon
   url: http://www.amazon.com/Machine-Learning-Projects-NET-Developers/dp/1430267674)
   details: Mathias' book, "Machine Learning Projects for .NET Developers" (Apress), is out! [Get your copy from Amazon](http://www.amazon.com/Machine-Learning-Projects-NET-Developers/dp/1430267674) and learn some practical machine learning on real-world datasets (with plenty of F#), or [take a sneak peek at the code here](http://bit.ly/ml-projects).
-  
+
 - title: Video recordings from NDC 2015
   url: http://lanyrd.com/2015/ndcoslo/coverage/
   details:
@@ -107,7 +114,7 @@
 
 - title: Tomas on F# at Channel 9
   url: http://channel9.msdn.com/Blogs/Seth-Juarez/Making-the-Case-for-using-F-with-Tomas-Petricek
-  details:   
+  details:
     <p>Tomas visited Channel 9 in the Microsoft campus to do a mini series of video recordings on F#, working with types and
       web programming. Watch the videos:</p>
     <ul>
@@ -119,7 +126,7 @@
 
 - title: F# and FsLab in Finance
   url: http://tpetricek.github.io/Talks/2015/deedle-finance/toronto/
-  details: 
+  details:
     <p>Tomas traveled to Toronto and visited Citi and S&amp;P to talk about F# in Finance. The
       slides discuss business motivations for F# and some of the interesting data-science
       technologies available in F#.</p>
@@ -177,7 +184,7 @@
 
 - title: Why you should learn F# in 2015 (and how)?
   url: http://tomasp.net/blog/2015/why-fsharp-in-2015/index.html
-  details: 
+  details:
     <p>
       Tomas writes about the most recent developments in the F# community and why
       is now the best time to learn F#.
@@ -190,7 +197,7 @@
 
 - title: First impressions with DiffSharp, an F# autodiff library
   url: http://clear-lines.com/blog/post/First-impressions-with-DiffSharp-an-fsharp-autodiff-library.aspx
-  details: 
+  details:
     '<p>
       Mathias shares his first impressions using DiffSharp, an autodiff library in F#.
     </p>
@@ -203,7 +210,7 @@
 
 - title: Progressive F# Tutorials London
   url: http://trelford.com/blog/post/ProgFSharp14SM.aspx
-  details: 
+  details:
     <p>
       Phil wrote a retrospective about Progressive F# Tutorials in London.
     </p>
