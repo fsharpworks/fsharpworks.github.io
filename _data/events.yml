@@ -5,7 +5,7 @@
   invite: Tomas will talk about designing composable functional libraries, reflecting on his
     recent work on building an interactive data visualization library with F#.
   summary: Tomas talked about composable functional libraries at LambdaDays.
-  url: https://ndccopenhagen.com/page/tickets/
+  url: https://www.lambdadays.org/lambdadays2020
 
 - event: NDC Copenhagen
   date: '2020-04-03'
@@ -25,6 +25,16 @@
     you through solving real-world Machine Learning problems with F#.
   summary: Mathias did two-day practical machine learning workshop at NDC Copenhagen.
   url: https://ndccopenhagen.com/workshop/practical-machine-learning-with-functional-programming/
+
+- event: Practical Machine Learning with Functional Programming, NDC
+  date: '2020-04-21'
+  until: '2020-04-22'
+  city: Porto
+  country: Portugal
+  invite: Join Mathias for a two-day hands-on workshop! Mathias will guide
+    you through solving real-world Machine Learning problems with F#.
+  summary: Mathias did two-day practical machine learning workshop at NDC Copenhagen.
+  url: https://ndcporto.com/workshop/practical-machine-learning-with-functional-programming/
 
 - event: NDC Sydney
   date: '2019-10-14'
