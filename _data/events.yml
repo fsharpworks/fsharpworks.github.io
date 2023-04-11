@@ -1,3 +1,13 @@
+- event: NewCrafts
+  date: '2023-05-25'
+  until: '2023-05-26'
+  city: Paris
+  country: France
+  invite: Tomas will talk about the most hated idea of the 90s web (pop-up ad), the growing opacity
+    of software systems and what we should do to build open accessible applications.
+  summary: Tomas talked about the evolving relationship between a platform and applications at NewCrafts.
+  url: https://ncrafts.io/speaker/tomaspetricek
+
 - event: LambdaDays
   date: '2020-02-13'
   city: Kraków
