@@ -1,3 +1,13 @@
+- event: NDC Oslo
+  date: '2023-05-22'
+  until: '2023-05-26'
+  city: Oslo
+  country: Norway
+  invite: Scott will look at some of the ways you can use types as part of a domain driven design process,
+    with some simple real world examples in F#.
+  summary: Scott talked about Domain Modeling using F# at NDC Oslo.
+  url: https://ndcoslo.com/speakers/scott-wlaschin
+
 - event: NewCrafts
   date: '2023-05-25'
   until: '2023-05-26'
